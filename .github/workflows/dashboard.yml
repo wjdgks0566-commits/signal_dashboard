@@ -2,12 +2,38 @@ name: HOZISTOCK 대시보드 자동 생성
 
 on:
   schedule:
-    - cron: '30 23 * * 0-4'
-    - cron: '30 1 * * 1-5'
-    - cron: '30 4 * * 1-5'
-    - cron: '40 6 * * 1-5'
-    - cron: '30 9 * * 1-5'
-    - cron: '30 11 * * 1-5'
+    # 08:00 ~ 20:00 (한국 시간), 25분마다, 평일만
+    # UTC 기준으로 -9시간
+    - cron: '0 23 * * 0-4'    # KST 08:00
+    - cron: '25 23 * * 0-4'   # KST 08:25
+    - cron: '50 23 * * 0-4'   # KST 08:50
+    - cron: '15 0 * * 1-5'    # KST 09:15
+    - cron: '40 0 * * 1-5'    # KST 09:40
+    - cron: '5 1 * * 1-5'     # KST 10:05
+    - cron: '30 1 * * 1-5'    # KST 10:30
+    - cron: '55 1 * * 1-5'    # KST 10:55
+    - cron: '20 2 * * 1-5'    # KST 11:20
+    - cron: '45 2 * * 1-5'    # KST 11:45
+    - cron: '10 3 * * 1-5'    # KST 12:10
+    - cron: '35 3 * * 1-5'    # KST 12:35
+    - cron: '0 4 * * 1-5'     # KST 13:00
+    - cron: '25 4 * * 1-5'    # KST 13:25
+    - cron: '50 4 * * 1-5'    # KST 13:50
+    - cron: '15 5 * * 1-5'    # KST 14:15
+    - cron: '40 5 * * 1-5'    # KST 14:40
+    - cron: '5 6 * * 1-5'     # KST 15:05
+    - cron: '30 6 * * 1-5'    # KST 15:30
+    - cron: '55 6 * * 1-5'    # KST 15:55
+    - cron: '20 7 * * 1-5'    # KST 16:20
+    - cron: '45 7 * * 1-5'    # KST 16:45
+    - cron: '10 8 * * 1-5'    # KST 17:10
+    - cron: '35 8 * * 1-5'    # KST 17:35
+    - cron: '0 9 * * 1-5'     # KST 18:00
+    - cron: '25 9 * * 1-5'    # KST 18:25
+    - cron: '50 9 * * 1-5'    # KST 18:50
+    - cron: '15 10 * * 1-5'   # KST 19:15
+    - cron: '40 10 * * 1-5'   # KST 19:40
+    - cron: '5 11 * * 1-5'    # KST 20:05
   workflow_dispatch:
 
 jobs:
@@ -36,6 +62,7 @@ jobs:
           KIS_APP_KEY: ${{ secrets.KIS_APP_KEY }}
           KIS_APP_SECRET: ${{ secrets.KIS_APP_SECRET }}
           KIS_ACCOUNT_TYPE: REAL
+          TZ: Asia/Seoul
         run: python generate_report.py
       
       - name: 결과 커밋 및 푸시

@@ -108,7 +108,12 @@ def generate_html(results):
             color: #03C75A;
         }
         .header-right { display: flex; align-items: center; gap: 14px; }
-        .header-date { font-size: 14px; color: var(--text-muted); font-weight: 500; }
+        .header-date { 
+            font-size: 13px; 
+            color: var(--text-muted); 
+            font-weight: 500; 
+            text-align: right;
+        }
         .theme-toggle {
             background: var(--card);
             border: 1px solid var(--border);
@@ -427,7 +432,7 @@ def generate_html(results):
     <div class="header">
         <h1>HOZISTOCK</h1>
         <div class="header-right">
-            <span class="header-date">__TODAY__ (__WEEKDAY__)</span>
+            <span class="header-date">__TODAY__ (__WEEKDAY__) · 갱신 __UPDATED_TIME__</span>
             <button class="theme-toggle" onclick="toggleTheme()">🌓</button>
         </div>
     </div>
@@ -707,6 +712,8 @@ def generate_html(results):
     html = html.replace("__DOWN_COUNT__", str(down_count))
     html = html.replace("__VOLUME_SPIKE_COUNT__", str(volume_spike_count))
     html = html.replace("__GENERATED_TIME__", generated_time)
+    updated_time_short = datetime.now().strftime("%H:%M")
+    html = html.replace("__UPDATED_TIME__", updated_time_short)
     html = html.replace("__STOCKS_JSON__", stocks_json)
     html = html.replace("__SECTORS_JSON__", sectors_json)
     
