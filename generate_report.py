@@ -41,6 +41,9 @@ def generate_html(results):
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="manifest" href="manifest.json">
+    <link rel="apple-touch-icon" href="icon-180.png">
+    <meta name="theme-color" content="#03C75A">
     <title>HOZISTOCK</title>
     <style>
         :root {

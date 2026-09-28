@@ -1,0 +1,25 @@
+{
+  "name": "HOZISTOCK",
+  "short_name": "HOZISTOCK",
+  "description": "주식 신호 대시보드",
+  "start_url": "/signal_dashboard/",
+  "scope": "/signal_dashboard/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f6f9fc",
+  "theme_color": "#03C75A",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
