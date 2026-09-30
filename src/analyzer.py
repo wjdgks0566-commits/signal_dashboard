@@ -1,5 +1,5 @@
 """
-종합 매매 신호 분석기 (다중 그룹 + 병렬 처리)
+종합 매매 신호 분석기 (다중 그룹 + 병렬 처리 + 일봉 캐싱)
 - 노란별 시스템 (★★★ / ★★ / ★): 기존 신호 + 스퀴즈/OBV 조합
 - 빨간별 시스템 (★★ / ★): VCP + 컵앤핸들
 """
@@ -21,7 +21,7 @@ from src.strategies.vcp import detect_vcp
 from src.strategies.cup_and_handle import detect_cup_and_handle
 
 
-MAX_WORKERS = 5
+MAX_WORKERS = 7
 
 
 class SignalAnalyzer:
@@ -44,7 +44,8 @@ class SignalAnalyzer:
     def analyze_stock(self, code: str, name: str, sector: str = "") -> dict:
         """단일 종목 분석"""
         try:
-            df = self.data_source.get_daily_dataframe(code)
+            # 일봉(캐시) + 현재가를 한 번에 조회
+            df, price_info = self.data_source.get_stock_data(code)
 
             if df.empty:
                 return self._error_result(code, name, sector, "데이터 조회 실패")
@@ -58,7 +59,7 @@ class SignalAnalyzer:
             volume_result = self.volume_detector.analyze(df, stock_code=code)
             bollinger_result = self.bollinger.analyze(df, stock_code=code)
             obv_result = self.obv.analyze(df, stock_code=code)
-            
+
             # 신규 전략 (VCP, 컵앤핸들)
             vcp_result = detect_vcp(df)
             cup_result = detect_cup_and_handle(df)
@@ -86,7 +87,7 @@ class SignalAnalyzer:
                 signal_sources.append("스퀴즈")
             if obv_buy:
                 signal_sources.append("OBV")
-            
+
             # 신규 신호 (VCP, 컵앤핸들)
             if vcp_signal:
                 signal_sources.append("VCP")
@@ -95,7 +96,7 @@ class SignalAnalyzer:
 
             # 기존 신호 확인
             has_base_signal = any(s in signal_sources for s in ["골든크로스", "그물망", "피보나치", "다이버전스", "월봉3음봉"])
-            
+
             # 매수 신호 판정 (기존 신호 OR VCP OR 컵앤핸들)
             has_red_signal = vcp_signal or cup_signal
             final_signal = "BUY" if (has_base_signal or has_red_signal) else "HOLD"
@@ -108,7 +109,7 @@ class SignalAnalyzer:
                     star_grade = 3  # 프리미엄
                 elif bollinger_buy or obv_buy:
                     star_grade = 2  # 확신
-            
+
             # 빨간별 계산 (신규)
             red_star_grade = 0
             if vcp_signal and cup_signal:
@@ -116,8 +117,7 @@ class SignalAnalyzer:
             elif vcp_signal or cup_signal:
                 red_star_grade = 1  # VCP 또는 컵앤핸들 단독
 
-            # 현재가 및 등락률 (KIS 실시간 API)
-            price_info = self.data_source.get_current_price(code)
+            # 현재가 및 등락률 (get_stock_data에서 이미 조회됨)
             current_price = price_info.get("current_price", 0)
             change_pct = price_info.get("change_pct", 0.0)
 
@@ -216,6 +216,9 @@ class SignalAnalyzer:
         elapsed = (datetime.now() - start_time).total_seconds()
         print(f"[OK] 분석 완료: {elapsed:.1f}초 소요")
 
+        # 일봉 캐시 저장 (다음 실행에서 재사용)
+        self.data_source.save_cache()
+
         return results
 
 
@@ -231,11 +234,11 @@ if __name__ == "__main__":
     hold_signals = [r for r in results if r["signal"] == "HOLD"]
     errors = [r for r in results if r["signal"] == "ERROR"]
 
-    # 빨간별 카운트 (신규)
+    # 빨간별 카운트
     red_double = [r for r in buy_signals if r.get("red_star_grade") == 2]
     red_single = [r for r in buy_signals if r.get("red_star_grade") == 1]
-    
-    # 노란별 카운트 (기존)
+
+    # 노란별 카운트
     premium = [r for r in buy_signals if r.get("star_grade") == 3]
     confident = [r for r in buy_signals if r.get("star_grade") == 2]
     normal = [r for r in buy_signals if r.get("star_grade") == 1]

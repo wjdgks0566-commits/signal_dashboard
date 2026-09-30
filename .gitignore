@@ -23,3 +23,4 @@ Thumbs.db
 # Local
 local/
 tmp/
+cache/
