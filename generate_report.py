@@ -67,6 +67,7 @@ def generate_html(results):
             --dot-light: #fca5a5;
             --spike: #dc2626;
             --star: #fbbf24;
+            --star-red: #e03131;
             --shadow-sm: 0 1px 2px rgba(0,0,0,0.04);
             --shadow-md: 0 2px 8px rgba(0,0,0,0.05);
         }
@@ -87,6 +88,7 @@ def generate_html(results):
             --dot-light: #7f1d1d;
             --spike: #ef4444;
             --star: #fcd34d;
+            --star-red: #ff6b6b;
         }
         * { box-sizing: border-box; margin: 0; padding: 0; }
         body {
@@ -234,6 +236,12 @@ def generate_html(results):
             letter-spacing: 1px;
             font-weight: 700;
         }
+        .stars-red {
+            color: var(--star-red);
+            font-size: 14px;
+            letter-spacing: 1px;
+            font-weight: 700;
+        }
         .stock-name { font-size: 16px; font-weight: 600; color: var(--text); }
         .stock-tags { display: flex; gap: 6px; margin-top: 4px; flex-wrap: wrap; align-items: center; }
         .sector-tag {
@@ -255,6 +263,10 @@ def generate_html(results):
         .signal-source-tag.premium {
             background: var(--star);
             color: #78350f;
+        }
+        .signal-source-tag.redsig {
+            background: var(--star-red);
+            color: white;
         }
         .spike-tag {
             display: inline-flex;
@@ -546,8 +558,10 @@ def generate_html(results):
         }
         
         function sortBuyByStars(list) {
-            // 별점 높은 순, 같으면 등락률 높은 순
+            // 1순위 빨간별, 2순위 노란별, 3순위 등락률
             return [...list].sort((a, b) => {
+                const redDiff = (b.red_star_grade || 0) - (a.red_star_grade || 0);
+                if (redDiff !== 0) return redDiff;
                 const starDiff = (b.star_grade || 0) - (a.star_grade || 0);
                 if (starDiff !== 0) return starDiff;
                 return (b.change_pct || 0) - (a.change_pct || 0);
@@ -575,6 +589,12 @@ def generate_html(results):
             if (!grade || grade <= 0) return '';
             const stars = '★'.repeat(grade);
             return '<span class="stars">' + stars + '</span>';
+        }
+        
+        function renderRedStars(grade) {
+            if (!grade || grade <= 0) return '';
+            const stars = '★'.repeat(grade);
+            return '<span class="stars-red">' + stars + '</span>';
         }
         
         function renderContent(list) {
@@ -648,17 +668,20 @@ def generate_html(results):
             const sourceStr = s.signal_source || 'BUY';
             const sources = sourceStr.split(' / ');
             const premiumSignals = ['스퀴즈', 'OBV'];
+            const redSignals = ['VCP', '컵앤핸들'];
             let sourceTags = '';
             for (const src of sources) {
-                const isPremium = premiumSignals.includes(src);
-                const cls = isPremium ? 'signal-source-tag premium' : 'signal-source-tag';
+                let cls = 'signal-source-tag';
+                if (redSignals.includes(src)) cls += ' redsig';
+                else if (premiumSignals.includes(src)) cls += ' premium';
                 sourceTags += '<span class="' + cls + '">' + src + '</span>';
             }
             
             const spikeTag = renderSpikeTag(s.volume_ratio);
+            const redStarsHtml = renderRedStars(s.red_star_grade);
             const starsHtml = renderStars(s.star_grade);
             
-            return '<div class="buy-card" onclick="toggleExpand(this)"><div class="buy-card-header"><div class="buy-left"><div class="stock-meta"><div class="stock-name-row">' + starsHtml + '<div class="stock-name">' + s.name + '</div></div><div class="stock-tags"><span class="sector-tag">' + (s.sector || '기타') + '</span>' + sourceTags + spikeTag + '</div></div></div><div class="buy-right"><div class="price-block"><div class="price">' + priceStr + '원</div>' + formatChange(s.change_pct) + '</div><span class="expand-icon">▼</span></div></div><div class="buy-detail" onclick="event.stopPropagation()"><div class="detail-code">종목코드: ' + s.code + '</div><div class="signal-source-box"><strong>매수 신호:</strong>' + (s.signal_source || 'N/A') + '</div><div class="strategy-grid">' + strategyDetails + '</div></div></div>';
+            return '<div class="buy-card" onclick="toggleExpand(this)"><div class="buy-card-header"><div class="buy-left"><div class="stock-meta"><div class="stock-name-row">' + redStarsHtml + starsHtml + '<div class="stock-name">' + s.name + '</div></div><div class="stock-tags"><span class="sector-tag">' + (s.sector || '기타') + '</span>' + sourceTags + spikeTag + '</div></div></div><div class="buy-right"><div class="price-block"><div class="price">' + priceStr + '원</div>' + formatChange(s.change_pct) + '</div><span class="expand-icon">▼</span></div></div><div class="buy-detail" onclick="event.stopPropagation()"><div class="detail-code">종목코드: ' + s.code + '</div><div class="signal-source-box"><strong>매수 신호:</strong>' + (s.signal_source || 'N/A') + '</div><div class="strategy-grid">' + strategyDetails + '</div></div></div>';
         }
         
         function getSortIcon(field) {
@@ -753,3 +776,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+    

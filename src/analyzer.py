@@ -1,6 +1,7 @@
 """
 종합 매매 신호 분석기 (다중 그룹 + 병렬 처리)
-- 별점 시스템 (★★★ / ★★ / ★)
+- 노란별 시스템 (★★★ / ★★ / ★): 기존 신호 + 스퀴즈/OBV 조합
+- 빨간별 시스템 (★★ / ★): VCP + 컵앤핸들
 """
 import json
 from datetime import datetime
@@ -16,6 +17,8 @@ from src.strategies.monthly_reversal import MonthlyReversalStrategy
 from src.strategies.volume_spike import VolumeSpikeDetector
 from src.strategies.bollinger_squeeze import BollingerSqueezeStrategy
 from src.strategies.obv import OBVStrategy
+from src.strategies.vcp import detect_vcp
+from src.strategies.cup_and_handle import detect_cup_and_handle
 
 
 MAX_WORKERS = 5
@@ -55,6 +58,12 @@ class SignalAnalyzer:
             volume_result = self.volume_detector.analyze(df, stock_code=code)
             bollinger_result = self.bollinger.analyze(df, stock_code=code)
             obv_result = self.obv.analyze(df, stock_code=code)
+            
+            # 신규 전략 (VCP, 컵앤핸들)
+            vcp_result = detect_vcp(df)
+            cup_result = detect_cup_and_handle(df)
+            vcp_signal = vcp_result.get("detected", False)
+            cup_signal = cup_result.get("detected", False)
 
             # 기존 신호 결합 (각 전략 개별 판정)
             signal_sources = []
@@ -77,12 +86,21 @@ class SignalAnalyzer:
                 signal_sources.append("스퀴즈")
             if obv_buy:
                 signal_sources.append("OBV")
+            
+            # 신규 신호 (VCP, 컵앤핸들)
+            if vcp_signal:
+                signal_sources.append("VCP")
+            if cup_signal:
+                signal_sources.append("컵앤핸들")
 
-            # 기존 신호 하나라도 있으면 매수 판정
+            # 기존 신호 확인
             has_base_signal = any(s in signal_sources for s in ["골든크로스", "그물망", "피보나치", "다이버전스", "월봉3음봉"])
-            final_signal = "BUY" if has_base_signal else "HOLD"
+            
+            # 매수 신호 판정 (기존 신호 OR VCP OR 컵앤핸들)
+            has_red_signal = vcp_signal or cup_signal
+            final_signal = "BUY" if (has_base_signal or has_red_signal) else "HOLD"
 
-            # 별점 계산
+            # 노란별 계산 (기존)
             star_grade = 0
             if has_base_signal:
                 star_grade = 1  # 기본 1개
@@ -90,6 +108,13 @@ class SignalAnalyzer:
                     star_grade = 3  # 프리미엄
                 elif bollinger_buy or obv_buy:
                     star_grade = 2  # 확신
+            
+            # 빨간별 계산 (신규)
+            red_star_grade = 0
+            if vcp_signal and cup_signal:
+                red_star_grade = 2  # VCP + 컵앤핸들 동시
+            elif vcp_signal or cup_signal:
+                red_star_grade = 1  # VCP 또는 컵앤핸들 단독
 
             # 현재가 및 등락률 (KIS 실시간 API)
             price_info = self.data_source.get_current_price(code)
@@ -105,6 +130,9 @@ class SignalAnalyzer:
                 "change_pct": change_pct,
                 "signal_source": " / ".join(signal_sources) if signal_sources else None,
                 "star_grade": star_grade,
+                "red_star_grade": red_star_grade,
+                "vcp_signal": vcp_signal,
+                "cup_signal": cup_signal,
                 "volume_spike": volume_result.get("is_spike", False),
                 "volume_ratio": volume_result.get("ratio", 0),
                 "today_volume": volume_result.get("today_volume", 0),
@@ -116,6 +144,8 @@ class SignalAnalyzer:
                     "월봉3음봉": mr_result,
                     "볼린저스퀴즈": bollinger_result,
                     "OBV": obv_result,
+                    "VCP": vcp_result,
+                    "컵앤핸들": cup_result,
                     "거래량": volume_result,
                 },
             }
@@ -134,6 +164,9 @@ class SignalAnalyzer:
             "change_pct": 0,
             "signal_source": None,
             "star_grade": 0,
+            "red_star_grade": 0,
+            "vcp_signal": False,
+            "cup_signal": False,
             "volume_spike": False,
             "volume_ratio": 0,
             "today_volume": 0,
@@ -198,14 +231,23 @@ if __name__ == "__main__":
     hold_signals = [r for r in results if r["signal"] == "HOLD"]
     errors = [r for r in results if r["signal"] == "ERROR"]
 
-    # 별점별 카운트
+    # 빨간별 카운트 (신규)
+    red_double = [r for r in buy_signals if r.get("red_star_grade") == 2]
+    red_single = [r for r in buy_signals if r.get("red_star_grade") == 1]
+    
+    # 노란별 카운트 (기존)
     premium = [r for r in buy_signals if r.get("star_grade") == 3]
     confident = [r for r in buy_signals if r.get("star_grade") == 2]
     normal = [r for r in buy_signals if r.get("star_grade") == 1]
 
     print(f"\n매수 신호: {len(buy_signals)}건")
+    print(f"\n[빨간별]")
+    print(f"  ★★ VCP + 컵앤핸들: {len(red_double)}건")
+    print(f"  ★  VCP 또는 컵앤핸들: {len(red_single)}건")
+    print(f"\n[노란별]")
     print(f"  ★★★ 프리미엄: {len(premium)}건")
     print(f"  ★★  확신:     {len(confident)}건")
     print(f"  ★    일반:     {len(normal)}건")
     print(f"\n관망: {len(hold_signals)}건")
     print(f"오류: {len(errors)}건")
+    
