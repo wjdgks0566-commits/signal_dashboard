@@ -445,7 +445,7 @@ def generate_html(results):
 </head>
 <body>
     <div class="header">
-        <h1>HOZISTOCK</h1>
+        <h1 onclick="location.reload()" style="cursor:pointer">HOZISTOCK</h1>
         <div class="header-right">
             <span class="header-date">__TODAY__ (__WEEKDAY__) · 갱신 __UPDATED_TIME__</span>
             <button class="theme-toggle" onclick="toggleTheme()">🌓</button>
@@ -552,6 +552,7 @@ def generate_html(results):
                 } else if (sortField === 'name') result = a.name.localeCompare(b.name);
                 else if (sortField === 'price') result = a.current_price - b.current_price;
                 else if (sortField === 'change') result = (a.change_pct || 0) - (b.change_pct || 0);
+                else if (sortField === 'volume') result = (a.volume_ratio || 0) - (b.volume_ratio || 0);
                 return sortDesc ? -result : result;
             });
             return sorted;
@@ -699,7 +700,7 @@ def generate_html(results):
             html += '<th class="text-left col-sector">섹터</th>';
             html += '<th class="text-right ' + getSortClass('price') + '" onclick="sortBy(\\'price\\')">현재가' + getSortIcon('price') + '</th>';
             html += '<th class="text-right ' + getSortClass('change') + '" onclick="sortBy(\\'change\\')">등락률' + getSortIcon('change') + '</th>';
-            html += '<th class="text-right">거래량</th>';
+            html += '<th class="text-right ' + getSortClass('volume') + '" onclick="sortBy(\\'volume\\')">거래량' + getSortIcon('volume') + '</th>';
             html += '</tr></thead><tbody>';
             for (const s of list) {
                 html += '<tr>';
