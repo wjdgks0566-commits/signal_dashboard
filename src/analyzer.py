@@ -2,6 +2,7 @@
 종합 매매 신호 분석기 (다중 그룹 + 병렬 처리 + 일봉 캐싱)
 - 노란별 시스템 (★★★ / ★★ / ★): 기존 신호 + 스퀴즈/OBV 조합
 - 빨간별 시스템 (★★ / ★): VCP + 컵앤핸들
+- VCP는 형성중 / 돌파 2단계로 구분 표기
 """
 import json
 from datetime import datetime
@@ -64,6 +65,7 @@ class SignalAnalyzer:
             vcp_result = detect_vcp(df)
             cup_result = detect_cup_and_handle(df)
             vcp_signal = vcp_result.get("detected", False)
+            vcp_breakout = vcp_result.get("breakout", False)
             cup_signal = cup_result.get("detected", False)
 
             # 기존 신호 결합 (각 전략 개별 판정)
@@ -88,9 +90,9 @@ class SignalAnalyzer:
             if obv_buy:
                 signal_sources.append("OBV")
 
-            # 신규 신호 (VCP, 컵앤핸들)
+            # 신규 신호 (VCP는 단계 구분, 컵앤핸들)
             if vcp_signal:
-                signal_sources.append("VCP")
+                signal_sources.append("VCP 돌파" if vcp_breakout else "VCP 형성중")
             if cup_signal:
                 signal_sources.append("컵앤핸들")
 
@@ -132,6 +134,7 @@ class SignalAnalyzer:
                 "star_grade": star_grade,
                 "red_star_grade": red_star_grade,
                 "vcp_signal": vcp_signal,
+                "vcp_breakout": vcp_breakout,
                 "cup_signal": cup_signal,
                 "volume_spike": volume_result.get("is_spike", False),
                 "volume_ratio": volume_result.get("ratio", 0),
@@ -166,6 +169,7 @@ class SignalAnalyzer:
             "star_grade": 0,
             "red_star_grade": 0,
             "vcp_signal": False,
+            "vcp_breakout": False,
             "cup_signal": False,
             "volume_spike": False,
             "volume_ratio": 0,
@@ -237,6 +241,7 @@ if __name__ == "__main__":
     # 빨간별 카운트
     red_double = [r for r in buy_signals if r.get("red_star_grade") == 2]
     red_single = [r for r in buy_signals if r.get("red_star_grade") == 1]
+    vcp_break = [r for r in buy_signals if r.get("vcp_breakout")]
 
     # 노란별 카운트
     premium = [r for r in buy_signals if r.get("star_grade") == 3]
@@ -247,6 +252,7 @@ if __name__ == "__main__":
     print(f"\n[빨간별]")
     print(f"  ★★ VCP + 컵앤핸들: {len(red_double)}건")
     print(f"  ★  VCP 또는 컵앤핸들: {len(red_single)}건")
+    print(f"  └ 이 중 VCP 돌파: {len(vcp_break)}건")
     print(f"\n[노란별]")
     print(f"  ★★★ 프리미엄: {len(premium)}건")
     print(f"  ★★  확신:     {len(confident)}건")
