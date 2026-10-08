@@ -55,10 +55,10 @@ class KISDataSource:
         self._today = datetime.now().strftime("%Y%m%d")
         self._cache_path = CACHE_DIR / f"daily_{self._today}.json"
         self._cache = {}
-        self._is_trading_day = None
         self._lock = threading.Lock()
         self._hits = 0
         self._misses = 0
+        self._merged = 0
         self._load_cache()
 
     # ------------------------------------------------------------------
@@ -71,8 +71,7 @@ class KISDataSource:
         try:
             with open(self._cache_path, "r", encoding="utf-8") as f:
                 data = json.load(f)
-            meta = data.pop("_meta", {})
-            self._is_trading_day = meta.get("is_trading_day")
+            data.pop("_meta", None)
             self._cache = data
             print(f"[CACHE] 로드 완료: {len(self._cache)}종목 ({self._cache_path.name})")
         except Exception as e:
@@ -80,7 +79,7 @@ class KISDataSource:
             self._cache = {}
 
     def save_cache(self):
-        """분석 종료 후 호출. 캐시를 파일로 저장"""
+        """분석 종료 후 호출. 캐시를 파일로 저장 (오늘 봉은 제외하고 과거분만)"""
         if not self._cache:
             return
         try:
@@ -88,13 +87,12 @@ class KISDataSource:
             payload = dict(self._cache)
             payload["_meta"] = {
                 "date": self._today,
-                "is_trading_day": self._is_trading_day,
                 "saved_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
             }
             with open(self._cache_path, "w", encoding="utf-8") as f:
                 json.dump(payload, f, ensure_ascii=False)
             print(f"[CACHE] 저장 완료: {len(self._cache)}종목 "
-                  f"(적중 {self._hits} / 신규 {self._misses})")
+                  f"(적중 {self._hits} / 신규 {self._misses} / 오늘봉 병합 {self._merged})")
         except Exception as e:
             print(f"[CACHE] 저장 실패: {e}")
 
@@ -102,11 +100,20 @@ class KISDataSource:
     # 오늘 봉 합성
     # ------------------------------------------------------------------
     def _merge_today(self, rows: list, price_info: dict) -> list:
-        """캐시된 과거 일봉 + 현재가로 만든 오늘 봉"""
+        """캐시된 과거 일봉 + 현재가로 만든 오늘 봉
+
+        거래일 여부를 저장해두지 않고 매 실행마다 실시간 데이터로 판단한다.
+        (장 시작 전 캐시가 만들어져도 장중에 정상 병합되도록)
+        """
         price = price_info.get("current_price", 0)
-        if not price:
+        volume = price_info.get("volume", 0)
+
+        # 체결가·거래량이 없으면 휴장 또는 거래정지 → 병합하지 않음
+        if not price or not volume:
             return rows
-        if self._is_trading_day is False:
+
+        # 주말은 병합하지 않음
+        if datetime.now().weekday() >= 5:
             return rows
 
         today_row = {
@@ -115,13 +122,15 @@ class KISDataSource:
             "고가": price_info.get("high") or price,
             "저가": price_info.get("low") or price,
             "종가": price,
-            "거래량": price_info.get("volume", 0),
+            "거래량": volume,
         }
 
+        with self._lock:
+            self._merged += 1
+
+        # 캐시 마지막 행이 이미 오늘이면 교체, 아니면 추가
         if rows and rows[-1].get("일자") == self._today:
             return rows[:-1] + [today_row]
-        if datetime.now().weekday() >= 5:   # 주말은 추가하지 않음
-            return rows
         return rows + [today_row]
 
     # ------------------------------------------------------------------
@@ -148,8 +157,6 @@ class KISDataSource:
         fetched = df.to_dict("records")
         with self._lock:
             self._misses += 1
-            if self._is_trading_day is None:
-                self._is_trading_day = bool(fetched) and fetched[-1]["일자"] == self._today
             self._cache[code] = fetched
 
         merged = self._merge_today(fetched, price_info)
