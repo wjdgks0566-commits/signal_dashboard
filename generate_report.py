@@ -268,6 +268,11 @@ def generate_html(results):
             background: var(--star-red);
             color: white;
         }
+        .signal-source-tag.forming {
+            background: transparent;
+            border: 1px solid var(--star-red);
+            color: var(--star-red);
+        }
         .spike-tag {
             display: inline-flex;
             align-items: center;
@@ -488,7 +493,7 @@ def generate_html(results):
     <div id="content"></div>
     
     <div class="footer">
-        Generated __GENERATED_TIME__ · FinanceDataReader
+        Generated __GENERATED_TIME__ · KIS API
     </div>
     
     <script>
@@ -559,8 +564,10 @@ def generate_html(results):
         }
         
         function sortBuyByStars(list) {
-            // 1순위 빨간별, 2순위 노란별, 3순위 등락률
+            // 1순위 VCP 돌파, 2순위 빨간별, 3순위 노란별, 4순위 등락률
             return [...list].sort((a, b) => {
+                const bo = (b.vcp_breakout ? 1 : 0) - (a.vcp_breakout ? 1 : 0);
+                if (bo !== 0) return bo;
                 const redDiff = (b.red_star_grade || 0) - (a.red_star_grade || 0);
                 if (redDiff !== 0) return redDiff;
                 const starDiff = (b.star_grade || 0) - (a.star_grade || 0);
@@ -669,11 +676,13 @@ def generate_html(results):
             const sourceStr = s.signal_source || 'BUY';
             const sources = sourceStr.split(' / ');
             const premiumSignals = ['스퀴즈', 'OBV'];
-            const redSignals = ['VCP', '컵앤핸들'];
+            const breakoutSignals = ['VCP 돌파', '컵앤핸들'];
+            const formingSignals = ['VCP 형성중'];
             let sourceTags = '';
             for (const src of sources) {
                 let cls = 'signal-source-tag';
-                if (redSignals.includes(src)) cls += ' redsig';
+                if (breakoutSignals.includes(src)) cls += ' redsig';
+                else if (formingSignals.includes(src)) cls += ' forming';
                 else if (premiumSignals.includes(src)) cls += ' premium';
                 sourceTags += '<span class="' + cls + '">' + src + '</span>';
             }
@@ -777,4 +786,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-    
