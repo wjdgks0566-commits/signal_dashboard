@@ -59,6 +59,7 @@ class KISDataSource:
         self._hits = 0
         self._misses = 0
         self._merged = 0
+        self._skipped = 0
         self._load_cache()
 
     # ------------------------------------------------------------------
@@ -79,7 +80,7 @@ class KISDataSource:
             self._cache = {}
 
     def save_cache(self):
-        """분석 종료 후 호출. 캐시를 파일로 저장 (오늘 봉은 제외하고 과거분만)"""
+        """분석 종료 후 호출. 캐시를 파일로 저장 (과거 일봉만, 오늘 봉은 매번 합성)"""
         if not self._cache:
             return
         try:
@@ -92,7 +93,8 @@ class KISDataSource:
             with open(self._cache_path, "w", encoding="utf-8") as f:
                 json.dump(payload, f, ensure_ascii=False)
             print(f"[CACHE] 저장 완료: {len(self._cache)}종목 "
-                  f"(적중 {self._hits} / 신규 {self._misses} / 오늘봉 병합 {self._merged})")
+                  f"(적중 {self._hits} / 신규 {self._misses} / "
+                  f"오늘봉 병합 {self._merged} / 휴장·무거래 {self._skipped})")
         except Exception as e:
             print(f"[CACHE] 저장 실패: {e}")
 
@@ -107,20 +109,39 @@ class KISDataSource:
         """
         price = price_info.get("current_price", 0)
         volume = price_info.get("volume", 0)
+        high = price_info.get("high") or price
+        low = price_info.get("low") or price
 
         # 체결가·거래량이 없으면 휴장 또는 거래정지 → 병합하지 않음
         if not price or not volume:
+            with self._lock:
+                self._skipped += 1
             return rows
 
-        # 주말은 병합하지 않음
+        # 주말(토·일)은 병합하지 않음
         if datetime.now().weekday() >= 5:
+            with self._lock:
+                self._skipped += 1
             return rows
+
+        # 공휴일 방어: 휴장일에는 API가 직전 거래일 값을 그대로 돌려준다.
+        # 마지막 봉과 OHLCV가 전부 같으면 새 거래가 없는 것으로 보고 병합하지 않음
+        # (평일 공휴일 - 한글날, 추석, 대체공휴일 등은 요일로 걸러지지 않음)
+        if rows and rows[-1].get("일자") != self._today:
+            last = rows[-1]
+            if (last.get("종가") == price
+                    and last.get("거래량") == volume
+                    and last.get("고가") == high
+                    and last.get("저가") == low):
+                with self._lock:
+                    self._skipped += 1
+                return rows
 
         today_row = {
             "일자": self._today,
             "시가": price_info.get("open") or price,
-            "고가": price_info.get("high") or price,
-            "저가": price_info.get("low") or price,
+            "고가": high,
+            "저가": low,
             "종가": price,
             "거래량": volume,
         }
