@@ -2,6 +2,7 @@
 FinanceDataReader 시가총액 상위로 config/stocks.json 생성
 - KOSPI  상위 200
 - KOSDAQ 상위 150
+- 관심종목 (직접 지정, 시총 순위와 무관하게 항상 포함)
 ※ 종목코드·종목명만 수집. 시세 분석은 전부 KIS API가 담당.
 """
 import json
@@ -24,6 +25,17 @@ TARGET = {
     },
 }
 
+# ── 관심 종목 ──────────────────────────────────────────────
+# "종목코드6자리": "종목명" 형식으로 추가/삭제하십시오.
+WATCHLIST = {
+    "096350": "대창솔루션",
+    "052900": "KX하이텍",
+    "453450": "그리드위즈",
+    "054920": "한컴위드",
+    "126880": "제이엔케이글로벌",
+}
+# ──────────────────────────────────────────────────────────
+
 CAP_CANDIDATES = ["Marcap", "MarCap", "Market Cap", "시가총액"]
 CODE_CANDIDATES = ["Code", "Symbol", "종목코드"]
 NAME_CANDIDATES = ["Name", "종목명"]
@@ -38,10 +50,18 @@ def pick_column(df, candidates, label):
 
 groups = {}
 
+# 관심종목 먼저 (화면 탭 맨 앞에 오도록)
+if WATCHLIST:
+    groups["관심종목"] = {
+        "description": "직접 지정한 관심 종목",
+        "priority": 0,
+        "stocks": dict(WATCHLIST),
+    }
+    print(f"[OK] 관심종목: {len(WATCHLIST)}종목 - {', '.join(WATCHLIST.values())}\n")
+
 for group_name, info in TARGET.items():
     df = fdr.StockListing(info["market"])
     print(f"[INFO] {info['market']} 원본 {len(df)}행")
-    print(f"       컬럼: {list(df.columns)}")
 
     code_col = pick_column(df, CODE_CANDIDATES, "종목코드")
     name_col = pick_column(df, NAME_CANDIDATES, "종목명")
@@ -54,6 +74,9 @@ for group_name, info in TARGET.items():
     for _, row in df.iterrows():
         code = str(row[code_col]).strip().zfill(6)
         name = str(row[name_col]).strip()
+        # 관심종목에 이미 있으면 중복 표시를 피하기 위해 제외
+        if code in WATCHLIST:
+            continue
         stocks[code] = name
 
     groups[group_name] = {
@@ -68,11 +91,11 @@ total = sum(len(g["stocks"]) for g in groups.values())
 config = {
     "meta": {
         "generated_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
-        "source": "FinanceDataReader 시가총액 상위 (KOSPI 200 + KOSDAQ 150)",
+        "source": "FinanceDataReader 시가총액 상위 + 관심종목",
         "total_count": total,
     },
     "groups": groups,
-    "active_groups": list(TARGET.keys()),
+    "active_groups": list(groups.keys()),
 }
 
 with open("config/stocks.json", "w", encoding="utf-8") as f:
