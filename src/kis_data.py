@@ -2,6 +2,7 @@
 KIS API 시세 조회 모듈 (Rate Limit + 일봉 캐싱)
 - 일봉 과거분은 하루 1회만 조회하고 파일 캐시에 보관
 - 이후 실행은 현재가 1회만 호출해 오늘 봉을 합성
+- 일봉은 날짜가 아니라 '개수'로 고정 (비거래일에 창이 밀려 신호가 흔들리는 것 방지)
 """
 import json
 import os
@@ -20,6 +21,11 @@ load_dotenv()
 
 CACHE_DIR = Path("cache")
 COLUMNS = ["일자", "시가", "고가", "저가", "종가", "거래량"]
+
+# 분석에 사용할 봉 개수 (고정)
+# 날짜 구간으로 받은 뒤 마지막 N개만 사용한다.
+# 다이버전스(134봉)·월봉3음봉(60봉 이상)까지 커버하는 값.
+BARS = 150
 
 
 class RateLimiter:
@@ -88,6 +94,7 @@ class KISDataSource:
             payload = dict(self._cache)
             payload["_meta"] = {
                 "date": self._today,
+                "bars": BARS,
                 "saved_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
             }
             with open(self._cache_path, "w", encoding="utf-8") as f:
@@ -186,8 +193,12 @@ class KISDataSource:
     # ------------------------------------------------------------------
     # 원본 API
     # ------------------------------------------------------------------
-    def get_daily_dataframe(self, code: str, days: int = 100) -> pd.DataFrame:
-        """일봉 데이터 조회 (캐시 미스 시에만 호출)"""
+    def get_daily_dataframe(self, code: str, days: int = 250) -> pd.DataFrame:
+        """일봉 데이터 조회 (캐시 미스 시에만 호출)
+
+        days는 넉넉히 요청하는 '달력 일수'이고,
+        실제 사용은 마지막 BARS개로 고정한다.
+        """
         max_retries = 5
         for attempt in range(max_retries):
             try:
@@ -245,6 +256,11 @@ class KISDataSource:
 
                 df = pd.DataFrame(rows)
                 df = df.sort_values("일자").reset_index(drop=True)
+
+                # 날짜가 아니라 개수로 고정
+                # (조회 시작일이 하루씩 밀려도 '마지막 BARS개'는 동일하게 유지됨)
+                df = df.tail(BARS).reset_index(drop=True)
+
                 return df
 
             except Exception as e:
