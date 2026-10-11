@@ -59,7 +59,7 @@ class KISDataSource:
     def __init__(self):
         self.auth = KISAuth()
         self._today = datetime.now().strftime("%Y%m%d")
-        self._cache_path = CACHE_DIR / f"daily_{self._today}.json"
+        self._cache_path = CACHE_DIR / f"daily_{self._today}_b{BARS}.json"
         self._cache = {}
         self._lock = threading.Lock()
         self._hits = 0
