@@ -15,7 +15,7 @@ class DivergenceStrategy:
     RSI_PERIOD = 14
 
     # 저점 비교 윈도우 (영업일)
-    WINDOW_DAYS = 60
+    WINDOW_DAYS = 40
 
     # RSI 과매도 기준
     RSI_OVERSOLD = 30
