@@ -207,6 +207,21 @@ def generate_html(results):
         .section-icon.hold { background: var(--accent-light); color: var(--accent); }
         .section-icon.error { background: var(--up-light); color: var(--up); }
         .section-count { font-size: 13px; color: var(--text-muted); font-weight: 500; margin-left: 4px; }
+        .copy-btn {
+            margin-left: auto;
+            background: var(--card);
+            border: 1px solid var(--border);
+            color: var(--text-dim);
+            padding: 7px 14px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 12px;
+            font-weight: 600;
+            font-family: inherit;
+            white-space: nowrap;
+        }
+        .copy-btn:hover { border-color: var(--accent); color: var(--accent); }
+        .copy-btn.done { background: var(--buy); border-color: var(--buy); color: white; }
         .buy-card {
             background: var(--card);
             border: 1px solid var(--border);
@@ -434,6 +449,23 @@ def generate_html(results):
             color: var(--text-muted);
             font-size: 12px;
         }
+        .toast {
+            position: fixed;
+            left: 50%;
+            bottom: 32px;
+            transform: translateX(-50%) translateY(20px);
+            background: var(--text);
+            color: var(--bg);
+            padding: 12px 22px;
+            border-radius: 10px;
+            font-size: 14px;
+            font-weight: 600;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.2s, transform 0.2s;
+            z-index: 999;
+        }
+        .toast.show { opacity: 1; transform: translateX(-50%) translateY(0); }
         @media (max-width: 768px) {
             body { padding: 16px 12px; }
             h1 { font-size: 20px; }
@@ -492,6 +524,8 @@ def generate_html(results):
     
     <div id="content"></div>
     
+    <div class="toast" id="toast"></div>
+    
     <div class="footer">
         Generated __GENERATED_TIME__ · KIS API
     </div>
@@ -499,6 +533,8 @@ def generate_html(results):
     <script>
         const stocks = __STOCKS_JSON__;
         const sectorCounts = __SECTORS_JSON__;
+        const headerDate = '__TODAY__ (__WEEKDAY__)';
+        const headerTime = '__UPDATED_TIME__';
         let currentSector = 'all';
         let sortField = 'signal';
         let sortDesc = true;
@@ -512,6 +548,77 @@ def generate_html(results):
         
         const savedTheme = localStorage.getItem('theme') || 'light';
         document.body.setAttribute('data-theme', savedTheme);
+        
+        function showToast(msg) {
+            const t = document.getElementById('toast');
+            t.textContent = msg;
+            t.classList.add('show');
+            setTimeout(() => t.classList.remove('show'), 2200);
+        }
+        
+        function buildPrompt() {
+            const buyList = sortBuyByStars(stocks.filter(s => s.signal === 'BUY'));
+            
+            let data = '[매수 신호 데이터]\\n';
+            data += headerDate + ' ' + headerTime + ' 기준 · 총 ' + stocks.length + '종목 중 ' + buyList.length + '건\\n\\n';
+            
+            for (const s of buyList) {
+                let mark = '';
+                if (s.red_star_grade > 0) mark += '[빨강' + '★'.repeat(s.red_star_grade) + ']';
+                if (s.star_grade > 0) mark += '[노랑' + '★'.repeat(s.star_grade) + ']';
+                if (!mark) mark = '[-]';
+                
+                const chg = (s.change_pct > 0 ? '+' : '') + (s.change_pct || 0).toFixed(2) + '%';
+                data += mark + ' ' + s.name + ' (' + s.code + ') ' + (s.sector || '기타') + ' '
+                     + s.current_price.toLocaleString() + '원 ' + chg + '\\n';
+                
+                const parts = [];
+                if (s.signal_source) parts.push(s.signal_source);
+                if (s.volume_ratio) parts.push('거래량 ' + s.volume_ratio.toFixed(2) + '배');
+                
+                const vcp = (s.strategies || {})['VCP'] || {};
+                if (vcp['저항선대비']) parts.push('저항선대비 ' + vcp['저항선대비'] + '%');
+                
+                data += '  ' + parts.join(' | ') + '\\n\\n';
+            }
+            
+            return PROMPT_HEAD + '\\n' + data;
+        }
+        
+        function copyPrompt(e) {
+            e.stopPropagation();
+            const btn = e.currentTarget;
+            const text = buildPrompt();
+            const count = stocks.filter(s => s.signal === 'BUY').length;
+            
+            const done = () => {
+                btn.classList.add('done');
+                btn.textContent = '복사됨';
+                showToast('매수 신호 ' + count + '건이 복사되었습니다');
+                setTimeout(() => {
+                    btn.classList.remove('done');
+                    btn.textContent = '📋 복사';
+                }, 2200);
+            };
+            
+            if (navigator.clipboard && window.isSecureContext) {
+                navigator.clipboard.writeText(text).then(done).catch(() => fallbackCopy(text, done));
+            } else {
+                fallbackCopy(text, done);
+            }
+        }
+        
+        function fallbackCopy(text, done) {
+            const ta = document.createElement('textarea');
+            ta.value = text;
+            ta.style.position = 'fixed';
+            ta.style.opacity = '0';
+            document.body.appendChild(ta);
+            ta.select();
+            try { document.execCommand('copy'); done(); }
+            catch (err) { showToast('복사에 실패했습니다'); }
+            document.body.removeChild(ta);
+        }
         
         function renderSectorTabs() {
             const container = document.getElementById('sectorTabs');
@@ -616,10 +723,13 @@ def generate_html(results):
             const holdList = sortStocks(list.filter(s => s.signal === 'HOLD'));
             const errorList = list.filter(s => s.signal === 'ERROR');
             
+            const totalBuy = stocks.filter(s => s.signal === 'BUY').length;
+            
             let html = '';
             
             if (buyList.length > 0) {
-                html += '<div class="section-title"><span class="section-icon buy">▲</span>매수 신호<span class="section-count">' + buyList.length + '건</span></div>';
+                html += '<div class="section-title"><span class="section-icon buy">▲</span>매수 신호<span class="section-count">' + buyList.length + '건</span>';
+                html += '<button class="copy-btn" onclick="copyPrompt(event)">📋 복사</button></div>';
                 html += buyList.map(s => renderBuyCard(s)).join('');
             }
             
@@ -672,7 +782,6 @@ def generate_html(results):
                 strategyDetails += '<div class="strategy-box"><div class="strategy-name">' + name + '<span class="strategy-signal ' + sigClass + '">' + sig + '</span></div><div class="strategy-detail">' + details + '</div></div>';
             }
             
-            // 매수 신호 소스를 각각 별도 태그로 분리
             const sourceStr = s.signal_source || 'BUY';
             const sources = sourceStr.split(' / ');
             const premiumSignals = ['스퀴즈', 'OBV'];
@@ -738,6 +847,60 @@ def generate_html(results):
 </body>
 </html>"""
     
+    prompt_head = """[역할]
+너는 한국 주식 시장의 차트 패턴과 재료(뉴스/테마)를 정밀하게 분석하는
+전문 트레이딩 아날리스트다.
+
+아래는 내 주식 신호 대시보드(HOZISTOCK)가 포착한 매수 신호 목록이다.
+각 종목의 최근 뉴스와 테마 동향을 실시간 검색하여 아래 6가지 항목으로
+브리핑해 줘.
+
+[분석 요구사항]
+1. 섹터·테마 동향 및 순환매
+   - 신호 종목 중 동일 섹터/테마로 묶이는 종목이 있는가?
+   - 주도 테마인지, 테마 내 순환매(후발주)인지 분석해 줘.
+
+2. 신호의 성격 구분
+   - 종목별 신호 발생 원인이 개별 호재(공시/실적/단독재료)인가,
+     시장·섹터 전반의 흐름인가?
+   - 호재의 지속성(일회성 vs 지속성)을 함께 평가해 줘.
+
+3. 진입 우선순위 TOP 3 및 이유
+   - 패턴 완성도, 재료의 강도를 종합해 TOP 3를 선정하고 근거를 제시해 줘.
+
+4. 주의·회피 종목 및 이유
+   - 가짜 돌파(Trap) 위험, 악재성 뉴스, 오버행 이슈, 재료 소멸 가능성이
+     있는 종목을 지정해 줘.
+
+5. 신호 상충 및 기술적 모순 점검
+   - 다이버전스(역추세 바닥 반등)와 VCP·컵앤핸들(추세 추종 고점 돌파) 간
+     신호 모순이 발생하는 종목이 있는지 지적해 줘.
+
+6. 내일 장 투자 전략 (Check Point)
+   - 주목해야 할 이벤트, 시초가 대응법, 핵심 관전 포인트를 정리해 줘.
+
+[신호 체계 정의]
+· 빨간별 = 차트 패턴 신호 (단독 매수 근거 가능)
+  - VCP 돌파: 변동성 수축 후 저항선 돌파 + 거래량 동반
+  - VCP 형성중: 수축 완료, 돌파 대기 (거래량 적은 것이 정상)
+  - 컵앤핸들: U자 바닥 + 손잡이 형성
+· 노란별 = 기존 신호 + 보조 필터 조합
+  - 기본 신호: 골든크로스, 그물망, 피보나치, 다이버전스
+  - 보조 필터: 볼린저 스퀴즈, OBV (붙을수록 별 증가)
+· 다이버전스는 역추세(바닥 반등) 신호이므로, 추세 추종 신호(VCP,
+  컵앤핸들)와 성격이 반대임
+· SPIKE = 20일 평균 대비 거래량 급증 배수
+· 저항선대비 = 과거 30일 고점 대비 현재가 비율 (100% 초과 = 돌파)
+
+[작성 원칙]
+· 뉴스·공시로 확인되지 않는 내용은 추측해서 쓰지 말고,
+  "관련 정보 확인되지 않음"으로 남겨 줘.
+· 외국인·기관 수급은 확인 가능한 경우에만 언급하고,
+  불확실하면 "확인 불가"로 명시해 줘.
+· 항목당 3~5줄로 간결하게. 전체 1,500자 내외.
+· 종목명은 코드와 함께 표기해 줘."""
+    
+    html = html.replace("PROMPT_HEAD", json.dumps(prompt_head, ensure_ascii=False))
     html = html.replace("__TODAY__", today)
     html = html.replace("__WEEKDAY__", weekday_kr)
     html = html.replace("__TOTAL__", str(total_count))
@@ -786,3 +949,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+    
