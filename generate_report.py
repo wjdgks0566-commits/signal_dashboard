@@ -557,10 +557,21 @@ def generate_html(results):
         }
         
         function buildCopyText() {
-            const buyList = sortBuyByStars(stocks.filter(s => s.signal === 'BUY'));
+            const allBuy = stocks.filter(s => s.signal === 'BUY');
+            
+            // 다이버전스 단독 신호는 복사에서 제외 (역추세 신호, 참고용)
+            const buyList = sortBuyByStars(allBuy.filter(s => {
+                const src = s.signal_source || '';
+                const tags = src.split(' / ').filter(t => t !== '다이버전스');
+                return tags.length > 0;
+            }));
+            
+            const excluded = allBuy.length - buyList.length;
             
             let out = '[HOZISTOCK 매수 신호]\\n';
-            out += headerDate + ' ' + headerTime + ' 기준 · 총 ' + stocks.length + '종목 중 ' + buyList.length + '건\\n\\n';
+            out += headerDate + ' ' + headerTime + ' 기준 · 총 ' + stocks.length + '종목 중 ' + buyList.length + '건';
+            if (excluded > 0) out += ' (다이버전스 단독 ' + excluded + '건 제외)';
+            out += '\\n\\n';
             
             for (const s of buyList) {
                 let mark = '';
