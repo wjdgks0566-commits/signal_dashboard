@@ -1,6 +1,6 @@
 """
 종합 매매 신호 분석기 (다중 그룹 + 병렬 처리 + 일봉 캐싱)
-- 노란별 시스템 (★★★ / ★★ / ★): 기존 신호 + 스퀴즈/OBV 조합
+- 노란별 시스템 (★★★ / ★★ / ★): 기본 신호 + 스퀴즈/OBV 조합
 - 빨간별 시스템 (★★ / ★): VCP + 컵앤핸들
 - VCP는 형성중 / 돌파 2단계로 구분 표기
 """
@@ -14,7 +14,6 @@ from src.strategy import MAStrategy
 from src.strategies.guppy import GuppyStrategy
 from src.strategies.fibonacci import FibonacciStrategy
 from src.strategies.divergence import DivergenceStrategy
-from src.strategies.monthly_reversal import MonthlyReversalStrategy
 from src.strategies.volume_spike import VolumeSpikeDetector
 from src.strategies.bollinger_squeeze import BollingerSqueezeStrategy
 from src.strategies.obv import OBVStrategy
@@ -23,6 +22,9 @@ from src.strategies.cup_and_handle import detect_cup_and_handle
 
 
 MAX_WORKERS = 7
+
+# 기본 신호 (노란별 산정 대상)
+BASE_SIGNALS = ["골든크로스", "그물망", "피보나치", "다이버전스"]
 
 
 class SignalAnalyzer:
@@ -37,7 +39,6 @@ class SignalAnalyzer:
         self.guppy = GuppyStrategy()
         self.fib = FibonacciStrategy()
         self.div = DivergenceStrategy()
-        self.mr = MonthlyReversalStrategy()
         self.volume_detector = VolumeSpikeDetector(lookback_days=20, spike_ratio=2.0)
         self.bollinger = BollingerSqueezeStrategy(window=20, std_multiplier=2.0, squeeze_percentile=20.0)
         self.obv = OBVStrategy(lookback_days=20)
@@ -56,7 +57,6 @@ class SignalAnalyzer:
             guppy_result = self.guppy.analyze(df, stock_code=code)
             fib_result = self.fib.analyze(df, stock_code=code)
             div_result = self.div.analyze(df, stock_code=code)
-            mr_result = self.mr.analyze(df, stock_code=code)
             volume_result = self.volume_detector.analyze(df, stock_code=code)
             bollinger_result = self.bollinger.analyze(df, stock_code=code)
             obv_result = self.obv.analyze(df, stock_code=code)
@@ -68,7 +68,7 @@ class SignalAnalyzer:
             vcp_breakout = vcp_result.get("breakout", False)
             cup_signal = cup_result.get("detected", False)
 
-            # 기존 신호 결합 (각 전략 개별 판정)
+            # 기본 신호 결합 (각 전략 개별 판정)
             signal_sources = []
             if ma_result.get("신호") == "BUY":
                 signal_sources.append("골든크로스")
@@ -78,10 +78,8 @@ class SignalAnalyzer:
                 signal_sources.append("피보나치")
             if div_result.get("신호") == "BUY":
                 signal_sources.append("다이버전스")
-            if mr_result.get("신호") == "BUY":
-                signal_sources.append("월봉3음봉")
 
-            # 추가 신호 (필터)
+            # 보조 필터
             bollinger_buy = bollinger_result.get("신호") == "BUY"
             obv_buy = obv_result.get("신호") == "BUY"
 
@@ -90,20 +88,20 @@ class SignalAnalyzer:
             if obv_buy:
                 signal_sources.append("OBV")
 
-            # 신규 신호 (VCP는 단계 구분, 컵앤핸들)
+            # 패턴 신호 (VCP는 단계 구분, 컵앤핸들)
             if vcp_signal:
                 signal_sources.append("VCP 돌파" if vcp_breakout else "VCP 형성중")
             if cup_signal:
                 signal_sources.append("컵앤핸들")
 
-            # 기존 신호 확인
-            has_base_signal = any(s in signal_sources for s in ["골든크로스", "그물망", "피보나치", "다이버전스", "월봉3음봉"])
+            # 기본 신호 확인
+            has_base_signal = any(s in signal_sources for s in BASE_SIGNALS)
 
-            # 매수 신호 판정 (기존 신호 OR VCP OR 컵앤핸들)
+            # 매수 신호 판정 (기본 신호 OR VCP OR 컵앤핸들)
             has_red_signal = vcp_signal or cup_signal
             final_signal = "BUY" if (has_base_signal or has_red_signal) else "HOLD"
 
-            # 노란별 계산 (기존)
+            # 노란별 계산
             star_grade = 0
             if has_base_signal:
                 star_grade = 1  # 기본 1개
@@ -112,7 +110,7 @@ class SignalAnalyzer:
                 elif bollinger_buy or obv_buy:
                     star_grade = 2  # 확신
 
-            # 빨간별 계산 (신규)
+            # 빨간별 계산
             red_star_grade = 0
             if vcp_signal and cup_signal:
                 red_star_grade = 2  # VCP + 컵앤핸들 동시
@@ -144,7 +142,6 @@ class SignalAnalyzer:
                     "그물망": guppy_result,
                     "피보나치": fib_result,
                     "다이버전스": div_result,
-                    "월봉3음봉": mr_result,
                     "볼린저스퀴즈": bollinger_result,
                     "OBV": obv_result,
                     "VCP": vcp_result,
@@ -259,4 +256,3 @@ if __name__ == "__main__":
     print(f"  ★    일반:     {len(normal)}건")
     print(f"\n관망: {len(hold_signals)}건")
     print(f"오류: {len(errors)}건")
-    
