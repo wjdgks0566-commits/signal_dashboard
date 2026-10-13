@@ -131,7 +131,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.67,
-    "today_volume": 5187481,
+    "today_volume": 5188200,
     "strategies": {
       "골든크로스": {
         "종목코드": "000660",
@@ -228,7 +228,7 @@
         "is_spike": "False",
         "ratio": 1.67,
         "avg_volume": 3113782,
-        "today_volume": 5187481,
+        "today_volume": 5188200,
         "signal": "HOLD"
       }
     }
@@ -248,7 +248,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.71,
-    "today_volume": 1429869,
+    "today_volume": 1430181,
     "strategies": {
       "골든크로스": {
         "종목코드": "052900",
@@ -345,7 +345,7 @@
         "is_spike": "False",
         "ratio": 1.71,
         "avg_volume": 837106,
-        "today_volume": 1429869,
+        "today_volume": 1430181,
         "signal": "HOLD"
       }
     }
@@ -482,7 +482,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.33,
-    "today_volume": 5024846,
+    "today_volume": 5026950,
     "strategies": {
       "골든크로스": {
         "종목코드": "005935",
@@ -579,7 +579,7 @@
         "is_spike": "False",
         "ratio": 1.33,
         "avg_volume": 3770296,
-        "today_volume": 5024846,
+        "today_volume": 5026950,
         "signal": "HOLD"
       }
     }
@@ -599,7 +599,7 @@
     "cup_signal": false,
     "volume_spike": "True",
     "volume_ratio": 2.04,
-    "today_volume": 1129479,
+    "today_volume": 1129744,
     "strategies": {
       "골든크로스": {
         "종목코드": "402340",
@@ -696,7 +696,7 @@
         "is_spike": "True",
         "ratio": 2.04,
         "avg_volume": 554422,
-        "today_volume": 1129479,
+        "today_volume": 1129744,
         "signal": "SPIKE"
       }
     }
@@ -716,7 +716,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.55,
-    "today_volume": 1804588,
+    "today_volume": 1804678,
     "strategies": {
       "골든크로스": {
         "종목코드": "054920",
@@ -813,7 +813,7 @@
         "is_spike": "False",
         "ratio": 0.55,
         "avg_volume": 3253686,
-        "today_volume": 1804588,
+        "today_volume": 1804678,
         "signal": "HOLD"
       }
     }
@@ -833,7 +833,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.34,
-    "today_volume": 62036,
+    "today_volume": 62262,
     "strategies": {
       "골든크로스": {
         "종목코드": "126880",
@@ -930,7 +930,7 @@
         "is_spike": "False",
         "ratio": 1.34,
         "avg_volume": 46421,
-        "today_volume": 62036,
+        "today_volume": 62262,
         "signal": "HOLD"
       }
     }
@@ -950,7 +950,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.44,
-    "today_volume": 24104515,
+    "today_volume": 24111691,
     "strategies": {
       "골든크로스": {
         "종목코드": "005930",
@@ -1047,7 +1047,7 @@
         "is_spike": "False",
         "ratio": 1.44,
         "avg_volume": 16688322,
-        "today_volume": 24104515,
+        "today_volume": 24111691,
         "signal": "HOLD"
       }
     }
@@ -1067,7 +1067,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.53,
-    "today_volume": 886604,
+    "today_volume": 887009,
     "strategies": {
       "골든크로스": {
         "종목코드": "009150",
@@ -1164,7 +1164,7 @@
         "is_spike": "False",
         "ratio": 1.53,
         "avg_volume": 578745,
-        "today_volume": 886604,
+        "today_volume": 887009,
         "signal": "HOLD"
       }
     }
@@ -1184,7 +1184,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.88,
-    "today_volume": 618121,
+    "today_volume": 618136,
     "strategies": {
       "골든크로스": {
         "종목코드": "373220",
@@ -1281,7 +1281,7 @@
         "is_spike": "False",
         "ratio": 1.88,
         "avg_volume": 329248,
-        "today_volume": 618121,
+        "today_volume": 618136,
         "signal": "HOLD"
       }
     }
@@ -1301,7 +1301,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.76,
-    "today_volume": 853725,
+    "today_volume": 853815,
     "strategies": {
       "골든크로스": {
         "종목코드": "005380",
@@ -1398,7 +1398,7 @@
         "is_spike": "False",
         "ratio": 1.76,
         "avg_volume": 484896,
-        "today_volume": 853725,
+        "today_volume": 853815,
         "signal": "HOLD"
       }
     }
@@ -1418,7 +1418,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.01,
-    "today_volume": 931321,
+    "today_volume": 931502,
     "strategies": {
       "골든크로스": {
         "종목코드": "105560",
@@ -1515,7 +1515,7 @@
         "is_spike": "False",
         "ratio": 1.01,
         "avg_volume": 919610,
-        "today_volume": 931321,
+        "today_volume": 931502,
         "signal": "HOLD"
       }
     }
@@ -1535,7 +1535,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.17,
-    "today_volume": 52569,
+    "today_volume": 52573,
     "strategies": {
       "골든크로스": {
         "종목코드": "207940",
@@ -1632,7 +1632,7 @@
         "is_spike": "False",
         "ratio": 1.17,
         "avg_volume": 44949,
-        "today_volume": 52569,
+        "today_volume": 52573,
         "signal": "HOLD"
       }
     }
@@ -1652,7 +1652,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.03,
-    "today_volume": 295782,
+    "today_volume": 295795,
     "strategies": {
       "골든크로스": {
         "종목코드": "032830",
@@ -1749,7 +1749,7 @@
         "is_spike": "False",
         "ratio": 1.03,
         "avg_volume": 286328,
-        "today_volume": 295782,
+        "today_volume": 295795,
         "signal": "HOLD"
       }
     }
@@ -1769,7 +1769,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.29,
-    "today_volume": 415450,
+    "today_volume": 415486,
     "strategies": {
       "골든크로스": {
         "종목코드": "028260",
@@ -1866,7 +1866,7 @@
         "is_spike": "False",
         "ratio": 1.29,
         "avg_volume": 321479,
-        "today_volume": 415450,
+        "today_volume": 415486,
         "signal": "HOLD"
       }
     }
@@ -1886,7 +1886,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.15,
-    "today_volume": 2949584,
+    "today_volume": 2950131,
     "strategies": {
       "골든크로스": {
         "종목코드": "034020",
@@ -1983,7 +1983,7 @@
         "is_spike": "False",
         "ratio": 1.15,
         "avg_volume": 2568399,
-        "today_volume": 2949584,
+        "today_volume": 2950131,
         "signal": "HOLD"
       }
     }
@@ -2120,7 +2120,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.11,
-    "today_volume": 166498,
+    "today_volume": 166527,
     "strategies": {
       "골든크로스": {
         "종목코드": "012450",
@@ -2217,7 +2217,7 @@
         "is_spike": "False",
         "ratio": 1.11,
         "avg_volume": 150064,
-        "today_volume": 166498,
+        "today_volume": 166527,
         "signal": "HOLD"
       }
     }
@@ -2237,7 +2237,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.79,
-    "today_volume": 668795,
+    "today_volume": 668840,
     "strategies": {
       "골든크로스": {
         "종목코드": "006400",
@@ -2334,7 +2334,7 @@
         "is_spike": "False",
         "ratio": 1.79,
         "avg_volume": 373660,
-        "today_volume": 668795,
+        "today_volume": 668840,
         "signal": "HOLD"
       }
     }
@@ -2354,7 +2354,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.23,
-    "today_volume": 465970,
+    "today_volume": 466049,
     "strategies": {
       "골든크로스": {
         "종목코드": "068270",
@@ -2451,7 +2451,7 @@
         "is_spike": "False",
         "ratio": 1.23,
         "avg_volume": 380022,
-        "today_volume": 465970,
+        "today_volume": 466049,
         "signal": "HOLD"
       }
     }
@@ -2471,7 +2471,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.14,
-    "today_volume": 916752,
+    "today_volume": 916842,
     "strategies": {
       "골든크로스": {
         "종목코드": "000270",
@@ -2568,7 +2568,7 @@
         "is_spike": "False",
         "ratio": 1.14,
         "avg_volume": 801788,
-        "today_volume": 916752,
+        "today_volume": 916842,
         "signal": "HOLD"
       }
     }
@@ -2588,7 +2588,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.64,
-    "today_volume": 457585,
+    "today_volume": 457588,
     "strategies": {
       "골든크로스": {
         "종목코드": "329180",
@@ -2685,7 +2685,7 @@
         "is_spike": "False",
         "ratio": 1.64,
         "avg_volume": 279245,
-        "today_volume": 457585,
+        "today_volume": 457588,
         "signal": "HOLD"
       }
     }
@@ -2939,7 +2939,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.47,
-    "today_volume": 1130295,
+    "today_volume": 1130465,
     "strategies": {
       "골든크로스": {
         "종목코드": "066570",
@@ -3036,7 +3036,7 @@
         "is_spike": "False",
         "ratio": 1.47,
         "avg_volume": 769605,
-        "today_volume": 1130295,
+        "today_volume": 1130465,
         "signal": "HOLD"
       }
     }
@@ -3056,7 +3056,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.12,
-    "today_volume": 310527,
+    "today_volume": 310531,
     "strategies": {
       "골든크로스": {
         "종목코드": "012330",
@@ -3153,7 +3153,7 @@
         "is_spike": "False",
         "ratio": 1.12,
         "avg_volume": 276354,
-        "today_volume": 310527,
+        "today_volume": 310531,
         "signal": "HOLD"
       }
     }
@@ -3173,7 +3173,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.74,
-    "today_volume": 753045,
+    "today_volume": 753061,
     "strategies": {
       "골든크로스": {
         "종목코드": "010120",
@@ -3270,7 +3270,7 @@
         "is_spike": "False",
         "ratio": 1.74,
         "avg_volume": 433002,
-        "today_volume": 753045,
+        "today_volume": 753061,
         "signal": "HOLD"
       }
     }
@@ -3290,7 +3290,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.14,
-    "today_volume": 741977,
+    "today_volume": 742015,
     "strategies": {
       "골든크로스": {
         "종목코드": "035420",
@@ -3387,7 +3387,7 @@
         "is_spike": "False",
         "ratio": 1.14,
         "avg_volume": 651647,
-        "today_volume": 741977,
+        "today_volume": 742015,
         "signal": "HOLD"
       }
     }
@@ -3407,7 +3407,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.7,
-    "today_volume": 144778,
+    "today_volume": 144779,
     "strategies": {
       "골든크로스": {
         "종목코드": "000810",
@@ -3504,7 +3504,7 @@
         "is_spike": "False",
         "ratio": 1.7,
         "avg_volume": 85038,
-        "today_volume": 144778,
+        "today_volume": 144779,
         "signal": "HOLD"
       }
     }
@@ -3524,7 +3524,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.81,
-    "today_volume": 821210,
+    "today_volume": 821220,
     "strategies": {
       "골든크로스": {
         "종목코드": "096770",
@@ -3621,7 +3621,7 @@
         "is_spike": "False",
         "ratio": 0.81,
         "avg_volume": 1019708,
-        "today_volume": 821210,
+        "today_volume": 821220,
         "signal": "HOLD"
       }
     }
@@ -3640,8 +3640,8 @@
     "vcp_breakout": false,
     "cup_signal": false,
     "volume_spike": "False",
-    "volume_ratio": 1.38,
-    "today_volume": 919562,
+    "volume_ratio": 1.39,
+    "today_volume": 919911,
     "strategies": {
       "골든크로스": {
         "종목코드": "042700",
@@ -3736,9 +3736,9 @@
         "전략": "거래량급증",
         "종목코드": "042700",
         "is_spike": "False",
-        "ratio": 1.38,
+        "ratio": 1.39,
         "avg_volume": 664017,
-        "today_volume": 919562,
+        "today_volume": 919911,
         "signal": "HOLD"
       }
     }
@@ -3758,7 +3758,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.7,
-    "today_volume": 369728,
+    "today_volume": 369734,
     "strategies": {
       "골든크로스": {
         "종목코드": "005490",
@@ -3855,7 +3855,7 @@
         "is_spike": "False",
         "ratio": 1.7,
         "avg_volume": 217289,
-        "today_volume": 369728,
+        "today_volume": 369734,
         "signal": "HOLD"
       }
     }
@@ -3992,7 +3992,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.35,
-    "today_volume": 57886,
+    "today_volume": 57899,
     "strategies": {
       "골든크로스": {
         "종목코드": "298040",
@@ -4089,7 +4089,7 @@
         "is_spike": "False",
         "ratio": 1.35,
         "avg_volume": 42746,
-        "today_volume": 57886,
+        "today_volume": 57899,
         "signal": "HOLD"
       }
     }
@@ -4109,7 +4109,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.77,
-    "today_volume": 1258849,
+    "today_volume": 1260168,
     "strategies": {
       "골든크로스": {
         "종목코드": "042660",
@@ -4206,7 +4206,7 @@
         "is_spike": "False",
         "ratio": 1.77,
         "avg_volume": 711991,
-        "today_volume": 1258849,
+        "today_volume": 1260168,
         "signal": "HOLD"
       }
     }
@@ -4226,7 +4226,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.28,
-    "today_volume": 163488,
+    "today_volume": 163505,
     "strategies": {
       "골든크로스": {
         "종목코드": "267260",
@@ -4323,7 +4323,7 @@
         "is_spike": "False",
         "ratio": 1.28,
         "avg_volume": 127720,
-        "today_volume": 163488,
+        "today_volume": 163505,
         "signal": "HOLD"
       }
     }
@@ -4343,7 +4343,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.84,
-    "today_volume": 80278,
+    "today_volume": 80279,
     "strategies": {
       "골든크로스": {
         "종목코드": "000150",
@@ -4440,7 +4440,7 @@
         "is_spike": "False",
         "ratio": 0.84,
         "avg_volume": 95738,
-        "today_volume": 80278,
+        "today_volume": 80279,
         "signal": "HOLD"
       }
     }
@@ -4694,7 +4694,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.5,
-    "today_volume": 269882,
+    "today_volume": 269886,
     "strategies": {
       "골든크로스": {
         "종목코드": "009540",
@@ -4791,7 +4791,7 @@
         "is_spike": "False",
         "ratio": 1.5,
         "avg_volume": 180301,
-        "today_volume": 269882,
+        "today_volume": 269886,
         "signal": "HOLD"
       }
     }
@@ -4811,7 +4811,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.63,
-    "today_volume": 361284,
+    "today_volume": 361311,
     "strategies": {
       "골든크로스": {
         "종목코드": "051910",
@@ -4908,7 +4908,7 @@
         "is_spike": "False",
         "ratio": 1.63,
         "avg_volume": 221128,
-        "today_volume": 361284,
+        "today_volume": 361311,
         "signal": "HOLD"
       }
     }
@@ -4928,7 +4928,7 @@
     "cup_signal": false,
     "volume_spike": "True",
     "volume_ratio": 2.38,
-    "today_volume": 2137739,
+    "today_volume": 2137895,
     "strategies": {
       "골든크로스": {
         "종목코드": "011200",
@@ -5025,7 +5025,7 @@
         "is_spike": "True",
         "ratio": 2.38,
         "avg_volume": 896685,
-        "today_volume": 2137739,
+        "today_volume": 2137895,
         "signal": "SPIKE"
       }
     }
@@ -5045,7 +5045,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.64,
-    "today_volume": 255391,
+    "today_volume": 255409,
     "strategies": {
       "골든크로스": {
         "종목코드": "010950",
@@ -5142,7 +5142,7 @@
         "is_spike": "False",
         "ratio": 0.64,
         "avg_volume": 401748,
-        "today_volume": 255391,
+        "today_volume": 255409,
         "signal": "HOLD"
       }
     }
@@ -5162,7 +5162,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.08,
-    "today_volume": 1354921,
+    "today_volume": 1355013,
     "strategies": {
       "골든크로스": {
         "종목코드": "015760",
@@ -5259,7 +5259,7 @@
         "is_spike": "False",
         "ratio": 1.08,
         "avg_volume": 1259122,
-        "today_volume": 1354921,
+        "today_volume": 1355013,
         "signal": "HOLD"
       }
     }
@@ -5279,7 +5279,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.25,
-    "today_volume": 274839,
+    "today_volume": 274896,
     "strategies": {
       "골든크로스": {
         "종목코드": "033780",
@@ -5386,7 +5386,7 @@
         "is_spike": "False",
         "ratio": 1.25,
         "avg_volume": 220674,
-        "today_volume": 274839,
+        "today_volume": 274896,
         "signal": "HOLD"
       }
     }
@@ -5406,7 +5406,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.04,
-    "today_volume": 723069,
+    "today_volume": 723190,
     "strategies": {
       "골든크로스": {
         "종목코드": "017670",
@@ -5503,7 +5503,7 @@
         "is_spike": "False",
         "ratio": 1.04,
         "avg_volume": 698491,
-        "today_volume": 723069,
+        "today_volume": 723190,
         "signal": "HOLD"
       }
     }
@@ -5523,7 +5523,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.29,
-    "today_volume": 459154,
+    "today_volume": 459189,
     "strategies": {
       "골든크로스": {
         "종목코드": "003670",
@@ -5620,7 +5620,7 @@
         "is_spike": "False",
         "ratio": 1.29,
         "avg_volume": 357004,
-        "today_volume": 459154,
+        "today_volume": 459189,
         "signal": "HOLD"
       }
     }
@@ -5640,7 +5640,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.58,
-    "today_volume": 4830793,
+    "today_volume": 4830917,
     "strategies": {
       "골든크로스": {
         "종목코드": "010140",
@@ -5737,7 +5737,7 @@
         "is_spike": "False",
         "ratio": 1.58,
         "avg_volume": 3056179,
-        "today_volume": 4830793,
+        "today_volume": 4830917,
         "signal": "HOLD"
       }
     }
@@ -5757,7 +5757,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.15,
-    "today_volume": 263323,
+    "today_volume": 263350,
     "strategies": {
       "골든크로스": {
         "종목코드": "003550",
@@ -5854,7 +5854,7 @@
         "is_spike": "False",
         "ratio": 1.15,
         "avg_volume": 228743,
-        "today_volume": 263323,
+        "today_volume": 263350,
         "signal": "HOLD"
       }
     }
@@ -5874,7 +5874,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.88,
-    "today_volume": 1846540,
+    "today_volume": 1846718,
     "strategies": {
       "골든크로스": {
         "종목코드": "006800",
@@ -5971,7 +5971,7 @@
         "is_spike": "False",
         "ratio": 1.88,
         "avg_volume": 980827,
-        "today_volume": 1846540,
+        "today_volume": 1846718,
         "signal": "HOLD"
       }
     }
@@ -5991,7 +5991,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.86,
-    "today_volume": 705123,
+    "today_volume": 705236,
     "strategies": {
       "골든크로스": {
         "종목코드": "024110",
@@ -6088,7 +6088,7 @@
         "is_spike": "False",
         "ratio": 0.86,
         "avg_volume": 817709,
-        "today_volume": 705123,
+        "today_volume": 705236,
         "signal": "HOLD"
       }
     }
@@ -6108,7 +6108,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.28,
-    "today_volume": 187992,
+    "today_volume": 187994,
     "strategies": {
       "골든크로스": {
         "종목코드": "018260",
@@ -6205,7 +6205,7 @@
         "is_spike": "False",
         "ratio": 1.28,
         "avg_volume": 146643,
-        "today_volume": 187992,
+        "today_volume": 187994,
         "signal": "HOLD"
       }
     }
@@ -6225,7 +6225,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.16,
-    "today_volume": 907610,
+    "today_volume": 907710,
     "strategies": {
       "골든크로스": {
         "종목코드": "272210",
@@ -6322,124 +6322,7 @@
         "is_spike": "False",
         "ratio": 1.16,
         "avg_volume": 780905,
-        "today_volume": 907610,
-        "signal": "HOLD"
-      }
-    }
-  },
-  {
-    "code": "035720",
-    "name": "카카오",
-    "sector": "KOSPI200",
-    "signal": "BUY",
-    "current_price": 31300,
-    "change_pct": -2.19,
-    "signal_source": "다이버전스",
-    "star_grade": 1,
-    "red_star_grade": 0,
-    "vcp_signal": false,
-    "vcp_breakout": false,
-    "cup_signal": false,
-    "volume_spike": "False",
-    "volume_ratio": 1.61,
-    "today_volume": 2027911,
-    "strategies": {
-      "골든크로스": {
-        "종목코드": "035720",
-        "최근일자": "20261013",
-        "현재가": "31300",
-        "5일선": 32410.0,
-        "20일선": 33517.5,
-        "신호": "HOLD",
-        "추세": "하락"
-      },
-      "그물망": {
-        "전략": "그물망 추세 돌파",
-        "종목코드": "035720",
-        "최근일자": "20261013",
-        "현재가": "31300",
-        "EMA20": 33546.93,
-        "EMA40": 34641.65,
-        "EMA60": 35526.5,
-        "정배열": "NO",
-        "그물망폭(오늘)": -1979.57,
-        "그물망폭(어제)": -1886.32,
-        "발산여부": "NO",
-        "신호": "HOLD"
-      },
-      "피보나치": {
-        "전략": "피보나치 황금비율",
-        "종목코드": "035720",
-        "현재가": 31300.0,
-        "1년최고가": 48500.0,
-        "1년최저가": 30250.0,
-        "38.2%라인": 41528.5,
-        "61.8%라인": 37221.5,
-        "60일선위": "NO",
-        "구간내": "NO",
-        "양봉": "YES",
-        "거래량증가": "YES",
-        "신호": "HOLD"
-      },
-      "다이버전스": {
-        "전략": "상승 다이버전스",
-        "종목코드": "035720",
-        "RSI현재": 27.92,
-        "이전저점가": 32250.0,
-        "최근저점가": 30250.0,
-        "주가신저점": "YES",
-        "이전저점RSI": 24.62,
-        "최근저점RSI": 27.92,
-        "RSI저점상승": "YES",
-        "다이버전스": "YES",
-        "양봉": "YES",
-        "RSI30탈출": "NO",
-        "신호": "BUY"
-      },
-      "월봉3음봉": {
-        "전략": "월봉 3음봉",
-        "종목코드": "035720",
-        "최근4개월": "07월(양) → 08월(음) → 09월(음) → 10월(음)",
-        "3개월연속음봉": "NO",
-        "이번달양봉": "NO",
-        "거래량비율": 1.14,
-        "거래량폭발": "NO",
-        "신호": "HOLD"
-      },
-      "볼린저스퀴즈": {
-        "전략": "볼린저스퀴즈",
-        "종목코드": "035720",
-        "신호": "HOLD",
-        "스퀴즈여부": "YES",
-        "상단돌파": "NO",
-        "밴드폭": 10.71
-      },
-      "OBV": {
-        "전략": "OBV",
-        "종목코드": "035720",
-        "신호": "HOLD",
-        "주가추세": "횡보",
-        "OBV추세": "하락",
-        "매집형": "NO"
-      },
-      "VCP": {
-        "detected": false,
-        "contractions": [],
-        "breakout": false
-      },
-      "컵앤핸들": {
-        "detected": false,
-        "cup_depth": 0.0,
-        "handle_depth": 0.0,
-        "breakout": false
-      },
-      "거래량": {
-        "전략": "거래량급증",
-        "종목코드": "035720",
-        "is_spike": "False",
-        "ratio": 1.61,
-        "avg_volume": 1263030,
-        "today_volume": 2027911,
+        "today_volume": 907710,
         "signal": "HOLD"
       }
     }
@@ -6557,6 +6440,123 @@
         "ratio": 1.47,
         "avg_volume": 183205,
         "today_volume": 270032,
+        "signal": "HOLD"
+      }
+    }
+  },
+  {
+    "code": "035720",
+    "name": "카카오",
+    "sector": "KOSPI200",
+    "signal": "BUY",
+    "current_price": 31300,
+    "change_pct": -2.19,
+    "signal_source": "다이버전스",
+    "star_grade": 1,
+    "red_star_grade": 0,
+    "vcp_signal": false,
+    "vcp_breakout": false,
+    "cup_signal": false,
+    "volume_spike": "False",
+    "volume_ratio": 1.61,
+    "today_volume": 2028186,
+    "strategies": {
+      "골든크로스": {
+        "종목코드": "035720",
+        "최근일자": "20261013",
+        "현재가": "31300",
+        "5일선": 32410.0,
+        "20일선": 33517.5,
+        "신호": "HOLD",
+        "추세": "하락"
+      },
+      "그물망": {
+        "전략": "그물망 추세 돌파",
+        "종목코드": "035720",
+        "최근일자": "20261013",
+        "현재가": "31300",
+        "EMA20": 33546.93,
+        "EMA40": 34641.65,
+        "EMA60": 35526.5,
+        "정배열": "NO",
+        "그물망폭(오늘)": -1979.57,
+        "그물망폭(어제)": -1886.32,
+        "발산여부": "NO",
+        "신호": "HOLD"
+      },
+      "피보나치": {
+        "전략": "피보나치 황금비율",
+        "종목코드": "035720",
+        "현재가": 31300.0,
+        "1년최고가": 48500.0,
+        "1년최저가": 30250.0,
+        "38.2%라인": 41528.5,
+        "61.8%라인": 37221.5,
+        "60일선위": "NO",
+        "구간내": "NO",
+        "양봉": "YES",
+        "거래량증가": "YES",
+        "신호": "HOLD"
+      },
+      "다이버전스": {
+        "전략": "상승 다이버전스",
+        "종목코드": "035720",
+        "RSI현재": 27.92,
+        "이전저점가": 32250.0,
+        "최근저점가": 30250.0,
+        "주가신저점": "YES",
+        "이전저점RSI": 24.62,
+        "최근저점RSI": 27.92,
+        "RSI저점상승": "YES",
+        "다이버전스": "YES",
+        "양봉": "YES",
+        "RSI30탈출": "NO",
+        "신호": "BUY"
+      },
+      "월봉3음봉": {
+        "전략": "월봉 3음봉",
+        "종목코드": "035720",
+        "최근4개월": "07월(양) → 08월(음) → 09월(음) → 10월(음)",
+        "3개월연속음봉": "NO",
+        "이번달양봉": "NO",
+        "거래량비율": 1.14,
+        "거래량폭발": "NO",
+        "신호": "HOLD"
+      },
+      "볼린저스퀴즈": {
+        "전략": "볼린저스퀴즈",
+        "종목코드": "035720",
+        "신호": "HOLD",
+        "스퀴즈여부": "YES",
+        "상단돌파": "NO",
+        "밴드폭": 10.71
+      },
+      "OBV": {
+        "전략": "OBV",
+        "종목코드": "035720",
+        "신호": "HOLD",
+        "주가추세": "횡보",
+        "OBV추세": "하락",
+        "매집형": "NO"
+      },
+      "VCP": {
+        "detected": false,
+        "contractions": [],
+        "breakout": false
+      },
+      "컵앤핸들": {
+        "detected": false,
+        "cup_depth": 0.0,
+        "handle_depth": 0.0,
+        "breakout": false
+      },
+      "거래량": {
+        "전략": "거래량급증",
+        "종목코드": "035720",
+        "is_spike": "False",
+        "ratio": 1.61,
+        "avg_volume": 1263030,
+        "today_volume": 2028186,
         "signal": "HOLD"
       }
     }
@@ -6693,7 +6693,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.92,
-    "today_volume": 135868,
+    "today_volume": 135870,
     "strategies": {
       "골든크로스": {
         "종목코드": "086280",
@@ -6790,7 +6790,7 @@
         "is_spike": "False",
         "ratio": 0.92,
         "avg_volume": 147240,
-        "today_volume": 135868,
+        "today_volume": 135870,
         "signal": "HOLD"
       }
     }
@@ -6809,8 +6809,8 @@
     "vcp_breakout": false,
     "cup_signal": false,
     "volume_spike": "False",
-    "volume_ratio": 1.74,
-    "today_volume": 172323,
+    "volume_ratio": 1.75,
+    "today_volume": 172372,
     "strategies": {
       "골든크로스": {
         "종목코드": "079550",
@@ -6905,9 +6905,9 @@
         "전략": "거래량급증",
         "종목코드": "079550",
         "is_spike": "False",
-        "ratio": 1.74,
+        "ratio": 1.75,
         "avg_volume": 98764,
-        "today_volume": 172323,
+        "today_volume": 172372,
         "signal": "HOLD"
       }
     }
@@ -6927,7 +6927,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.49,
-    "today_volume": 336458,
+    "today_volume": 336474,
     "strategies": {
       "골든크로스": {
         "종목코드": "011070",
@@ -7024,7 +7024,7 @@
         "is_spike": "False",
         "ratio": 1.49,
         "avg_volume": 225307,
-        "today_volume": 336458,
+        "today_volume": 336474,
         "signal": "HOLD"
       }
     }
@@ -7044,7 +7044,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.38,
-    "today_volume": 407760,
+    "today_volume": 407860,
     "strategies": {
       "골든크로스": {
         "종목코드": "030200",
@@ -7141,7 +7141,7 @@
         "is_spike": "False",
         "ratio": 1.38,
         "avg_volume": 295344,
-        "today_volume": 407760,
+        "today_volume": 407860,
         "signal": "HOLD"
       }
     }
@@ -7278,7 +7278,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.28,
-    "today_volume": 850088,
+    "today_volume": 850108,
     "strategies": {
       "골든크로스": {
         "종목코드": "000720",
@@ -7375,7 +7375,7 @@
         "is_spike": "False",
         "ratio": 1.28,
         "avg_volume": 666615,
-        "today_volume": 850088,
+        "today_volume": 850108,
         "signal": "HOLD"
       }
     }
@@ -7395,7 +7395,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.63,
-    "today_volume": 441872,
+    "today_volume": 441892,
     "strategies": {
       "골든크로스": {
         "종목코드": "047810",
@@ -7492,7 +7492,7 @@
         "is_spike": "False",
         "ratio": 1.63,
         "avg_volume": 271223,
-        "today_volume": 441872,
+        "today_volume": 441892,
         "signal": "HOLD"
       }
     }
@@ -7512,7 +7512,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.66,
-    "today_volume": 597467,
+    "today_volume": 597565,
     "strategies": {
       "골든크로스": {
         "종목코드": "064350",
@@ -7609,7 +7609,7 @@
         "is_spike": "False",
         "ratio": 1.66,
         "avg_volume": 360896,
-        "today_volume": 597467,
+        "today_volume": 597565,
         "signal": "HOLD"
       }
     }
@@ -7629,7 +7629,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.89,
-    "today_volume": 2230009,
+    "today_volume": 2231918,
     "strategies": {
       "골든크로스": {
         "종목코드": "003490",
@@ -7726,7 +7726,7 @@
         "is_spike": "False",
         "ratio": 0.89,
         "avg_volume": 2502537,
-        "today_volume": 2230009,
+        "today_volume": 2231918,
         "signal": "HOLD"
       }
     }
@@ -7746,7 +7746,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.85,
-    "today_volume": 461771,
+    "today_volume": 461799,
     "strategies": {
       "골든크로스": {
         "종목코드": "047050",
@@ -7843,7 +7843,7 @@
         "is_spike": "False",
         "ratio": 0.85,
         "avg_volume": 541387,
-        "today_volume": 461771,
+        "today_volume": 461799,
         "signal": "HOLD"
       }
     }
@@ -7863,7 +7863,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.4,
-    "today_volume": 60705,
+    "today_volume": 60714,
     "strategies": {
       "골든크로스": {
         "종목코드": "307950",
@@ -7960,7 +7960,7 @@
         "is_spike": "False",
         "ratio": 1.4,
         "avg_volume": 43407,
-        "today_volume": 60705,
+        "today_volume": 60714,
         "signal": "HOLD"
       }
     }
@@ -7980,7 +7980,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.72,
-    "today_volume": 83842,
+    "today_volume": 83843,
     "strategies": {
       "골든크로스": {
         "종목코드": "443060",
@@ -8077,7 +8077,7 @@
         "is_spike": "False",
         "ratio": 0.72,
         "avg_volume": 116818,
-        "today_volume": 83842,
+        "today_volume": 83843,
         "signal": "HOLD"
       }
     }
@@ -8097,7 +8097,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.75,
-    "today_volume": 299801,
+    "today_volume": 299834,
     "strategies": {
       "골든크로스": {
         "종목코드": "078930",
@@ -8194,7 +8194,7 @@
         "is_spike": "False",
         "ratio": 0.75,
         "avg_volume": 399399,
-        "today_volume": 299801,
+        "today_volume": 299834,
         "signal": "HOLD"
       }
     }
@@ -8214,7 +8214,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.99,
-    "today_volume": 1728050,
+    "today_volume": 1729764,
     "strategies": {
       "골든크로스": {
         "종목코드": "028050",
@@ -8311,7 +8311,7 @@
         "is_spike": "False",
         "ratio": 0.99,
         "avg_volume": 1752551,
-        "today_volume": 1728050,
+        "today_volume": 1729764,
         "signal": "HOLD"
       }
     }
@@ -8565,7 +8565,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.96,
-    "today_volume": 863868,
+    "today_volume": 864311,
     "strategies": {
       "골든크로스": {
         "종목코드": "007660",
@@ -8662,7 +8662,7 @@
         "is_spike": "False",
         "ratio": 0.96,
         "avg_volume": 896662,
-        "today_volume": 863868,
+        "today_volume": 864311,
         "signal": "HOLD"
       }
     }
@@ -8682,7 +8682,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.08,
-    "today_volume": 526295,
+    "today_volume": 526385,
     "strategies": {
       "골든크로스": {
         "종목코드": "005940",
@@ -8779,7 +8779,7 @@
         "is_spike": "False",
         "ratio": 1.08,
         "avg_volume": 487544,
-        "today_volume": 526295,
+        "today_volume": 526385,
         "signal": "HOLD"
       }
     }
@@ -8916,7 +8916,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.79,
-    "today_volume": 238815,
+    "today_volume": 238816,
     "strategies": {
       "골든크로스": {
         "종목코드": "000500",
@@ -9013,7 +9013,7 @@
         "is_spike": "False",
         "ratio": 0.79,
         "avg_volume": 302134,
-        "today_volume": 238815,
+        "today_volume": 238816,
         "signal": "HOLD"
       }
     }
@@ -9033,7 +9033,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.11,
-    "today_volume": 75767,
+    "today_volume": 75769,
     "strategies": {
       "골든크로스": {
         "종목코드": "180640",
@@ -9130,7 +9130,7 @@
         "is_spike": "False",
         "ratio": 1.11,
         "avg_volume": 68088,
-        "today_volume": 75767,
+        "today_volume": 75769,
         "signal": "HOLD"
       }
     }
@@ -9267,7 +9267,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.48,
-    "today_volume": 52693,
+    "today_volume": 52694,
     "strategies": {
       "골든크로스": {
         "종목코드": "0126Z0",
@@ -9364,7 +9364,7 @@
         "is_spike": "False",
         "ratio": 1.48,
         "avg_volume": 35706,
-        "today_volume": 52693,
+        "today_volume": 52694,
         "signal": "HOLD"
       }
     }
@@ -9384,7 +9384,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.74,
-    "today_volume": 229103,
+    "today_volume": 229104,
     "strategies": {
       "골든크로스": {
         "종목코드": "006260",
@@ -9481,7 +9481,7 @@
         "is_spike": "False",
         "ratio": 1.74,
         "avg_volume": 131700,
-        "today_volume": 229103,
+        "today_volume": 229104,
         "signal": "HOLD"
       }
     }
@@ -9501,7 +9501,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.07,
-    "today_volume": 3435015,
+    "today_volume": 3435118,
     "strategies": {
       "골든크로스": {
         "종목코드": "009830",
@@ -9598,7 +9598,7 @@
         "is_spike": "False",
         "ratio": 1.07,
         "avg_volume": 3196706,
-        "today_volume": 3435015,
+        "today_volume": 3435118,
         "signal": "HOLD"
       }
     }
@@ -9735,7 +9735,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.02,
-    "today_volume": 1132808,
+    "today_volume": 1133057,
     "strategies": {
       "골든크로스": {
         "종목코드": "353200",
@@ -9832,7 +9832,7 @@
         "is_spike": "False",
         "ratio": 1.02,
         "avg_volume": 1114465,
-        "today_volume": 1132808,
+        "today_volume": 1133057,
         "signal": "HOLD"
       }
     }
@@ -9969,7 +9969,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.19,
-    "today_volume": 358642,
+    "today_volume": 358739,
     "strategies": {
       "골든크로스": {
         "종목코드": "016360",
@@ -10066,7 +10066,7 @@
         "is_spike": "False",
         "ratio": 1.19,
         "avg_volume": 301826,
-        "today_volume": 358642,
+        "today_volume": 358739,
         "signal": "HOLD"
       }
     }
@@ -10086,7 +10086,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.56,
-    "today_volume": 117308,
+    "today_volume": 117311,
     "strategies": {
       "골든크로스": {
         "종목코드": "021240",
@@ -10183,7 +10183,7 @@
         "is_spike": "False",
         "ratio": 0.56,
         "avg_volume": 209085,
-        "today_volume": 117308,
+        "today_volume": 117311,
         "signal": "HOLD"
       }
     }
@@ -10203,7 +10203,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.36,
-    "today_volume": 273419,
+    "today_volume": 273439,
     "strategies": {
       "골든크로스": {
         "종목코드": "352820",
@@ -10300,7 +10300,7 @@
         "is_spike": "False",
         "ratio": 1.36,
         "avg_volume": 201704,
-        "today_volume": 273419,
+        "today_volume": 273439,
         "signal": "HOLD"
       }
     }
@@ -10320,7 +10320,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.67,
-    "today_volume": 4442105,
+    "today_volume": 4442945,
     "strategies": {
       "골든크로스": {
         "종목코드": "047040",
@@ -10417,7 +10417,7 @@
         "is_spike": "False",
         "ratio": 0.67,
         "avg_volume": 6621675,
-        "today_volume": 4442105,
+        "today_volume": 4442945,
         "signal": "HOLD"
       }
     }
@@ -10437,7 +10437,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.11,
-    "today_volume": 319691,
+    "today_volume": 319693,
     "strategies": {
       "골든크로스": {
         "종목코드": "062040",
@@ -10534,7 +10534,7 @@
         "is_spike": "False",
         "ratio": 1.11,
         "avg_volume": 288771,
-        "today_volume": 319691,
+        "today_volume": 319693,
         "signal": "HOLD"
       }
     }
@@ -10554,7 +10554,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.36,
-    "today_volume": 634641,
+    "today_volume": 634973,
     "strategies": {
       "골든크로스": {
         "종목코드": "064400",
@@ -10651,7 +10651,7 @@
         "is_spike": "False",
         "ratio": 1.36,
         "avg_volume": 465299,
-        "today_volume": 634641,
+        "today_volume": 634973,
         "signal": "HOLD"
       }
     }
@@ -10788,7 +10788,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.93,
-    "today_volume": 106856,
+    "today_volume": 106860,
     "strategies": {
       "골든크로스": {
         "종목코드": "128940",
@@ -10885,7 +10885,7 @@
         "is_spike": "False",
         "ratio": 0.93,
         "avg_volume": 115363,
-        "today_volume": 106856,
+        "today_volume": 106860,
         "signal": "HOLD"
       }
     }
@@ -10905,7 +10905,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.93,
-    "today_volume": 809200,
+    "today_volume": 809205,
     "strategies": {
       "골든크로스": {
         "종목코드": "032640",
@@ -11002,7 +11002,7 @@
         "is_spike": "False",
         "ratio": 0.93,
         "avg_volume": 870320,
-        "today_volume": 809200,
+        "today_volume": 809205,
         "signal": "HOLD"
       }
     }
@@ -11022,7 +11022,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.54,
-    "today_volume": 401446,
+    "today_volume": 401685,
     "strategies": {
       "골든크로스": {
         "종목코드": "000990",
@@ -11119,7 +11119,7 @@
         "is_spike": "False",
         "ratio": 0.54,
         "avg_volume": 745840,
-        "today_volume": 401446,
+        "today_volume": 401685,
         "signal": "HOLD"
       }
     }
@@ -11256,7 +11256,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.48,
-    "today_volume": 176375,
+    "today_volume": 176466,
     "strategies": {
       "골든크로스": {
         "종목코드": "005387",
@@ -11353,7 +11353,7 @@
         "is_spike": "False",
         "ratio": 1.48,
         "avg_volume": 118924,
-        "today_volume": 176375,
+        "today_volume": 176466,
         "signal": "HOLD"
       }
     }
@@ -11373,7 +11373,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.97,
-    "today_volume": 106233,
+    "today_volume": 106235,
     "strategies": {
       "골든크로스": {
         "종목코드": "326030",
@@ -11470,7 +11470,7 @@
         "is_spike": "False",
         "ratio": 0.97,
         "avg_volume": 109405,
-        "today_volume": 106233,
+        "today_volume": 106235,
         "signal": "HOLD"
       }
     }
@@ -11489,8 +11489,8 @@
     "vcp_breakout": false,
     "cup_signal": false,
     "volume_spike": "False",
-    "volume_ratio": 0.71,
-    "today_volume": 2165745,
+    "volume_ratio": 0.72,
+    "today_volume": 2169003,
     "strategies": {
       "골든크로스": {
         "종목코드": "001440",
@@ -11585,9 +11585,9 @@
         "전략": "거래량급증",
         "종목코드": "001440",
         "is_spike": "False",
-        "ratio": 0.71,
+        "ratio": 0.72,
         "avg_volume": 3029301,
-        "today_volume": 2165745,
+        "today_volume": 2169003,
         "signal": "HOLD"
       }
     }
@@ -11607,7 +11607,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.84,
-    "today_volume": 169957,
+    "today_volume": 169960,
     "strategies": {
       "골든크로스": {
         "종목코드": "000100",
@@ -11704,7 +11704,7 @@
         "is_spike": "False",
         "ratio": 0.84,
         "avg_volume": 202401,
-        "today_volume": 169957,
+        "today_volume": 169960,
         "signal": "HOLD"
       }
     }
@@ -11724,7 +11724,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.41,
-    "today_volume": 327235,
+    "today_volume": 327237,
     "strategies": {
       "골든크로스": {
         "종목코드": "011790",
@@ -11821,7 +11821,7 @@
         "is_spike": "False",
         "ratio": 1.41,
         "avg_volume": 231716,
-        "today_volume": 327235,
+        "today_volume": 327237,
         "signal": "HOLD"
       }
     }
@@ -11841,7 +11841,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.86,
-    "today_volume": 210025,
+    "today_volume": 210026,
     "strategies": {
       "골든크로스": {
         "종목코드": "377300",
@@ -11938,7 +11938,7 @@
         "is_spike": "False",
         "ratio": 0.86,
         "avg_volume": 245502,
-        "today_volume": 210025,
+        "today_volume": 210026,
         "signal": "HOLD"
       }
     }
@@ -12075,7 +12075,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.86,
-    "today_volume": 138278,
+    "today_volume": 138279,
     "strategies": {
       "골든크로스": {
         "종목코드": "241560",
@@ -12172,7 +12172,7 @@
         "is_spike": "False",
         "ratio": 0.86,
         "avg_volume": 161465,
-        "today_volume": 138278,
+        "today_volume": 138279,
         "signal": "HOLD"
       }
     }
@@ -12295,6 +12295,123 @@
     }
   },
   {
+    "code": "029780",
+    "name": "삼성카드",
+    "sector": "KOSPI200",
+    "signal": "HOLD",
+    "current_price": 42700,
+    "change_pct": 1.91,
+    "signal_source": null,
+    "star_grade": 0,
+    "red_star_grade": 0,
+    "vcp_signal": false,
+    "vcp_breakout": false,
+    "cup_signal": false,
+    "volume_spike": "False",
+    "volume_ratio": 1.37,
+    "today_volume": 121422,
+    "strategies": {
+      "골든크로스": {
+        "종목코드": "029780",
+        "최근일자": "20261013",
+        "현재가": "42700",
+        "5일선": 41790.0,
+        "20일선": 43182.5,
+        "신호": "HOLD",
+        "추세": "하락"
+      },
+      "그물망": {
+        "전략": "그물망 추세 돌파",
+        "종목코드": "029780",
+        "최근일자": "20261013",
+        "현재가": "42700",
+        "EMA20": 43087.59,
+        "EMA40": 44377.88,
+        "EMA60": 45241.82,
+        "정배열": "NO",
+        "그물망폭(오늘)": -2154.23,
+        "그물망폭(어제)": -2199.59,
+        "발산여부": "YES",
+        "신호": "HOLD"
+      },
+      "피보나치": {
+        "전략": "피보나치 황금비율",
+        "종목코드": "029780",
+        "현재가": 42700.0,
+        "1년최고가": 55000.0,
+        "1년최저가": 40850.0,
+        "38.2%라인": 49594.7,
+        "61.8%라인": 46255.3,
+        "60일선위": "NO",
+        "구간내": "NO",
+        "양봉": "YES",
+        "거래량증가": "YES",
+        "신호": "HOLD"
+      },
+      "다이버전스": {
+        "전략": "상승 다이버전스",
+        "종목코드": "029780",
+        "RSI현재": 42.81,
+        "이전저점가": 44750.0,
+        "최근저점가": 40850.0,
+        "주가신저점": "YES",
+        "이전저점RSI": 38.92,
+        "최근저점RSI": 26.41,
+        "RSI저점상승": "NO",
+        "다이버전스": "NO",
+        "양봉": "YES",
+        "RSI30탈출": "NO",
+        "신호": "HOLD"
+      },
+      "월봉3음봉": {
+        "전략": "월봉 3음봉",
+        "종목코드": "029780",
+        "최근4개월": "07월(음) → 08월(양) → 09월(음) → 10월(양)",
+        "3개월연속음봉": "NO",
+        "이번달양봉": "YES",
+        "거래량비율": 0.83,
+        "거래량폭발": "NO",
+        "신호": "HOLD"
+      },
+      "볼린저스퀴즈": {
+        "전략": "볼린저스퀴즈",
+        "종목코드": "029780",
+        "신호": "HOLD",
+        "스퀴즈여부": "NO",
+        "상단돌파": "NO",
+        "밴드폭": 13.46
+      },
+      "OBV": {
+        "전략": "OBV",
+        "종목코드": "029780",
+        "신호": "HOLD",
+        "주가추세": "하락",
+        "OBV추세": "하락",
+        "매집형": "NO"
+      },
+      "VCP": {
+        "detected": false,
+        "contractions": [],
+        "breakout": false
+      },
+      "컵앤핸들": {
+        "detected": false,
+        "cup_depth": 0.0,
+        "handle_depth": 0.0,
+        "breakout": false
+      },
+      "거래량": {
+        "전략": "거래량급증",
+        "종목코드": "029780",
+        "is_spike": "False",
+        "ratio": 1.37,
+        "avg_volume": 88603,
+        "today_volume": 121422,
+        "signal": "HOLD"
+      }
+    }
+  },
+  {
     "code": "036570",
     "name": "NC",
     "sector": "KOSPI200",
@@ -12412,123 +12529,6 @@
     }
   },
   {
-    "code": "029780",
-    "name": "삼성카드",
-    "sector": "KOSPI200",
-    "signal": "HOLD",
-    "current_price": 42700,
-    "change_pct": 1.91,
-    "signal_source": null,
-    "star_grade": 0,
-    "red_star_grade": 0,
-    "vcp_signal": false,
-    "vcp_breakout": false,
-    "cup_signal": false,
-    "volume_spike": "False",
-    "volume_ratio": 1.37,
-    "today_volume": 121392,
-    "strategies": {
-      "골든크로스": {
-        "종목코드": "029780",
-        "최근일자": "20261013",
-        "현재가": "42700",
-        "5일선": 41790.0,
-        "20일선": 43182.5,
-        "신호": "HOLD",
-        "추세": "하락"
-      },
-      "그물망": {
-        "전략": "그물망 추세 돌파",
-        "종목코드": "029780",
-        "최근일자": "20261013",
-        "현재가": "42700",
-        "EMA20": 43087.59,
-        "EMA40": 44377.88,
-        "EMA60": 45241.82,
-        "정배열": "NO",
-        "그물망폭(오늘)": -2154.23,
-        "그물망폭(어제)": -2199.59,
-        "발산여부": "YES",
-        "신호": "HOLD"
-      },
-      "피보나치": {
-        "전략": "피보나치 황금비율",
-        "종목코드": "029780",
-        "현재가": 42700.0,
-        "1년최고가": 55000.0,
-        "1년최저가": 40850.0,
-        "38.2%라인": 49594.7,
-        "61.8%라인": 46255.3,
-        "60일선위": "NO",
-        "구간내": "NO",
-        "양봉": "YES",
-        "거래량증가": "YES",
-        "신호": "HOLD"
-      },
-      "다이버전스": {
-        "전략": "상승 다이버전스",
-        "종목코드": "029780",
-        "RSI현재": 42.81,
-        "이전저점가": 44750.0,
-        "최근저점가": 40850.0,
-        "주가신저점": "YES",
-        "이전저점RSI": 38.92,
-        "최근저점RSI": 26.41,
-        "RSI저점상승": "NO",
-        "다이버전스": "NO",
-        "양봉": "YES",
-        "RSI30탈출": "NO",
-        "신호": "HOLD"
-      },
-      "월봉3음봉": {
-        "전략": "월봉 3음봉",
-        "종목코드": "029780",
-        "최근4개월": "07월(음) → 08월(양) → 09월(음) → 10월(양)",
-        "3개월연속음봉": "NO",
-        "이번달양봉": "YES",
-        "거래량비율": 0.83,
-        "거래량폭발": "NO",
-        "신호": "HOLD"
-      },
-      "볼린저스퀴즈": {
-        "전략": "볼린저스퀴즈",
-        "종목코드": "029780",
-        "신호": "HOLD",
-        "스퀴즈여부": "NO",
-        "상단돌파": "NO",
-        "밴드폭": 13.46
-      },
-      "OBV": {
-        "전략": "OBV",
-        "종목코드": "029780",
-        "신호": "HOLD",
-        "주가추세": "하락",
-        "OBV추세": "하락",
-        "매집형": "NO"
-      },
-      "VCP": {
-        "detected": false,
-        "contractions": [],
-        "breakout": false
-      },
-      "컵앤핸들": {
-        "detected": false,
-        "cup_depth": 0.0,
-        "handle_depth": 0.0,
-        "breakout": false
-      },
-      "거래량": {
-        "전략": "거래량급증",
-        "종목코드": "029780",
-        "is_spike": "False",
-        "ratio": 1.37,
-        "avg_volume": 88603,
-        "today_volume": 121392,
-        "signal": "HOLD"
-      }
-    }
-  },
-  {
     "code": "066970",
     "name": "엘앤에프",
     "sector": "KOSPI200",
@@ -12543,7 +12543,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.18,
-    "today_volume": 575757,
+    "today_volume": 575765,
     "strategies": {
       "골든크로스": {
         "종목코드": "066970",
@@ -12640,7 +12640,7 @@
         "is_spike": "False",
         "ratio": 1.18,
         "avg_volume": 487508,
-        "today_volume": 575757,
+        "today_volume": 575765,
         "signal": "HOLD"
       }
     }
@@ -12660,7 +12660,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.45,
-    "today_volume": 282974,
+    "today_volume": 282979,
     "strategies": {
       "골든크로스": {
         "종목코드": "052690",
@@ -12757,7 +12757,7 @@
         "is_spike": "False",
         "ratio": 0.45,
         "avg_volume": 632568,
-        "today_volume": 282974,
+        "today_volume": 282979,
         "signal": "HOLD"
       }
     }
@@ -12894,7 +12894,7 @@
     "cup_signal": true,
     "volume_spike": "True",
     "volume_ratio": 2.07,
-    "today_volume": 1419031,
+    "today_volume": 1419036,
     "strategies": {
       "골든크로스": {
         "종목코드": "088980",
@@ -13001,7 +13001,7 @@
         "is_spike": "True",
         "ratio": 2.07,
         "avg_volume": 685119,
-        "today_volume": 1419031,
+        "today_volume": 1419036,
         "signal": "SPIKE"
       }
     }
@@ -13021,7 +13021,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.25,
-    "today_volume": 3671492,
+    "today_volume": 3671758,
     "strategies": {
       "골든크로스": {
         "종목코드": "088350",
@@ -13118,7 +13118,7 @@
         "is_spike": "False",
         "ratio": 1.25,
         "avg_volume": 2939793,
-        "today_volume": 3671492,
+        "today_volume": 3671758,
         "signal": "HOLD"
       }
     }
@@ -13138,7 +13138,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.09,
-    "today_volume": 325853,
+    "today_volume": 326390,
     "strategies": {
       "골든크로스": {
         "종목코드": "454910",
@@ -13235,7 +13235,7 @@
         "is_spike": "False",
         "ratio": 1.09,
         "avg_volume": 298646,
-        "today_volume": 325853,
+        "today_volume": 326390,
         "signal": "HOLD"
       }
     }
@@ -13255,7 +13255,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.81,
-    "today_volume": 195339,
+    "today_volume": 195389,
     "strategies": {
       "골든크로스": {
         "종목코드": "010060",
@@ -13352,7 +13352,7 @@
         "is_spike": "False",
         "ratio": 0.81,
         "avg_volume": 239802,
-        "today_volume": 195339,
+        "today_volume": 195389,
         "signal": "HOLD"
       }
     }
@@ -13372,7 +13372,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.01,
-    "today_volume": 7103525,
+    "today_volume": 7104473,
     "strategies": {
       "골든크로스": {
         "종목코드": "018880",
@@ -13469,7 +13469,7 @@
         "is_spike": "False",
         "ratio": 1.01,
         "avg_volume": 7041089,
-        "today_volume": 7103525,
+        "today_volume": 7104473,
         "signal": "HOLD"
       }
     }
@@ -13606,7 +13606,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.43,
-    "today_volume": 4233420,
+    "today_volume": 4233903,
     "strategies": {
       "골든크로스": {
         "종목코드": "034220",
@@ -13703,7 +13703,7 @@
         "is_spike": "False",
         "ratio": 1.43,
         "avg_volume": 2956411,
-        "today_volume": 4233420,
+        "today_volume": 4233903,
         "signal": "HOLD"
       }
     }
@@ -13943,6 +13943,123 @@
     }
   },
   {
+    "code": "103590",
+    "name": "일진전기",
+    "sector": "KOSPI200",
+    "signal": "HOLD",
+    "current_price": 73400,
+    "change_pct": -0.54,
+    "signal_source": null,
+    "star_grade": 0,
+    "red_star_grade": 0,
+    "vcp_signal": false,
+    "vcp_breakout": false,
+    "cup_signal": false,
+    "volume_spike": "False",
+    "volume_ratio": 0.93,
+    "today_volume": 427346,
+    "strategies": {
+      "골든크로스": {
+        "종목코드": "103590",
+        "최근일자": "20261013",
+        "현재가": "73400",
+        "5일선": 80820.0,
+        "20일선": 77345.0,
+        "신호": "HOLD",
+        "추세": "상승"
+      },
+      "그물망": {
+        "전략": "그물망 추세 돌파",
+        "종목코드": "103590",
+        "최근일자": "20261013",
+        "현재가": "73400",
+        "EMA20": 77746.16,
+        "EMA40": 75079.86,
+        "EMA60": 75673.35,
+        "정배열": "NO",
+        "그물망폭(오늘)": 2072.81,
+        "그물망폭(어제)": 2453.24,
+        "발산여부": "NO",
+        "신호": "HOLD"
+      },
+      "피보나치": {
+        "전략": "피보나치 황금비율",
+        "종목코드": "103590",
+        "현재가": 73400.0,
+        "1년최고가": 143000.0,
+        "1년최저가": 45000.0,
+        "38.2%라인": 105564.0,
+        "61.8%라인": 82436.0,
+        "60일선위": "YES",
+        "구간내": "NO",
+        "양봉": "YES",
+        "거래량증가": "NO",
+        "신호": "HOLD"
+      },
+      "다이버전스": {
+        "전략": "상승 다이버전스",
+        "종목코드": "103590",
+        "RSI현재": 45.56,
+        "이전저점가": 45000.0,
+        "최근저점가": 61500.0,
+        "주가신저점": "NO",
+        "이전저점RSI": 22.05,
+        "최근저점RSI": 45.56,
+        "RSI저점상승": "YES",
+        "다이버전스": "NO",
+        "양봉": "YES",
+        "RSI30탈출": "NO",
+        "신호": "HOLD"
+      },
+      "월봉3음봉": {
+        "전략": "월봉 3음봉",
+        "종목코드": "103590",
+        "최근4개월": "07월(음) → 08월(양) → 09월(양) → 10월(음)",
+        "3개월연속음봉": "NO",
+        "이번달양봉": "NO",
+        "거래량비율": 1.5,
+        "거래량폭발": "YES",
+        "신호": "HOLD"
+      },
+      "볼린저스퀴즈": {
+        "전략": "볼린저스퀴즈",
+        "종목코드": "103590",
+        "신호": "HOLD",
+        "스퀴즈여부": "NO",
+        "상단돌파": "NO",
+        "밴드폭": 33.66
+      },
+      "OBV": {
+        "전략": "OBV",
+        "종목코드": "103590",
+        "신호": "HOLD",
+        "주가추세": "상승",
+        "OBV추세": "상승",
+        "매집형": "NO"
+      },
+      "VCP": {
+        "detected": false,
+        "contractions": [],
+        "breakout": false
+      },
+      "컵앤핸들": {
+        "detected": false,
+        "cup_depth": 0.0,
+        "handle_depth": 0.0,
+        "breakout": false
+      },
+      "거래량": {
+        "전략": "거래량급증",
+        "종목코드": "103590",
+        "is_spike": "False",
+        "ratio": 0.93,
+        "avg_volume": 461303,
+        "today_volume": 427346,
+        "signal": "HOLD"
+      }
+    }
+  },
+  {
     "code": "002380",
     "name": "KCC",
     "sector": "KOSPI200",
@@ -14060,123 +14177,6 @@
     }
   },
   {
-    "code": "103590",
-    "name": "일진전기",
-    "sector": "KOSPI200",
-    "signal": "HOLD",
-    "current_price": 73400,
-    "change_pct": -0.54,
-    "signal_source": null,
-    "star_grade": 0,
-    "red_star_grade": 0,
-    "vcp_signal": false,
-    "vcp_breakout": false,
-    "cup_signal": false,
-    "volume_spike": "False",
-    "volume_ratio": 0.93,
-    "today_volume": 427345,
-    "strategies": {
-      "골든크로스": {
-        "종목코드": "103590",
-        "최근일자": "20261013",
-        "현재가": "73400",
-        "5일선": 80820.0,
-        "20일선": 77345.0,
-        "신호": "HOLD",
-        "추세": "상승"
-      },
-      "그물망": {
-        "전략": "그물망 추세 돌파",
-        "종목코드": "103590",
-        "최근일자": "20261013",
-        "현재가": "73400",
-        "EMA20": 77746.16,
-        "EMA40": 75079.86,
-        "EMA60": 75673.35,
-        "정배열": "NO",
-        "그물망폭(오늘)": 2072.81,
-        "그물망폭(어제)": 2453.24,
-        "발산여부": "NO",
-        "신호": "HOLD"
-      },
-      "피보나치": {
-        "전략": "피보나치 황금비율",
-        "종목코드": "103590",
-        "현재가": 73400.0,
-        "1년최고가": 143000.0,
-        "1년최저가": 45000.0,
-        "38.2%라인": 105564.0,
-        "61.8%라인": 82436.0,
-        "60일선위": "YES",
-        "구간내": "NO",
-        "양봉": "YES",
-        "거래량증가": "NO",
-        "신호": "HOLD"
-      },
-      "다이버전스": {
-        "전략": "상승 다이버전스",
-        "종목코드": "103590",
-        "RSI현재": 45.56,
-        "이전저점가": 45000.0,
-        "최근저점가": 61500.0,
-        "주가신저점": "NO",
-        "이전저점RSI": 22.05,
-        "최근저점RSI": 45.56,
-        "RSI저점상승": "YES",
-        "다이버전스": "NO",
-        "양봉": "YES",
-        "RSI30탈출": "NO",
-        "신호": "HOLD"
-      },
-      "월봉3음봉": {
-        "전략": "월봉 3음봉",
-        "종목코드": "103590",
-        "최근4개월": "07월(음) → 08월(양) → 09월(양) → 10월(음)",
-        "3개월연속음봉": "NO",
-        "이번달양봉": "NO",
-        "거래량비율": 1.5,
-        "거래량폭발": "YES",
-        "신호": "HOLD"
-      },
-      "볼린저스퀴즈": {
-        "전략": "볼린저스퀴즈",
-        "종목코드": "103590",
-        "신호": "HOLD",
-        "스퀴즈여부": "NO",
-        "상단돌파": "NO",
-        "밴드폭": 33.66
-      },
-      "OBV": {
-        "전략": "OBV",
-        "종목코드": "103590",
-        "신호": "HOLD",
-        "주가추세": "상승",
-        "OBV추세": "상승",
-        "매집형": "NO"
-      },
-      "VCP": {
-        "detected": false,
-        "contractions": [],
-        "breakout": false
-      },
-      "컵앤핸들": {
-        "detected": false,
-        "cup_depth": 0.0,
-        "handle_depth": 0.0,
-        "breakout": false
-      },
-      "거래량": {
-        "전략": "거래량급증",
-        "종목코드": "103590",
-        "is_spike": "False",
-        "ratio": 0.93,
-        "avg_volume": 461303,
-        "today_volume": 427345,
-        "signal": "HOLD"
-      }
-    }
-  },
-  {
     "code": "005385",
     "name": "현대차우",
     "sector": "KOSPI200",
@@ -14191,7 +14191,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.45,
-    "today_volume": 89986,
+    "today_volume": 90001,
     "strategies": {
       "골든크로스": {
         "종목코드": "005385",
@@ -14288,7 +14288,7 @@
         "is_spike": "False",
         "ratio": 1.45,
         "avg_volume": 62064,
-        "today_volume": 89986,
+        "today_volume": 90001,
         "signal": "HOLD"
       }
     }
@@ -14308,7 +14308,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.83,
-    "today_volume": 84858,
+    "today_volume": 84861,
     "strategies": {
       "골든크로스": {
         "종목코드": "001040",
@@ -14405,7 +14405,7 @@
         "is_spike": "False",
         "ratio": 0.83,
         "avg_volume": 102323,
-        "today_volume": 84858,
+        "today_volume": 84861,
         "signal": "HOLD"
       }
     }
@@ -14425,7 +14425,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.63,
-    "today_volume": 482790,
+    "today_volume": 482814,
     "strategies": {
       "골든크로스": {
         "종목코드": "004020",
@@ -14522,7 +14522,7 @@
         "is_spike": "False",
         "ratio": 0.63,
         "avg_volume": 761189,
-        "today_volume": 482790,
+        "today_volume": 482814,
         "signal": "HOLD"
       }
     }
@@ -14542,7 +14542,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.65,
-    "today_volume": 186162,
+    "today_volume": 187134,
     "strategies": {
       "골든크로스": {
         "종목코드": "008930",
@@ -14639,7 +14639,7 @@
         "is_spike": "False",
         "ratio": 0.65,
         "avg_volume": 287256,
-        "today_volume": 186162,
+        "today_volume": 187134,
         "signal": "HOLD"
       }
     }
@@ -14659,7 +14659,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.54,
-    "today_volume": 162431,
+    "today_volume": 162432,
     "strategies": {
       "골든크로스": {
         "종목코드": "192820",
@@ -14756,7 +14756,7 @@
         "is_spike": "False",
         "ratio": 1.54,
         "avg_volume": 105435,
-        "today_volume": 162431,
+        "today_volume": 162432,
         "signal": "HOLD"
       }
     }
@@ -14776,7 +14776,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.83,
-    "today_volume": 1568194,
+    "today_volume": 1568214,
     "strategies": {
       "골든크로스": {
         "종목코드": "082740",
@@ -14873,7 +14873,7 @@
         "is_spike": "False",
         "ratio": 1.83,
         "avg_volume": 854799,
-        "today_volume": 1568194,
+        "today_volume": 1568214,
         "signal": "HOLD"
       }
     }
@@ -14893,7 +14893,7 @@
     "cup_signal": true,
     "volume_spike": "False",
     "volume_ratio": 0.92,
-    "today_volume": 135478,
+    "today_volume": 135517,
     "strategies": {
       "골든크로스": {
         "종목코드": "036460",
@@ -14990,7 +14990,7 @@
         "is_spike": "False",
         "ratio": 0.92,
         "avg_volume": 147418,
-        "today_volume": 135478,
+        "today_volume": 135517,
         "signal": "HOLD"
       }
     }
@@ -15010,7 +15010,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.02,
-    "today_volume": 306597,
+    "today_volume": 306619,
     "strategies": {
       "골든크로스": {
         "종목코드": "161890",
@@ -15107,7 +15107,7 @@
         "is_spike": "False",
         "ratio": 1.02,
         "avg_volume": 301916,
-        "today_volume": 306597,
+        "today_volume": 306619,
         "signal": "HOLD"
       }
     }
@@ -15127,7 +15127,7 @@
     "cup_signal": false,
     "volume_spike": "True",
     "volume_ratio": 2.78,
-    "today_volume": 8647002,
+    "today_volume": 8647403,
     "strategies": {
       "골든크로스": {
         "종목코드": "028670",
@@ -15224,7 +15224,7 @@
         "is_spike": "True",
         "ratio": 2.78,
         "avg_volume": 3115366,
-        "today_volume": 8647002,
+        "today_volume": 8647403,
         "signal": "SPIKE"
       }
     }
@@ -15244,7 +15244,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.94,
-    "today_volume": 262624,
+    "today_volume": 262673,
     "strategies": {
       "골든크로스": {
         "종목코드": "022100",
@@ -15341,7 +15341,7 @@
         "is_spike": "False",
         "ratio": 0.94,
         "avg_volume": 280418,
-        "today_volume": 262624,
+        "today_volume": 262673,
         "signal": "HOLD"
       }
     }
@@ -15478,7 +15478,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.76,
-    "today_volume": 111208,
+    "today_volume": 111211,
     "strategies": {
       "골든크로스": {
         "종목코드": "111770",
@@ -15575,7 +15575,7 @@
         "is_spike": "False",
         "ratio": 1.76,
         "avg_volume": 63126,
-        "today_volume": 111208,
+        "today_volume": 111211,
         "signal": "HOLD"
       }
     }
@@ -15595,7 +15595,7 @@
     "cup_signal": true,
     "volume_spike": "False",
     "volume_ratio": 1.32,
-    "today_volume": 296567,
+    "today_volume": 296592,
     "strategies": {
       "골든크로스": {
         "종목코드": "035250",
@@ -15701,7 +15701,7 @@
         "is_spike": "False",
         "ratio": 1.32,
         "avg_volume": 224786,
-        "today_volume": 296567,
+        "today_volume": 296592,
         "signal": "HOLD"
       }
     }
@@ -15838,7 +15838,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.08,
-    "today_volume": 60405,
+    "today_volume": 60406,
     "strategies": {
       "골든크로스": {
         "종목코드": "014680",
@@ -15935,7 +15935,7 @@
         "is_spike": "False",
         "ratio": 1.08,
         "avg_volume": 56117,
-        "today_volume": 60405,
+        "today_volume": 60406,
         "signal": "HOLD"
       }
     }
@@ -15955,7 +15955,7 @@
     "cup_signal": false,
     "volume_spike": "True",
     "volume_ratio": 2.14,
-    "today_volume": 816195,
+    "today_volume": 816205,
     "strategies": {
       "골든크로스": {
         "종목코드": "020150",
@@ -16052,7 +16052,7 @@
         "is_spike": "True",
         "ratio": 2.14,
         "avg_volume": 380912,
-        "today_volume": 816195,
+        "today_volume": 816205,
         "signal": "SPIKE"
       }
     }
@@ -16774,7 +16774,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.19,
-    "today_volume": 128635,
+    "today_volume": 128651,
     "strategies": {
       "골든크로스": {
         "종목코드": "251270",
@@ -16871,7 +16871,7 @@
         "is_spike": "False",
         "ratio": 0.19,
         "avg_volume": 695251,
-        "today_volume": 128635,
+        "today_volume": 128651,
         "signal": "HOLD"
       }
     }
@@ -17242,7 +17242,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.81,
-    "today_volume": 105233,
+    "today_volume": 105238,
     "strategies": {
       "골든크로스": {
         "종목코드": "085620",
@@ -17339,7 +17339,7 @@
         "is_spike": "False",
         "ratio": 0.81,
         "avg_volume": 130708,
-        "today_volume": 105233,
+        "today_volume": 105238,
         "signal": "HOLD"
       }
     }
@@ -17359,7 +17359,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.7,
-    "today_volume": 1047370,
+    "today_volume": 1047373,
     "strategies": {
       "골든크로스": {
         "종목코드": "006360",
@@ -17456,7 +17456,7 @@
         "is_spike": "False",
         "ratio": 0.7,
         "avg_volume": 1487444,
-        "today_volume": 1047370,
+        "today_volume": 1047373,
         "signal": "HOLD"
       }
     }
@@ -17593,7 +17593,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.79,
-    "today_volume": 575781,
+    "today_volume": 575810,
     "strategies": {
       "골든크로스": {
         "종목코드": "450080",
@@ -17690,7 +17690,7 @@
         "is_spike": "False",
         "ratio": 1.79,
         "avg_volume": 321342,
-        "today_volume": 575781,
+        "today_volume": 575810,
         "signal": "HOLD"
       }
     }
@@ -17710,7 +17710,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.85,
-    "today_volume": 56708,
+    "today_volume": 56764,
     "strategies": {
       "골든크로스": {
         "종목코드": "026960",
@@ -17817,7 +17817,7 @@
         "is_spike": "False",
         "ratio": 0.85,
         "avg_volume": 66930,
-        "today_volume": 56708,
+        "today_volume": 56764,
         "signal": "HOLD"
       }
     }
@@ -17837,7 +17837,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.7,
-    "today_volume": 275740,
+    "today_volume": 275746,
     "strategies": {
       "골든크로스": {
         "종목코드": "375500",
@@ -17934,7 +17934,7 @@
         "is_spike": "False",
         "ratio": 0.7,
         "avg_volume": 394227,
-        "today_volume": 275740,
+        "today_volume": 275746,
         "signal": "HOLD"
       }
     }
@@ -18432,7 +18432,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.68,
-    "today_volume": 31801,
+    "today_volume": 31802,
     "strategies": {
       "골든크로스": {
         "종목코드": "004800",
@@ -18529,7 +18529,7 @@
         "is_spike": "False",
         "ratio": 1.68,
         "avg_volume": 18975,
-        "today_volume": 31801,
+        "today_volume": 31802,
         "signal": "HOLD"
       }
     }
@@ -18549,7 +18549,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.04,
-    "today_volume": 178997,
+    "today_volume": 179003,
     "strategies": {
       "골든크로스": {
         "종목코드": "489790",
@@ -18646,7 +18646,7 @@
         "is_spike": "False",
         "ratio": 1.04,
         "avg_volume": 171462,
-        "today_volume": 178997,
+        "today_volume": 179003,
         "signal": "HOLD"
       }
     }
@@ -18666,7 +18666,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.83,
-    "today_volume": 494128,
+    "today_volume": 494143,
     "strategies": {
       "골든크로스": {
         "종목코드": "281820",
@@ -18763,7 +18763,7 @@
         "is_spike": "False",
         "ratio": 1.83,
         "avg_volume": 269780,
-        "today_volume": 494128,
+        "today_volume": 494143,
         "signal": "HOLD"
       }
     }
@@ -18783,7 +18783,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.66,
-    "today_volume": 425154,
+    "today_volume": 425156,
     "strategies": {
       "골든크로스": {
         "종목코드": "457190",
@@ -18880,7 +18880,7 @@
         "is_spike": "False",
         "ratio": 1.66,
         "avg_volume": 256104,
-        "today_volume": 425154,
+        "today_volume": 425156,
         "signal": "HOLD"
       }
     }
@@ -19017,7 +19017,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.16,
-    "today_volume": 435092,
+    "today_volume": 435103,
     "strategies": {
       "골든크로스": {
         "종목코드": "005440",
@@ -19114,7 +19114,7 @@
         "is_spike": "False",
         "ratio": 1.16,
         "avg_volume": 373912,
-        "today_volume": 435092,
+        "today_volume": 435103,
         "signal": "HOLD"
       }
     }
@@ -19134,7 +19134,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.48,
-    "today_volume": 558168,
+    "today_volume": 558213,
     "strategies": {
       "골든크로스": {
         "종목코드": "112610",
@@ -19231,7 +19231,7 @@
         "is_spike": "False",
         "ratio": 1.48,
         "avg_volume": 377129,
-        "today_volume": 558168,
+        "today_volume": 558213,
         "signal": "HOLD"
       }
     }
@@ -19251,7 +19251,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.58,
-    "today_volume": 108837,
+    "today_volume": 108838,
     "strategies": {
       "골든크로스": {
         "종목코드": "005850",
@@ -19348,7 +19348,7 @@
         "is_spike": "False",
         "ratio": 1.58,
         "avg_volume": 68918,
-        "today_volume": 108837,
+        "today_volume": 108838,
         "signal": "HOLD"
       }
     }
@@ -19719,7 +19719,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.96,
-    "today_volume": 279913,
+    "today_volume": 279914,
     "strategies": {
       "골든크로스": {
         "종목코드": "229640",
@@ -19816,7 +19816,7 @@
         "is_spike": "False",
         "ratio": 0.96,
         "avg_volume": 291446,
-        "today_volume": 279913,
+        "today_volume": 279914,
         "signal": "HOLD"
       }
     }
@@ -19953,7 +19953,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.39,
-    "today_volume": 193435,
+    "today_volume": 193456,
     "strategies": {
       "골든크로스": {
         "종목코드": "483650",
@@ -20050,7 +20050,7 @@
         "is_spike": "False",
         "ratio": 1.39,
         "avg_volume": 139661,
-        "today_volume": 193435,
+        "today_volume": 193456,
         "signal": "HOLD"
       }
     }
@@ -20187,7 +20187,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.02,
-    "today_volume": 487130,
+    "today_volume": 487426,
     "strategies": {
       "골든크로스": {
         "종목코드": "030000",
@@ -20284,7 +20284,7 @@
         "is_spike": "False",
         "ratio": 1.02,
         "avg_volume": 477047,
-        "today_volume": 487130,
+        "today_volume": 487426,
         "signal": "HOLD"
       }
     }
@@ -20304,7 +20304,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.15,
-    "today_volume": 630909,
+    "today_volume": 631013,
     "strategies": {
       "골든크로스": {
         "종목코드": "279570",
@@ -20401,7 +20401,7 @@
         "is_spike": "False",
         "ratio": 1.15,
         "avg_volume": 546605,
-        "today_volume": 630909,
+        "today_volume": 631013,
         "signal": "HOLD"
       }
     }
@@ -20421,7 +20421,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.91,
-    "today_volume": 578158,
+    "today_volume": 578159,
     "strategies": {
       "골든크로스": {
         "종목코드": "007810",
@@ -20518,7 +20518,7 @@
         "is_spike": "False",
         "ratio": 0.91,
         "avg_volume": 632609,
-        "today_volume": 578158,
+        "today_volume": 578159,
         "signal": "HOLD"
       }
     }
@@ -20538,7 +20538,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.55,
-    "today_volume": 392756,
+    "today_volume": 392772,
     "strategies": {
       "골든크로스": {
         "종목코드": "204320",
@@ -20635,7 +20635,7 @@
         "is_spike": "False",
         "ratio": 1.55,
         "avg_volume": 252670,
-        "today_volume": 392756,
+        "today_volume": 392772,
         "signal": "HOLD"
       }
     }
@@ -20889,7 +20889,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.88,
-    "today_volume": 119071,
+    "today_volume": 119121,
     "strategies": {
       "골든크로스": {
         "종목코드": "051600",
@@ -20986,7 +20986,7 @@
         "is_spike": "False",
         "ratio": 0.88,
         "avg_volume": 135434,
-        "today_volume": 119071,
+        "today_volume": 119121,
         "signal": "HOLD"
       }
     }
@@ -21006,7 +21006,7 @@
     "cup_signal": false,
     "volume_spike": "True",
     "volume_ratio": 2.6,
-    "today_volume": 3456561,
+    "today_volume": 3456584,
     "strategies": {
       "골든크로스": {
         "종목코드": "073240",
@@ -21103,7 +21103,7 @@
         "is_spike": "True",
         "ratio": 2.6,
         "avg_volume": 1331706,
-        "today_volume": 3456561,
+        "today_volume": 3456584,
         "signal": "SPIKE"
       }
     }
@@ -21123,7 +21123,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.99,
-    "today_volume": 181285,
+    "today_volume": 181356,
     "strategies": {
       "골든크로스": {
         "종목코드": "139480",
@@ -21220,7 +21220,7 @@
         "is_spike": "False",
         "ratio": 1.99,
         "avg_volume": 91009,
-        "today_volume": 181285,
+        "today_volume": 181356,
         "signal": "HOLD"
       }
     }
@@ -21577,123 +21577,6 @@
     }
   },
   {
-    "code": "181710",
-    "name": "NHN",
-    "sector": "KOSPI200",
-    "signal": "HOLD",
-    "current_price": 52300,
-    "change_pct": -2.43,
-    "signal_source": "OBV",
-    "star_grade": 0,
-    "red_star_grade": 0,
-    "vcp_signal": false,
-    "vcp_breakout": false,
-    "cup_signal": false,
-    "volume_spike": "False",
-    "volume_ratio": 0.76,
-    "today_volume": 126059,
-    "strategies": {
-      "골든크로스": {
-        "종목코드": "181710",
-        "최근일자": "20261013",
-        "현재가": "52300",
-        "5일선": 55340.0,
-        "20일선": 55990.0,
-        "신호": "HOLD",
-        "추세": "하락"
-      },
-      "그물망": {
-        "전략": "그물망 추세 돌파",
-        "종목코드": "181710",
-        "최근일자": "20261013",
-        "현재가": "52300",
-        "EMA20": 56752.94,
-        "EMA40": 56473.2,
-        "EMA60": 54585.56,
-        "정배열": "NO",
-        "그물망폭(오늘)": 2167.38,
-        "그물망폭(어제)": 2558.63,
-        "발산여부": "NO",
-        "신호": "HOLD"
-      },
-      "피보나치": {
-        "전략": "피보나치 황금비율",
-        "종목코드": "181710",
-        "현재가": 52300.0,
-        "1년최고가": 78200.0,
-        "1년최저가": 31500.0,
-        "38.2%라인": 60360.6,
-        "61.8%라인": 49339.4,
-        "60일선위": "NO",
-        "구간내": "YES",
-        "양봉": "YES",
-        "거래량증가": "NO",
-        "신호": "HOLD"
-      },
-      "다이버전스": {
-        "전략": "상승 다이버전스",
-        "종목코드": "181710",
-        "RSI현재": 39.5,
-        "이전저점가": 31500.0,
-        "최근저점가": 51500.0,
-        "주가신저점": "NO",
-        "이전저점RSI": 34.18,
-        "최근저점RSI": 39.5,
-        "RSI저점상승": "YES",
-        "다이버전스": "NO",
-        "양봉": "YES",
-        "RSI30탈출": "NO",
-        "신호": "HOLD"
-      },
-      "월봉3음봉": {
-        "전략": "월봉 3음봉",
-        "종목코드": "181710",
-        "최근4개월": "07월(양) → 08월(양) → 09월(음) → 10월(음)",
-        "3개월연속음봉": "NO",
-        "이번달양봉": "NO",
-        "거래량비율": 0.46,
-        "거래량폭발": "NO",
-        "신호": "HOLD"
-      },
-      "볼린저스퀴즈": {
-        "전략": "볼린저스퀴즈",
-        "종목코드": "181710",
-        "신호": "HOLD",
-        "스퀴즈여부": "YES",
-        "상단돌파": "NO",
-        "밴드폭": 11.31
-      },
-      "OBV": {
-        "전략": "OBV",
-        "종목코드": "181710",
-        "신호": "BUY",
-        "주가추세": "횡보",
-        "OBV추세": "상승",
-        "매집형": "YES"
-      },
-      "VCP": {
-        "detected": false,
-        "contractions": [],
-        "breakout": false
-      },
-      "컵앤핸들": {
-        "detected": false,
-        "cup_depth": 0.0,
-        "handle_depth": 0.0,
-        "breakout": false
-      },
-      "거래량": {
-        "전략": "거래량급증",
-        "종목코드": "181710",
-        "is_spike": "False",
-        "ratio": 0.76,
-        "avg_volume": 165401,
-        "today_volume": 126059,
-        "signal": "HOLD"
-      }
-    }
-  },
-  {
     "code": "007070",
     "name": "GS리테일",
     "sector": "KOSPI200",
@@ -21806,6 +21689,123 @@
         "ratio": 0.91,
         "avg_volume": 167043,
         "today_volume": 151635,
+        "signal": "HOLD"
+      }
+    }
+  },
+  {
+    "code": "181710",
+    "name": "NHN",
+    "sector": "KOSPI200",
+    "signal": "HOLD",
+    "current_price": 52300,
+    "change_pct": -2.43,
+    "signal_source": "OBV",
+    "star_grade": 0,
+    "red_star_grade": 0,
+    "vcp_signal": false,
+    "vcp_breakout": false,
+    "cup_signal": false,
+    "volume_spike": "False",
+    "volume_ratio": 0.76,
+    "today_volume": 126059,
+    "strategies": {
+      "골든크로스": {
+        "종목코드": "181710",
+        "최근일자": "20261013",
+        "현재가": "52300",
+        "5일선": 55340.0,
+        "20일선": 55990.0,
+        "신호": "HOLD",
+        "추세": "하락"
+      },
+      "그물망": {
+        "전략": "그물망 추세 돌파",
+        "종목코드": "181710",
+        "최근일자": "20261013",
+        "현재가": "52300",
+        "EMA20": 56752.94,
+        "EMA40": 56473.2,
+        "EMA60": 54585.56,
+        "정배열": "NO",
+        "그물망폭(오늘)": 2167.38,
+        "그물망폭(어제)": 2558.63,
+        "발산여부": "NO",
+        "신호": "HOLD"
+      },
+      "피보나치": {
+        "전략": "피보나치 황금비율",
+        "종목코드": "181710",
+        "현재가": 52300.0,
+        "1년최고가": 78200.0,
+        "1년최저가": 31500.0,
+        "38.2%라인": 60360.6,
+        "61.8%라인": 49339.4,
+        "60일선위": "NO",
+        "구간내": "YES",
+        "양봉": "YES",
+        "거래량증가": "NO",
+        "신호": "HOLD"
+      },
+      "다이버전스": {
+        "전략": "상승 다이버전스",
+        "종목코드": "181710",
+        "RSI현재": 39.5,
+        "이전저점가": 31500.0,
+        "최근저점가": 51500.0,
+        "주가신저점": "NO",
+        "이전저점RSI": 34.18,
+        "최근저점RSI": 39.5,
+        "RSI저점상승": "YES",
+        "다이버전스": "NO",
+        "양봉": "YES",
+        "RSI30탈출": "NO",
+        "신호": "HOLD"
+      },
+      "월봉3음봉": {
+        "전략": "월봉 3음봉",
+        "종목코드": "181710",
+        "최근4개월": "07월(양) → 08월(양) → 09월(음) → 10월(음)",
+        "3개월연속음봉": "NO",
+        "이번달양봉": "NO",
+        "거래량비율": 0.46,
+        "거래량폭발": "NO",
+        "신호": "HOLD"
+      },
+      "볼린저스퀴즈": {
+        "전략": "볼린저스퀴즈",
+        "종목코드": "181710",
+        "신호": "HOLD",
+        "스퀴즈여부": "YES",
+        "상단돌파": "NO",
+        "밴드폭": 11.31
+      },
+      "OBV": {
+        "전략": "OBV",
+        "종목코드": "181710",
+        "신호": "BUY",
+        "주가추세": "횡보",
+        "OBV추세": "상승",
+        "매집형": "YES"
+      },
+      "VCP": {
+        "detected": false,
+        "contractions": [],
+        "breakout": false
+      },
+      "컵앤핸들": {
+        "detected": false,
+        "cup_depth": 0.0,
+        "handle_depth": 0.0,
+        "breakout": false
+      },
+      "거래량": {
+        "전략": "거래량급증",
+        "종목코드": "181710",
+        "is_spike": "False",
+        "ratio": 0.76,
+        "avg_volume": 165401,
+        "today_volume": 126059,
         "signal": "HOLD"
       }
     }
@@ -21942,7 +21942,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.64,
-    "today_volume": 17266,
+    "today_volume": 17267,
     "strategies": {
       "골든크로스": {
         "종목코드": "000155",
@@ -22039,7 +22039,7 @@
         "is_spike": "False",
         "ratio": 1.64,
         "avg_volume": 10501,
-        "today_volume": 17266,
+        "today_volume": 17267,
         "signal": "HOLD"
       }
     }
@@ -22279,123 +22279,6 @@
     }
   },
   {
-    "code": "001120",
-    "name": "LX인터내셔널",
-    "sector": "KOSPI200",
-    "signal": "HOLD",
-    "current_price": 44050,
-    "change_pct": 0.0,
-    "signal_source": null,
-    "star_grade": 0,
-    "red_star_grade": 0,
-    "vcp_signal": false,
-    "vcp_breakout": false,
-    "cup_signal": false,
-    "volume_spike": "False",
-    "volume_ratio": 1.01,
-    "today_volume": 108813,
-    "strategies": {
-      "골든크로스": {
-        "종목코드": "001120",
-        "최근일자": "20261013",
-        "현재가": "44050",
-        "5일선": 43680.0,
-        "20일선": 41962.5,
-        "신호": "HOLD",
-        "추세": "상승"
-      },
-      "그물망": {
-        "전략": "그물망 추세 돌파",
-        "종목코드": "001120",
-        "최근일자": "20261013",
-        "현재가": "44050",
-        "EMA20": 42141.77,
-        "EMA40": 40954.31,
-        "EMA60": 40513.45,
-        "정배열": "YES",
-        "그물망폭(오늘)": 1628.32,
-        "그물망폭(어제)": 1547.34,
-        "발산여부": "YES",
-        "신호": "HOLD"
-      },
-      "피보나치": {
-        "전략": "피보나치 황금비율",
-        "종목코드": "001120",
-        "현재가": 44050.0,
-        "1년최고가": 46850.0,
-        "1년최저가": 33050.0,
-        "38.2%라인": 41578.4,
-        "61.8%라인": 38321.6,
-        "60일선위": "YES",
-        "구간내": "NO",
-        "양봉": "YES",
-        "거래량증가": "NO",
-        "신호": "HOLD"
-      },
-      "다이버전스": {
-        "전략": "상승 다이버전스",
-        "종목코드": "001120",
-        "RSI현재": 62.96,
-        "이전저점가": 33050.0,
-        "최근저점가": 36950.0,
-        "주가신저점": "NO",
-        "이전저점RSI": 26.1,
-        "최근저점RSI": 51.07,
-        "RSI저점상승": "YES",
-        "다이버전스": "NO",
-        "양봉": "YES",
-        "RSI30탈출": "NO",
-        "신호": "HOLD"
-      },
-      "월봉3음봉": {
-        "전략": "월봉 3음봉",
-        "종목코드": "001120",
-        "최근4개월": "07월(양) → 08월(양) → 09월(양) → 10월(양)",
-        "3개월연속음봉": "NO",
-        "이번달양봉": "YES",
-        "거래량비율": 0.96,
-        "거래량폭발": "NO",
-        "신호": "HOLD"
-      },
-      "볼린저스퀴즈": {
-        "전략": "볼린저스퀴즈",
-        "종목코드": "001120",
-        "신호": "HOLD",
-        "스퀴즈여부": "NO",
-        "상단돌파": "NO",
-        "밴드폭": 13.88
-      },
-      "OBV": {
-        "전략": "OBV",
-        "종목코드": "001120",
-        "신호": "HOLD",
-        "주가추세": "상승",
-        "OBV추세": "상승",
-        "매집형": "NO"
-      },
-      "VCP": {
-        "detected": false,
-        "contractions": [],
-        "breakout": false
-      },
-      "컵앤핸들": {
-        "detected": false,
-        "cup_depth": 0.0,
-        "handle_depth": 0.0,
-        "breakout": false
-      },
-      "거래량": {
-        "전략": "거래량급증",
-        "종목코드": "001120",
-        "is_spike": "False",
-        "ratio": 1.01,
-        "avg_volume": 108235,
-        "today_volume": 108813,
-        "signal": "HOLD"
-      }
-    }
-  },
-  {
     "code": "001430",
     "name": "세아베스틸지주",
     "sector": "KOSPI200",
@@ -22508,6 +22391,123 @@
         "ratio": 0.99,
         "avg_volume": 142372,
         "today_volume": 140364,
+        "signal": "HOLD"
+      }
+    }
+  },
+  {
+    "code": "001120",
+    "name": "LX인터내셔널",
+    "sector": "KOSPI200",
+    "signal": "HOLD",
+    "current_price": 44050,
+    "change_pct": 0.0,
+    "signal_source": null,
+    "star_grade": 0,
+    "red_star_grade": 0,
+    "vcp_signal": false,
+    "vcp_breakout": false,
+    "cup_signal": false,
+    "volume_spike": "False",
+    "volume_ratio": 1.01,
+    "today_volume": 108852,
+    "strategies": {
+      "골든크로스": {
+        "종목코드": "001120",
+        "최근일자": "20261013",
+        "현재가": "44050",
+        "5일선": 43680.0,
+        "20일선": 41962.5,
+        "신호": "HOLD",
+        "추세": "상승"
+      },
+      "그물망": {
+        "전략": "그물망 추세 돌파",
+        "종목코드": "001120",
+        "최근일자": "20261013",
+        "현재가": "44050",
+        "EMA20": 42141.77,
+        "EMA40": 40954.31,
+        "EMA60": 40513.45,
+        "정배열": "YES",
+        "그물망폭(오늘)": 1628.32,
+        "그물망폭(어제)": 1547.34,
+        "발산여부": "YES",
+        "신호": "HOLD"
+      },
+      "피보나치": {
+        "전략": "피보나치 황금비율",
+        "종목코드": "001120",
+        "현재가": 44050.0,
+        "1년최고가": 46850.0,
+        "1년최저가": 33050.0,
+        "38.2%라인": 41578.4,
+        "61.8%라인": 38321.6,
+        "60일선위": "YES",
+        "구간내": "NO",
+        "양봉": "YES",
+        "거래량증가": "NO",
+        "신호": "HOLD"
+      },
+      "다이버전스": {
+        "전략": "상승 다이버전스",
+        "종목코드": "001120",
+        "RSI현재": 62.96,
+        "이전저점가": 33050.0,
+        "최근저점가": 36950.0,
+        "주가신저점": "NO",
+        "이전저점RSI": 26.1,
+        "최근저점RSI": 51.07,
+        "RSI저점상승": "YES",
+        "다이버전스": "NO",
+        "양봉": "YES",
+        "RSI30탈출": "NO",
+        "신호": "HOLD"
+      },
+      "월봉3음봉": {
+        "전략": "월봉 3음봉",
+        "종목코드": "001120",
+        "최근4개월": "07월(양) → 08월(양) → 09월(양) → 10월(양)",
+        "3개월연속음봉": "NO",
+        "이번달양봉": "YES",
+        "거래량비율": 0.96,
+        "거래량폭발": "NO",
+        "신호": "HOLD"
+      },
+      "볼린저스퀴즈": {
+        "전략": "볼린저스퀴즈",
+        "종목코드": "001120",
+        "신호": "HOLD",
+        "스퀴즈여부": "NO",
+        "상단돌파": "NO",
+        "밴드폭": 13.88
+      },
+      "OBV": {
+        "전략": "OBV",
+        "종목코드": "001120",
+        "신호": "HOLD",
+        "주가추세": "상승",
+        "OBV추세": "상승",
+        "매집형": "NO"
+      },
+      "VCP": {
+        "detected": false,
+        "contractions": [],
+        "breakout": false
+      },
+      "컵앤핸들": {
+        "detected": false,
+        "cup_depth": 0.0,
+        "handle_depth": 0.0,
+        "breakout": false
+      },
+      "거래량": {
+        "전략": "거래량급증",
+        "종목코드": "001120",
+        "is_spike": "False",
+        "ratio": 1.01,
+        "avg_volume": 108235,
+        "today_volume": 108852,
         "signal": "HOLD"
       }
     }
@@ -22644,7 +22644,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.7,
-    "today_volume": 199588,
+    "today_volume": 199602,
     "strategies": {
       "골든크로스": {
         "종목코드": "322000",
@@ -22741,7 +22741,7 @@
         "is_spike": "False",
         "ratio": 0.7,
         "avg_volume": 286233,
-        "today_volume": 199588,
+        "today_volume": 199602,
         "signal": "HOLD"
       }
     }
@@ -22761,7 +22761,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.41,
-    "today_volume": 439929,
+    "today_volume": 439980,
     "strategies": {
       "골든크로스": {
         "종목코드": "001820",
@@ -22858,7 +22858,7 @@
         "is_spike": "False",
         "ratio": 0.41,
         "avg_volume": 1075824,
-        "today_volume": 439929,
+        "today_volume": 439980,
         "signal": "HOLD"
       }
     }
@@ -22878,7 +22878,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.4,
-    "today_volume": 1838671,
+    "today_volume": 1839654,
     "strategies": {
       "골든크로스": {
         "종목코드": "093370",
@@ -22975,7 +22975,7 @@
         "is_spike": "False",
         "ratio": 0.4,
         "avg_volume": 4594386,
-        "today_volume": 1838671,
+        "today_volume": 1839654,
         "signal": "HOLD"
       }
     }
@@ -22995,7 +22995,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.27,
-    "today_volume": 253116,
+    "today_volume": 253363,
     "strategies": {
       "골든크로스": {
         "종목코드": "395400",
@@ -23092,7 +23092,7 @@
         "is_spike": "False",
         "ratio": 1.27,
         "avg_volume": 199804,
-        "today_volume": 253116,
+        "today_volume": 253363,
         "signal": "HOLD"
       }
     }
@@ -23112,7 +23112,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.3,
-    "today_volume": 59309,
+    "today_volume": 59329,
     "strategies": {
       "골든크로스": {
         "종목코드": "000120",
@@ -23209,7 +23209,7 @@
         "is_spike": "False",
         "ratio": 1.3,
         "avg_volume": 45672,
-        "today_volume": 59309,
+        "today_volume": 59329,
         "signal": "HOLD"
       }
     }
@@ -23229,7 +23229,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.93,
-    "today_volume": 42882,
+    "today_volume": 42883,
     "strategies": {
       "골든크로스": {
         "종목코드": "023590",
@@ -23326,7 +23326,7 @@
         "is_spike": "False",
         "ratio": 0.93,
         "avg_volume": 46121,
-        "today_volume": 42882,
+        "today_volume": 42883,
         "signal": "HOLD"
       }
     }
@@ -23346,7 +23346,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.75,
-    "today_volume": 625318,
+    "today_volume": 625434,
     "strategies": {
       "골든크로스": {
         "종목코드": "475150",
@@ -23443,7 +23443,7 @@
         "is_spike": "False",
         "ratio": 0.75,
         "avg_volume": 832286,
-        "today_volume": 625318,
+        "today_volume": 625434,
         "signal": "HOLD"
       }
     }
@@ -23697,7 +23697,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.69,
-    "today_volume": 395542,
+    "today_volume": 395556,
     "strategies": {
       "골든크로스": {
         "종목코드": "361610",
@@ -23794,7 +23794,7 @@
         "is_spike": "False",
         "ratio": 0.69,
         "avg_volume": 572311,
-        "today_volume": 395542,
+        "today_volume": 395556,
         "signal": "HOLD"
       }
     }
@@ -23814,7 +23814,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.28,
-    "today_volume": 213696,
+    "today_volume": 213704,
     "strategies": {
       "골든크로스": {
         "종목코드": "008770",
@@ -23911,7 +23911,7 @@
         "is_spike": "False",
         "ratio": 1.28,
         "avg_volume": 166985,
-        "today_volume": 213696,
+        "today_volume": 213704,
         "signal": "HOLD"
       }
     }
@@ -24034,123 +24034,6 @@
     }
   },
   {
-    "code": "196170",
-    "name": "알테오젠",
-    "sector": "KOSDAQ150",
-    "signal": "HOLD",
-    "current_price": 224500,
-    "change_pct": -3.02,
-    "signal_source": "OBV",
-    "star_grade": 0,
-    "red_star_grade": 0,
-    "vcp_signal": false,
-    "vcp_breakout": false,
-    "cup_signal": false,
-    "volume_spike": "False",
-    "volume_ratio": 1.13,
-    "today_volume": 383630,
-    "strategies": {
-      "골든크로스": {
-        "종목코드": "196170",
-        "최근일자": "20261013",
-        "현재가": "224500",
-        "5일선": 242200.0,
-        "20일선": 253925.0,
-        "신호": "HOLD",
-        "추세": "하락"
-      },
-      "그물망": {
-        "전략": "그물망 추세 돌파",
-        "종목코드": "196170",
-        "최근일자": "20261013",
-        "현재가": "224500",
-        "EMA20": 255307.36,
-        "EMA40": 264567.51,
-        "EMA60": 268045.81,
-        "정배열": "NO",
-        "그물망폭(오늘)": -12738.45,
-        "그물망폭(어제)": -10971.69,
-        "발산여부": "NO",
-        "신호": "HOLD"
-      },
-      "피보나치": {
-        "전략": "피보나치 황금비율",
-        "종목코드": "196170",
-        "현재가": 224500.0,
-        "1년최고가": 356000.0,
-        "1년최저가": 194671.0,
-        "38.2%라인": 294372.32,
-        "61.8%라인": 256298.68,
-        "60일선위": "NO",
-        "구간내": "NO",
-        "양봉": "YES",
-        "거래량증가": "NO",
-        "신호": "HOLD"
-      },
-      "다이버전스": {
-        "전략": "상승 다이버전스",
-        "종목코드": "196170",
-        "RSI현재": 27.93,
-        "이전저점가": 194671.0,
-        "최근저점가": 217500.0,
-        "주가신저점": "NO",
-        "이전저점RSI": 34.65,
-        "최근저점RSI": 27.93,
-        "RSI저점상승": "NO",
-        "다이버전스": "NO",
-        "양봉": "YES",
-        "RSI30탈출": "NO",
-        "신호": "HOLD"
-      },
-      "월봉3음봉": {
-        "전략": "월봉 3음봉",
-        "종목코드": "196170",
-        "최근4개월": "07월(음) → 08월(양) → 09월(음) → 10월(음)",
-        "3개월연속음봉": "NO",
-        "이번달양봉": "NO",
-        "거래량비율": 0.96,
-        "거래량폭발": "NO",
-        "신호": "HOLD"
-      },
-      "볼린저스퀴즈": {
-        "전략": "볼린저스퀴즈",
-        "종목코드": "196170",
-        "신호": "HOLD",
-        "스퀴즈여부": "YES",
-        "상단돌파": "NO",
-        "밴드폭": 18.87
-      },
-      "OBV": {
-        "전략": "OBV",
-        "종목코드": "196170",
-        "신호": "BUY",
-        "주가추세": "하락",
-        "OBV추세": "상승",
-        "매집형": "YES"
-      },
-      "VCP": {
-        "detected": false,
-        "contractions": [],
-        "breakout": false
-      },
-      "컵앤핸들": {
-        "detected": false,
-        "cup_depth": 0.0,
-        "handle_depth": 0.0,
-        "breakout": false
-      },
-      "거래량": {
-        "전략": "거래량급증",
-        "종목코드": "196170",
-        "is_spike": "False",
-        "ratio": 1.13,
-        "avg_volume": 339922,
-        "today_volume": 383630,
-        "signal": "HOLD"
-      }
-    }
-  },
-  {
     "code": "247540",
     "name": "에코프로비엠",
     "sector": "KOSDAQ150",
@@ -24165,7 +24048,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.33,
-    "today_volume": 550773,
+    "today_volume": 550790,
     "strategies": {
       "골든크로스": {
         "종목코드": "247540",
@@ -24262,7 +24145,124 @@
         "is_spike": "False",
         "ratio": 1.33,
         "avg_volume": 414495,
-        "today_volume": 550773,
+        "today_volume": 550790,
+        "signal": "HOLD"
+      }
+    }
+  },
+  {
+    "code": "196170",
+    "name": "알테오젠",
+    "sector": "KOSDAQ150",
+    "signal": "HOLD",
+    "current_price": 224500,
+    "change_pct": -3.02,
+    "signal_source": "OBV",
+    "star_grade": 0,
+    "red_star_grade": 0,
+    "vcp_signal": false,
+    "vcp_breakout": false,
+    "cup_signal": false,
+    "volume_spike": "False",
+    "volume_ratio": 1.13,
+    "today_volume": 383642,
+    "strategies": {
+      "골든크로스": {
+        "종목코드": "196170",
+        "최근일자": "20261013",
+        "현재가": "224500",
+        "5일선": 242200.0,
+        "20일선": 253925.0,
+        "신호": "HOLD",
+        "추세": "하락"
+      },
+      "그물망": {
+        "전략": "그물망 추세 돌파",
+        "종목코드": "196170",
+        "최근일자": "20261013",
+        "현재가": "224500",
+        "EMA20": 255307.36,
+        "EMA40": 264567.51,
+        "EMA60": 268045.81,
+        "정배열": "NO",
+        "그물망폭(오늘)": -12738.45,
+        "그물망폭(어제)": -10971.69,
+        "발산여부": "NO",
+        "신호": "HOLD"
+      },
+      "피보나치": {
+        "전략": "피보나치 황금비율",
+        "종목코드": "196170",
+        "현재가": 224500.0,
+        "1년최고가": 356000.0,
+        "1년최저가": 194671.0,
+        "38.2%라인": 294372.32,
+        "61.8%라인": 256298.68,
+        "60일선위": "NO",
+        "구간내": "NO",
+        "양봉": "YES",
+        "거래량증가": "NO",
+        "신호": "HOLD"
+      },
+      "다이버전스": {
+        "전략": "상승 다이버전스",
+        "종목코드": "196170",
+        "RSI현재": 27.93,
+        "이전저점가": 194671.0,
+        "최근저점가": 217500.0,
+        "주가신저점": "NO",
+        "이전저점RSI": 34.65,
+        "최근저점RSI": 27.93,
+        "RSI저점상승": "NO",
+        "다이버전스": "NO",
+        "양봉": "YES",
+        "RSI30탈출": "NO",
+        "신호": "HOLD"
+      },
+      "월봉3음봉": {
+        "전략": "월봉 3음봉",
+        "종목코드": "196170",
+        "최근4개월": "07월(음) → 08월(양) → 09월(음) → 10월(음)",
+        "3개월연속음봉": "NO",
+        "이번달양봉": "NO",
+        "거래량비율": 0.96,
+        "거래량폭발": "NO",
+        "신호": "HOLD"
+      },
+      "볼린저스퀴즈": {
+        "전략": "볼린저스퀴즈",
+        "종목코드": "196170",
+        "신호": "HOLD",
+        "스퀴즈여부": "YES",
+        "상단돌파": "NO",
+        "밴드폭": 18.87
+      },
+      "OBV": {
+        "전략": "OBV",
+        "종목코드": "196170",
+        "신호": "BUY",
+        "주가추세": "하락",
+        "OBV추세": "상승",
+        "매집형": "YES"
+      },
+      "VCP": {
+        "detected": false,
+        "contractions": [],
+        "breakout": false
+      },
+      "컵앤핸들": {
+        "detected": false,
+        "cup_depth": 0.0,
+        "handle_depth": 0.0,
+        "breakout": false
+      },
+      "거래량": {
+        "전략": "거래량급증",
+        "종목코드": "196170",
+        "is_spike": "False",
+        "ratio": 1.13,
+        "avg_volume": 339922,
+        "today_volume": 383642,
         "signal": "HOLD"
       }
     }
@@ -24282,7 +24282,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.39,
-    "today_volume": 942940,
+    "today_volume": 942968,
     "strategies": {
       "골든크로스": {
         "종목코드": "086520",
@@ -24379,7 +24379,7 @@
         "is_spike": "False",
         "ratio": 1.39,
         "avg_volume": 678613,
-        "today_volume": 942940,
+        "today_volume": 942968,
         "signal": "HOLD"
       }
     }
@@ -24399,7 +24399,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.28,
-    "today_volume": 2150495,
+    "today_volume": 2152114,
     "strategies": {
       "골든크로스": {
         "종목코드": "036930",
@@ -24496,7 +24496,7 @@
         "is_spike": "False",
         "ratio": 1.28,
         "avg_volume": 1686340,
-        "today_volume": 2150495,
+        "today_volume": 2152114,
         "signal": "HOLD"
       }
     }
@@ -24633,7 +24633,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.16,
-    "today_volume": 1243320,
+    "today_volume": 1243763,
     "strategies": {
       "골든크로스": {
         "종목코드": "058470",
@@ -24730,7 +24730,7 @@
         "is_spike": "False",
         "ratio": 1.16,
         "avg_volume": 1076150,
-        "today_volume": 1243320,
+        "today_volume": 1243763,
         "signal": "HOLD"
       }
     }
@@ -24750,7 +24750,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.64,
-    "today_volume": 1201624,
+    "today_volume": 1201644,
     "strategies": {
       "골든크로스": {
         "종목코드": "222800",
@@ -24847,7 +24847,7 @@
         "is_spike": "False",
         "ratio": 1.64,
         "avg_volume": 733743,
-        "today_volume": 1201624,
+        "today_volume": 1201644,
         "signal": "HOLD"
       }
     }
@@ -24867,7 +24867,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.87,
-    "today_volume": 1102121,
+    "today_volume": 1103108,
     "strategies": {
       "골든크로스": {
         "종목코드": "240810",
@@ -24964,7 +24964,7 @@
         "is_spike": "False",
         "ratio": 0.87,
         "avg_volume": 1264399,
-        "today_volume": 1102121,
+        "today_volume": 1103108,
         "signal": "HOLD"
       }
     }
@@ -24984,7 +24984,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.72,
-    "today_volume": 87219,
+    "today_volume": 87277,
     "strategies": {
       "골든크로스": {
         "종목코드": "039030",
@@ -25081,7 +25081,7 @@
         "is_spike": "False",
         "ratio": 0.72,
         "avg_volume": 121241,
-        "today_volume": 87219,
+        "today_volume": 87277,
         "signal": "HOLD"
       }
     }
@@ -25218,7 +25218,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.95,
-    "today_volume": 148208,
+    "today_volume": 148209,
     "strategies": {
       "골든크로스": {
         "종목코드": "000250",
@@ -25315,7 +25315,7 @@
         "is_spike": "False",
         "ratio": 0.95,
         "avg_volume": 156696,
-        "today_volume": 148208,
+        "today_volume": 148209,
         "signal": "HOLD"
       }
     }
@@ -25335,7 +25335,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.94,
-    "today_volume": 2203445,
+    "today_volume": 2207965,
     "strategies": {
       "골든크로스": {
         "종목코드": "403870",
@@ -25432,7 +25432,7 @@
         "is_spike": "False",
         "ratio": 0.94,
         "avg_volume": 2349472,
-        "today_volume": 2203445,
+        "today_volume": 2207965,
         "signal": "HOLD"
       }
     }
@@ -25452,7 +25452,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.34,
-    "today_volume": 253792,
+    "today_volume": 253850,
     "strategies": {
       "골든크로스": {
         "종목코드": "031980",
@@ -25549,7 +25549,7 @@
         "is_spike": "False",
         "ratio": 1.34,
         "avg_volume": 189578,
-        "today_volume": 253792,
+        "today_volume": 253850,
         "signal": "HOLD"
       }
     }
@@ -25686,7 +25686,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.87,
-    "today_volume": 149144,
+    "today_volume": 149181,
     "strategies": {
       "골든크로스": {
         "종목코드": "095340",
@@ -25783,7 +25783,7 @@
         "is_spike": "False",
         "ratio": 0.87,
         "avg_volume": 171012,
-        "today_volume": 149144,
+        "today_volume": 149181,
         "signal": "HOLD"
       }
     }
@@ -25803,7 +25803,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.34,
-    "today_volume": 517960,
+    "today_volume": 518176,
     "strategies": {
       "골든크로스": {
         "종목코드": "319660",
@@ -25900,7 +25900,7 @@
         "is_spike": "False",
         "ratio": 1.34,
         "avg_volume": 385559,
-        "today_volume": 517960,
+        "today_volume": 518176,
         "signal": "HOLD"
       }
     }
@@ -25920,7 +25920,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.07,
-    "today_volume": 628788,
+    "today_volume": 629033,
     "strategies": {
       "골든크로스": {
         "종목코드": "440110",
@@ -26017,7 +26017,7 @@
         "is_spike": "False",
         "ratio": 1.07,
         "avg_volume": 590050,
-        "today_volume": 628788,
+        "today_volume": 629033,
         "signal": "HOLD"
       }
     }
@@ -26037,7 +26037,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.24,
-    "today_volume": 249421,
+    "today_volume": 249492,
     "strategies": {
       "골든크로스": {
         "종목코드": "084370",
@@ -26134,7 +26134,7 @@
         "is_spike": "False",
         "ratio": 1.24,
         "avg_volume": 201546,
-        "today_volume": 249421,
+        "today_volume": 249492,
         "signal": "HOLD"
       }
     }
@@ -26154,7 +26154,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.26,
-    "today_volume": 184170,
+    "today_volume": 184199,
     "strategies": {
       "골든크로스": {
         "종목코드": "131290",
@@ -26251,7 +26251,7 @@
         "is_spike": "False",
         "ratio": 1.26,
         "avg_volume": 146741,
-        "today_volume": 184170,
+        "today_volume": 184199,
         "signal": "HOLD"
       }
     }
@@ -26271,7 +26271,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.96,
-    "today_volume": 1945688,
+    "today_volume": 1946232,
     "strategies": {
       "골든크로스": {
         "종목코드": "067310",
@@ -26368,7 +26368,7 @@
         "is_spike": "False",
         "ratio": 0.96,
         "avg_volume": 2034752,
-        "today_volume": 1945688,
+        "today_volume": 1946232,
         "signal": "HOLD"
       }
     }
@@ -26388,7 +26388,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.62,
-    "today_volume": 112476,
+    "today_volume": 112523,
     "strategies": {
       "골든크로스": {
         "종목코드": "064760",
@@ -26485,7 +26485,7 @@
         "is_spike": "False",
         "ratio": 1.62,
         "avg_volume": 69411,
-        "today_volume": 112476,
+        "today_volume": 112523,
         "signal": "HOLD"
       }
     }
@@ -26622,7 +26622,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.67,
-    "today_volume": 235128,
+    "today_volume": 235250,
     "strategies": {
       "골든크로스": {
         "종목코드": "095610",
@@ -26719,7 +26719,7 @@
         "is_spike": "False",
         "ratio": 0.67,
         "avg_volume": 350705,
-        "today_volume": 235128,
+        "today_volume": 235250,
         "signal": "HOLD"
       }
     }
@@ -26856,7 +26856,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.85,
-    "today_volume": 1213481,
+    "today_volume": 1214206,
     "strategies": {
       "골든크로스": {
         "종목코드": "080220",
@@ -26953,7 +26953,7 @@
         "is_spike": "False",
         "ratio": 0.85,
         "avg_volume": 1425688,
-        "today_volume": 1213481,
+        "today_volume": 1214206,
         "signal": "HOLD"
       }
     }
@@ -26973,7 +26973,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.08,
-    "today_volume": 226063,
+    "today_volume": 226064,
     "strategies": {
       "골든크로스": {
         "종목코드": "141080",
@@ -27070,7 +27070,7 @@
         "is_spike": "False",
         "ratio": 1.08,
         "avg_volume": 208487,
-        "today_volume": 226063,
+        "today_volume": 226064,
         "signal": "HOLD"
       }
     }
@@ -27090,7 +27090,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.01,
-    "today_volume": 396184,
+    "today_volume": 396194,
     "strategies": {
       "골든크로스": {
         "종목코드": "298380",
@@ -27187,7 +27187,7 @@
         "is_spike": "False",
         "ratio": 1.01,
         "avg_volume": 390508,
-        "today_volume": 396184,
+        "today_volume": 396194,
         "signal": "HOLD"
       }
     }
@@ -27207,7 +27207,7 @@
     "cup_signal": false,
     "volume_spike": "True",
     "volume_ratio": 2.41,
-    "today_volume": 596890,
+    "today_volume": 596906,
     "strategies": {
       "골든크로스": {
         "종목코드": "226950",
@@ -27304,7 +27304,7 @@
         "is_spike": "True",
         "ratio": 2.41,
         "avg_volume": 247298,
-        "today_volume": 596890,
+        "today_volume": 596906,
         "signal": "SPIKE"
       }
     }
@@ -27324,7 +27324,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.41,
-    "today_volume": 6207767,
+    "today_volume": 6210337,
     "strategies": {
       "골든크로스": {
         "종목코드": "010170",
@@ -27421,7 +27421,7 @@
         "is_spike": "False",
         "ratio": 0.41,
         "avg_volume": 15297744,
-        "today_volume": 6207767,
+        "today_volume": 6210337,
         "signal": "HOLD"
       }
     }
@@ -27441,7 +27441,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.98,
-    "today_volume": 1124166,
+    "today_volume": 1124240,
     "strategies": {
       "골든크로스": {
         "종목코드": "178320",
@@ -27538,7 +27538,7 @@
         "is_spike": "False",
         "ratio": 0.98,
         "avg_volume": 1146225,
-        "today_volume": 1124166,
+        "today_volume": 1124240,
         "signal": "HOLD"
       }
     }
@@ -27558,7 +27558,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.94,
-    "today_volume": 420355,
+    "today_volume": 420359,
     "strategies": {
       "골든크로스": {
         "종목코드": "005290",
@@ -27655,7 +27655,7 @@
         "is_spike": "False",
         "ratio": 0.94,
         "avg_volume": 448577,
-        "today_volume": 420355,
+        "today_volume": 420359,
         "signal": "HOLD"
       }
     }
@@ -27792,7 +27792,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.13,
-    "today_volume": 1791137,
+    "today_volume": 1791782,
     "strategies": {
       "골든크로스": {
         "종목코드": "098460",
@@ -27889,7 +27889,7 @@
         "is_spike": "False",
         "ratio": 1.13,
         "avg_volume": 1588796,
-        "today_volume": 1791137,
+        "today_volume": 1791782,
         "signal": "HOLD"
       }
     }
@@ -27909,7 +27909,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.48,
-    "today_volume": 2529631,
+    "today_volume": 2530580,
     "strategies": {
       "골든크로스": {
         "종목코드": "043260",
@@ -28006,7 +28006,7 @@
         "is_spike": "False",
         "ratio": 0.48,
         "avg_volume": 5248918,
-        "today_volume": 2529631,
+        "today_volume": 2530580,
         "signal": "HOLD"
       }
     }
@@ -28026,7 +28026,7 @@
     "cup_signal": false,
     "volume_spike": "True",
     "volume_ratio": 2.18,
-    "today_volume": 953172,
+    "today_volume": 953231,
     "strategies": {
       "골든크로스": {
         "종목코드": "131970",
@@ -28123,7 +28123,7 @@
         "is_spike": "True",
         "ratio": 2.18,
         "avg_volume": 437193,
-        "today_volume": 953172,
+        "today_volume": 953231,
         "signal": "SPIKE"
       }
     }
@@ -28143,7 +28143,7 @@
     "cup_signal": false,
     "volume_spike": "True",
     "volume_ratio": 2.21,
-    "today_volume": 1630510,
+    "today_volume": 1630592,
     "strategies": {
       "골든크로스": {
         "종목코드": "257720",
@@ -28240,7 +28240,7 @@
         "is_spike": "True",
         "ratio": 2.21,
         "avg_volume": 736214,
-        "today_volume": 1630510,
+        "today_volume": 1630592,
         "signal": "SPIKE"
       }
     }
@@ -28260,7 +28260,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.07,
-    "today_volume": 67580,
+    "today_volume": 67611,
     "strategies": {
       "골든크로스": {
         "종목코드": "145020",
@@ -28357,7 +28357,7 @@
         "is_spike": "False",
         "ratio": 1.07,
         "avg_volume": 63162,
-        "today_volume": 67580,
+        "today_volume": 67611,
         "signal": "HOLD"
       }
     }
@@ -28377,7 +28377,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.63,
-    "today_volume": 706599,
+    "today_volume": 706764,
     "strategies": {
       "골든크로스": {
         "종목코드": "319400",
@@ -28474,7 +28474,7 @@
         "is_spike": "False",
         "ratio": 0.63,
         "avg_volume": 1113090,
-        "today_volume": 706599,
+        "today_volume": 706764,
         "signal": "HOLD"
       }
     }
@@ -28494,7 +28494,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.84,
-    "today_volume": 54571,
+    "today_volume": 54572,
     "strategies": {
       "골든크로스": {
         "종목코드": "214370",
@@ -28591,7 +28591,7 @@
         "is_spike": "False",
         "ratio": 0.84,
         "avg_volume": 64619,
-        "today_volume": 54571,
+        "today_volume": 54572,
         "signal": "HOLD"
       }
     }
@@ -28611,7 +28611,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.35,
-    "today_volume": 745756,
+    "today_volume": 745968,
     "strategies": {
       "골든크로스": {
         "종목코드": "030530",
@@ -28708,7 +28708,7 @@
         "is_spike": "False",
         "ratio": 0.35,
         "avg_volume": 2137595,
-        "today_volume": 745756,
+        "today_volume": 745968,
         "signal": "HOLD"
       }
     }
@@ -28728,7 +28728,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.91,
-    "today_volume": 30754,
+    "today_volume": 30755,
     "strategies": {
       "골든크로스": {
         "종목코드": "140860",
@@ -28825,7 +28825,7 @@
         "is_spike": "False",
         "ratio": 0.91,
         "avg_volume": 33841,
-        "today_volume": 30754,
+        "today_volume": 30755,
         "signal": "HOLD"
       }
     }
@@ -28845,7 +28845,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.56,
-    "today_volume": 194172,
+    "today_volume": 194187,
     "strategies": {
       "골든크로스": {
         "종목코드": "058610",
@@ -28942,7 +28942,7 @@
         "is_spike": "False",
         "ratio": 0.56,
         "avg_volume": 347650,
-        "today_volume": 194172,
+        "today_volume": 194187,
         "signal": "HOLD"
       }
     }
@@ -28962,7 +28962,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.42,
-    "today_volume": 326074,
+    "today_volume": 326083,
     "strategies": {
       "골든크로스": {
         "종목코드": "087010",
@@ -29059,7 +29059,7 @@
         "is_spike": "False",
         "ratio": 1.42,
         "avg_volume": 229941,
-        "today_volume": 326074,
+        "today_volume": 326083,
         "signal": "HOLD"
       }
     }
@@ -29079,7 +29079,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.03,
-    "today_volume": 105817,
+    "today_volume": 105822,
     "strategies": {
       "골든크로스": {
         "종목코드": "140410",
@@ -29176,7 +29176,7 @@
         "is_spike": "False",
         "ratio": 1.03,
         "avg_volume": 102608,
-        "today_volume": 105817,
+        "today_volume": 105822,
         "signal": "HOLD"
       }
     }
@@ -29196,7 +29196,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.05,
-    "today_volume": 218081,
+    "today_volume": 218084,
     "strategies": {
       "골든크로스": {
         "종목코드": "263750",
@@ -29293,7 +29293,7 @@
         "is_spike": "False",
         "ratio": 1.05,
         "avg_volume": 208151,
-        "today_volume": 218081,
+        "today_volume": 218084,
         "signal": "HOLD"
       }
     }
@@ -29313,7 +29313,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.84,
-    "today_volume": 635788,
+    "today_volume": 636230,
     "strategies": {
       "골든크로스": {
         "종목코드": "089030",
@@ -29410,7 +29410,7 @@
         "is_spike": "False",
         "ratio": 0.84,
         "avg_volume": 753605,
-        "today_volume": 635788,
+        "today_volume": 636230,
         "signal": "HOLD"
       }
     }
@@ -29430,7 +29430,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.35,
-    "today_volume": 2217545,
+    "today_volume": 2217960,
     "strategies": {
       "골든크로스": {
         "종목코드": "032820",
@@ -29527,7 +29527,7 @@
         "is_spike": "False",
         "ratio": 0.35,
         "avg_volume": 6285244,
-        "today_volume": 2217545,
+        "today_volume": 2217960,
         "signal": "HOLD"
       }
     }
@@ -29664,7 +29664,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.26,
-    "today_volume": 694271,
+    "today_volume": 695003,
     "strategies": {
       "골든크로스": {
         "종목코드": "347850",
@@ -29761,7 +29761,7 @@
         "is_spike": "False",
         "ratio": 1.26,
         "avg_volume": 550732,
-        "today_volume": 694271,
+        "today_volume": 695003,
         "signal": "HOLD"
       }
     }
@@ -29781,7 +29781,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.75,
-    "today_volume": 64715,
+    "today_volume": 64716,
     "strategies": {
       "골든크로스": {
         "종목코드": "237690",
@@ -29878,7 +29878,7 @@
         "is_spike": "False",
         "ratio": 0.75,
         "avg_volume": 85783,
-        "today_volume": 64715,
+        "today_volume": 64716,
         "signal": "HOLD"
       }
     }
@@ -29898,7 +29898,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.92,
-    "today_volume": 386892,
+    "today_volume": 386989,
     "strategies": {
       "골든크로스": {
         "종목코드": "323280",
@@ -29995,7 +29995,7 @@
         "is_spike": "False",
         "ratio": 0.92,
         "avg_volume": 419057,
-        "today_volume": 386892,
+        "today_volume": 386989,
         "signal": "HOLD"
       }
     }
@@ -30015,7 +30015,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.66,
-    "today_volume": 5641249,
+    "today_volume": 5646948,
     "strategies": {
       "골든크로스": {
         "종목코드": "036540",
@@ -30112,7 +30112,7 @@
         "is_spike": "False",
         "ratio": 0.66,
         "avg_volume": 8515666,
-        "today_volume": 5641249,
+        "today_volume": 5646948,
         "signal": "HOLD"
       }
     }
@@ -30132,7 +30132,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.46,
-    "today_volume": 252414,
+    "today_volume": 252448,
     "strategies": {
       "골든크로스": {
         "종목코드": "078600",
@@ -30229,7 +30229,7 @@
         "is_spike": "False",
         "ratio": 1.46,
         "avg_volume": 172823,
-        "today_volume": 252414,
+        "today_volume": 252448,
         "signal": "HOLD"
       }
     }
@@ -30249,7 +30249,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.65,
-    "today_volume": 214713,
+    "today_volume": 214714,
     "strategies": {
       "골든크로스": {
         "종목코드": "096530",
@@ -30346,7 +30346,7 @@
         "is_spike": "False",
         "ratio": 0.65,
         "avg_volume": 330508,
-        "today_volume": 214713,
+        "today_volume": 214714,
         "signal": "HOLD"
       }
     }
@@ -30366,7 +30366,7 @@
     "cup_signal": false,
     "volume_spike": "True",
     "volume_ratio": 2.17,
-    "today_volume": 1555824,
+    "today_volume": 1555842,
     "strategies": {
       "골든크로스": {
         "종목코드": "089970",
@@ -30463,7 +30463,7 @@
         "is_spike": "True",
         "ratio": 2.17,
         "avg_volume": 715687,
-        "today_volume": 1555824,
+        "today_volume": 1555842,
         "signal": "SPIKE"
       }
     }
@@ -30600,7 +30600,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.03,
-    "today_volume": 153984,
+    "today_volume": 153987,
     "strategies": {
       "골든크로스": {
         "종목코드": "420770",
@@ -30697,7 +30697,7 @@
         "is_spike": "False",
         "ratio": 1.03,
         "avg_volume": 148836,
-        "today_volume": 153984,
+        "today_volume": 153987,
         "signal": "HOLD"
       }
     }
@@ -30951,7 +30951,7 @@
     "cup_signal": false,
     "volume_spike": "True",
     "volume_ratio": 2.28,
-    "today_volume": 395851,
+    "today_volume": 395853,
     "strategies": {
       "골든크로스": {
         "종목코드": "060370",
@@ -31048,7 +31048,7 @@
         "is_spike": "True",
         "ratio": 2.28,
         "avg_volume": 173914,
-        "today_volume": 395851,
+        "today_volume": 395853,
         "signal": "SPIKE"
       }
     }
@@ -31536,7 +31536,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.32,
-    "today_volume": 185226,
+    "today_volume": 185237,
     "strategies": {
       "골든크로스": {
         "종목코드": "437730",
@@ -31633,7 +31633,7 @@
         "is_spike": "False",
         "ratio": 0.32,
         "avg_volume": 586028,
-        "today_volume": 185226,
+        "today_volume": 185237,
         "signal": "HOLD"
       }
     }
@@ -31653,7 +31653,7 @@
     "cup_signal": false,
     "volume_spike": "True",
     "volume_ratio": 3.88,
-    "today_volume": 1022211,
+    "today_volume": 1022234,
     "strategies": {
       "골든크로스": {
         "종목코드": "290650",
@@ -31750,7 +31750,7 @@
         "is_spike": "True",
         "ratio": 3.88,
         "avg_volume": 263440,
-        "today_volume": 1022211,
+        "today_volume": 1022234,
         "signal": "SPIKE"
       }
     }
@@ -31770,7 +31770,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.02,
-    "today_volume": 1563679,
+    "today_volume": 1564133,
     "strategies": {
       "골든크로스": {
         "종목코드": "204270",
@@ -31867,7 +31867,7 @@
         "is_spike": "False",
         "ratio": 1.02,
         "avg_volume": 1531147,
-        "today_volume": 1563679,
+        "today_volume": 1564133,
         "signal": "HOLD"
       }
     }
@@ -32004,7 +32004,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.69,
-    "today_volume": 1994998,
+    "today_volume": 1996547,
     "strategies": {
       "골든크로스": {
         "종목코드": "232140",
@@ -32101,7 +32101,7 @@
         "is_spike": "False",
         "ratio": 0.69,
         "avg_volume": 2894004,
-        "today_volume": 1994998,
+        "today_volume": 1996547,
         "signal": "HOLD"
       }
     }
@@ -32121,7 +32121,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.42,
-    "today_volume": 242660,
+    "today_volume": 242664,
     "strategies": {
       "골든크로스": {
         "종목코드": "035900",
@@ -32218,7 +32218,7 @@
         "is_spike": "False",
         "ratio": 1.42,
         "avg_volume": 170630,
-        "today_volume": 242660,
+        "today_volume": 242664,
         "signal": "HOLD"
       }
     }
@@ -32237,8 +32237,8 @@
     "vcp_breakout": false,
     "cup_signal": false,
     "volume_spike": "False",
-    "volume_ratio": 1.04,
-    "today_volume": 623848,
+    "volume_ratio": 1.05,
+    "today_volume": 624362,
     "strategies": {
       "골든크로스": {
         "종목코드": "950160",
@@ -32333,9 +32333,9 @@
         "전략": "거래량급증",
         "종목코드": "950160",
         "is_spike": "False",
-        "ratio": 1.04,
+        "ratio": 1.05,
         "avg_volume": 597241,
-        "today_volume": 623848,
+        "today_volume": 624362,
         "signal": "HOLD"
       }
     }
@@ -32355,7 +32355,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.53,
-    "today_volume": 786404,
+    "today_volume": 786619,
     "strategies": {
       "골든크로스": {
         "종목코드": "347700",
@@ -32452,7 +32452,7 @@
         "is_spike": "False",
         "ratio": 0.53,
         "avg_volume": 1486063,
-        "today_volume": 786404,
+        "today_volume": 786619,
         "signal": "HOLD"
       }
     }
@@ -32472,7 +32472,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.41,
-    "today_volume": 524177,
+    "today_volume": 524188,
     "strategies": {
       "골든크로스": {
         "종목코드": "003380",
@@ -32569,7 +32569,7 @@
         "is_spike": "False",
         "ratio": 1.41,
         "avg_volume": 371417,
-        "today_volume": 524177,
+        "today_volume": 524188,
         "signal": "HOLD"
       }
     }
@@ -32589,7 +32589,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.22,
-    "today_volume": 800070,
+    "today_volume": 800076,
     "strategies": {
       "골든크로스": {
         "종목코드": "356860",
@@ -32686,7 +32686,7 @@
         "is_spike": "False",
         "ratio": 1.22,
         "avg_volume": 653731,
-        "today_volume": 800070,
+        "today_volume": 800076,
         "signal": "HOLD"
       }
     }
@@ -32706,7 +32706,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.52,
-    "today_volume": 257838,
+    "today_volume": 257846,
     "strategies": {
       "골든크로스": {
         "종목코드": "166090",
@@ -32803,7 +32803,7 @@
         "is_spike": "False",
         "ratio": 1.52,
         "avg_volume": 170003,
-        "today_volume": 257838,
+        "today_volume": 257846,
         "signal": "HOLD"
       }
     }
@@ -32823,7 +32823,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.81,
-    "today_volume": 232792,
+    "today_volume": 232793,
     "strategies": {
       "골든크로스": {
         "종목코드": "082920",
@@ -32920,7 +32920,7 @@
         "is_spike": "False",
         "ratio": 0.81,
         "avg_volume": 288264,
-        "today_volume": 232792,
+        "today_volume": 232793,
         "signal": "HOLD"
       }
     }
@@ -33028,7 +33028,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.97,
-    "today_volume": 126127,
+    "today_volume": 126128,
     "strategies": {
       "골든크로스": {
         "종목코드": "241710",
@@ -33125,7 +33125,7 @@
         "is_spike": "False",
         "ratio": 0.97,
         "avg_volume": 130117,
-        "today_volume": 126127,
+        "today_volume": 126128,
         "signal": "HOLD"
       }
     }
@@ -33496,7 +33496,7 @@
     "cup_signal": false,
     "volume_spike": "True",
     "volume_ratio": 2.4,
-    "today_volume": 3957359,
+    "today_volume": 3961663,
     "strategies": {
       "골든크로스": {
         "종목코드": "417200",
@@ -33593,7 +33593,7 @@
         "is_spike": "True",
         "ratio": 2.4,
         "avg_volume": 1649522,
-        "today_volume": 3957359,
+        "today_volume": 3961663,
         "signal": "SPIKE"
       }
     }
@@ -33613,7 +33613,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.32,
-    "today_volume": 1128658,
+    "today_volume": 1128660,
     "strategies": {
       "골든크로스": {
         "종목코드": "252990",
@@ -33710,7 +33710,7 @@
         "is_spike": "False",
         "ratio": 1.32,
         "avg_volume": 853859,
-        "today_volume": 1128658,
+        "today_volume": 1128660,
         "signal": "HOLD"
       }
     }
@@ -34198,7 +34198,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.14,
-    "today_volume": 414882,
+    "today_volume": 415083,
     "strategies": {
       "골든크로스": {
         "종목코드": "293490",
@@ -34295,7 +34295,7 @@
         "is_spike": "False",
         "ratio": 1.14,
         "avg_volume": 365476,
-        "today_volume": 414882,
+        "today_volume": 415083,
         "signal": "HOLD"
       }
     }
@@ -34315,7 +34315,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.43,
-    "today_volume": 3231763,
+    "today_volume": 3233480,
     "strategies": {
       "골든크로스": {
         "종목코드": "033790",
@@ -34412,7 +34412,7 @@
         "is_spike": "False",
         "ratio": 1.43,
         "avg_volume": 2256697,
-        "today_volume": 3231763,
+        "today_volume": 3233480,
         "signal": "HOLD"
       }
     }
@@ -34549,7 +34549,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.46,
-    "today_volume": 221069,
+    "today_volume": 221105,
     "strategies": {
       "골든크로스": {
         "종목코드": "161580",
@@ -34646,7 +34646,7 @@
         "is_spike": "False",
         "ratio": 0.46,
         "avg_volume": 481880,
-        "today_volume": 221069,
+        "today_volume": 221105,
         "signal": "HOLD"
       }
     }
@@ -34666,7 +34666,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.77,
-    "today_volume": 903293,
+    "today_volume": 903489,
     "strategies": {
       "골든크로스": {
         "종목코드": "327260",
@@ -34763,7 +34763,7 @@
         "is_spike": "False",
         "ratio": 0.77,
         "avg_volume": 1167866,
-        "today_volume": 903293,
+        "today_volume": 903489,
         "signal": "HOLD"
       }
     }
@@ -34900,7 +34900,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.67,
-    "today_volume": 133809,
+    "today_volume": 133811,
     "strategies": {
       "골든크로스": {
         "종목코드": "491000",
@@ -34997,7 +34997,7 @@
         "is_spike": "False",
         "ratio": 0.67,
         "avg_volume": 200561,
-        "today_volume": 133809,
+        "today_volume": 133811,
         "signal": "HOLD"
       }
     }
@@ -35368,7 +35368,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.59,
-    "today_volume": 323867,
+    "today_volume": 323967,
     "strategies": {
       "골든크로스": {
         "종목코드": "100790",
@@ -35465,7 +35465,7 @@
         "is_spike": "False",
         "ratio": 0.59,
         "avg_volume": 547054,
-        "today_volume": 323867,
+        "today_volume": 323967,
         "signal": "HOLD"
       }
     }
@@ -35719,7 +35719,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.13,
-    "today_volume": 231116,
+    "today_volume": 231117,
     "strategies": {
       "골든크로스": {
         "종목코드": "074600",
@@ -35816,7 +35816,7 @@
         "is_spike": "False",
         "ratio": 1.13,
         "avg_volume": 204996,
-        "today_volume": 231116,
+        "today_volume": 231117,
         "signal": "HOLD"
       }
     }
@@ -35836,7 +35836,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.95,
-    "today_volume": 493196,
+    "today_volume": 493306,
     "strategies": {
       "골든크로스": {
         "종목코드": "041960",
@@ -35933,7 +35933,7 @@
         "is_spike": "False",
         "ratio": 1.95,
         "avg_volume": 253237,
-        "today_volume": 493196,
+        "today_volume": 493306,
         "signal": "HOLD"
       }
     }
@@ -35953,7 +35953,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.87,
-    "today_volume": 837580,
+    "today_volume": 837582,
     "strategies": {
       "골든크로스": {
         "종목코드": "328130",
@@ -36050,7 +36050,7 @@
         "is_spike": "False",
         "ratio": 0.87,
         "avg_volume": 959324,
-        "today_volume": 837580,
+        "today_volume": 837582,
         "signal": "HOLD"
       }
     }
@@ -36070,7 +36070,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.16,
-    "today_volume": 526735,
+    "today_volume": 526757,
     "strategies": {
       "골든크로스": {
         "종목코드": "281740",
@@ -36167,7 +36167,7 @@
         "is_spike": "False",
         "ratio": 1.16,
         "avg_volume": 452261,
-        "today_volume": 526735,
+        "today_volume": 526757,
         "signal": "HOLD"
       }
     }
@@ -36187,7 +36187,7 @@
     "cup_signal": false,
     "volume_spike": "True",
     "volume_ratio": 4.81,
-    "today_volume": 476312,
+    "today_volume": 476314,
     "strategies": {
       "골든크로스": {
         "종목코드": "115180",
@@ -36284,7 +36284,7 @@
         "is_spike": "True",
         "ratio": 4.81,
         "avg_volume": 98957,
-        "today_volume": 476312,
+        "today_volume": 476314,
         "signal": "SPIKE"
       }
     }
@@ -36304,7 +36304,7 @@
     "cup_signal": false,
     "volume_spike": "True",
     "volume_ratio": 3.32,
-    "today_volume": 480655,
+    "today_volume": 480656,
     "strategies": {
       "골든크로스": {
         "종목코드": "053800",
@@ -36401,7 +36401,7 @@
         "is_spike": "True",
         "ratio": 3.32,
         "avg_volume": 144840,
-        "today_volume": 480655,
+        "today_volume": 480656,
         "signal": "SPIKE"
       }
     }
@@ -37006,7 +37006,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.8,
-    "today_volume": 502398,
+    "today_volume": 502436,
     "strategies": {
       "골든크로스": {
         "종목코드": "119850",
@@ -37103,7 +37103,7 @@
         "is_spike": "False",
         "ratio": 0.8,
         "avg_volume": 626578,
-        "today_volume": 502398,
+        "today_volume": 502436,
         "signal": "HOLD"
       }
     }
@@ -37240,7 +37240,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.68,
-    "today_volume": 259595,
+    "today_volume": 259800,
     "strategies": {
       "골든크로스": {
         "종목코드": "064290",
@@ -37337,7 +37337,7 @@
         "is_spike": "False",
         "ratio": 0.68,
         "avg_volume": 382685,
-        "today_volume": 259595,
+        "today_volume": 259800,
         "signal": "HOLD"
       }
     }
@@ -37474,7 +37474,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.19,
-    "today_volume": 103324,
+    "today_volume": 103424,
     "strategies": {
       "골든크로스": {
         "종목코드": "121600",
@@ -37571,7 +37571,7 @@
         "is_spike": "False",
         "ratio": 1.19,
         "avg_volume": 86895,
-        "today_volume": 103324,
+        "today_volume": 103424,
         "signal": "HOLD"
       }
     }
@@ -37591,7 +37591,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.27,
-    "today_volume": 98759,
+    "today_volume": 98764,
     "strategies": {
       "골든크로스": {
         "종목코드": "033100",
@@ -37688,7 +37688,7 @@
         "is_spike": "False",
         "ratio": 1.27,
         "avg_volume": 77971,
-        "today_volume": 98759,
+        "today_volume": 98764,
         "signal": "HOLD"
       }
     }
@@ -37825,7 +37825,7 @@
     "cup_signal": false,
     "volume_spike": "True",
     "volume_ratio": 3.52,
-    "today_volume": 9752423,
+    "today_volume": 9754664,
     "strategies": {
       "골든크로스": {
         "종목코드": "038500",
@@ -37922,7 +37922,7 @@
         "is_spike": "True",
         "ratio": 3.52,
         "avg_volume": 2770917,
-        "today_volume": 9752423,
+        "today_volume": 9754664,
         "signal": "SPIKE"
       }
     }
@@ -38059,7 +38059,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.48,
-    "today_volume": 536719,
+    "today_volume": 536721,
     "strategies": {
       "골든크로스": {
         "종목코드": "006730",
@@ -38156,7 +38156,124 @@
         "is_spike": "False",
         "ratio": 1.48,
         "avg_volume": 363669,
-        "today_volume": 536719,
+        "today_volume": 536721,
+        "signal": "HOLD"
+      }
+    }
+  },
+  {
+    "code": "014620",
+    "name": "성광벤드",
+    "sector": "KOSDAQ150",
+    "signal": "BUY",
+    "current_price": 27400,
+    "change_pct": -0.72,
+    "signal_source": "다이버전스",
+    "star_grade": 1,
+    "red_star_grade": 0,
+    "vcp_signal": false,
+    "vcp_breakout": false,
+    "cup_signal": false,
+    "volume_spike": "False",
+    "volume_ratio": 0.92,
+    "today_volume": 170031,
+    "strategies": {
+      "골든크로스": {
+        "종목코드": "014620",
+        "최근일자": "20261013",
+        "현재가": "27400",
+        "5일선": 28570.0,
+        "20일선": 31290.0,
+        "신호": "HOLD",
+        "추세": "하락"
+      },
+      "그물망": {
+        "전략": "그물망 추세 돌파",
+        "종목코드": "014620",
+        "최근일자": "20261013",
+        "현재가": "27400",
+        "EMA20": 30103.75,
+        "EMA40": 29966.0,
+        "EMA60": 29827.23,
+        "정배열": "NO",
+        "그물망폭(오늘)": 276.52,
+        "그물망폭(어제)": 478.85,
+        "발산여부": "NO",
+        "신호": "HOLD"
+      },
+      "피보나치": {
+        "전략": "피보나치 황금비율",
+        "종목코드": "014620",
+        "현재가": 27400.0,
+        "1년최고가": 37400.0,
+        "1년최저가": 22550.0,
+        "38.2%라인": 31727.3,
+        "61.8%라인": 28222.7,
+        "60일선위": "NO",
+        "구간내": "NO",
+        "양봉": "YES",
+        "거래량증가": "NO",
+        "신호": "HOLD"
+      },
+      "다이버전스": {
+        "전략": "상승 다이버전스",
+        "종목코드": "014620",
+        "RSI현재": 34.86,
+        "이전저점가": 23450.0,
+        "최근저점가": 22550.0,
+        "주가신저점": "YES",
+        "이전저점RSI": 30.18,
+        "최근저점RSI": 34.53,
+        "RSI저점상승": "YES",
+        "다이버전스": "YES",
+        "양봉": "YES",
+        "RSI30탈출": "NO",
+        "신호": "BUY"
+      },
+      "월봉3음봉": {
+        "전략": "월봉 3음봉",
+        "종목코드": "014620",
+        "최근4개월": "07월(음) → 08월(양) → 09월(음) → 10월(음)",
+        "3개월연속음봉": "NO",
+        "이번달양봉": "NO",
+        "거래량비율": 0.72,
+        "거래량폭발": "NO",
+        "신호": "HOLD"
+      },
+      "볼린저스퀴즈": {
+        "전략": "볼린저스퀴즈",
+        "종목코드": "014620",
+        "신호": "HOLD",
+        "스퀴즈여부": "NO",
+        "상단돌파": "NO",
+        "밴드폭": 27.4
+      },
+      "OBV": {
+        "전략": "OBV",
+        "종목코드": "014620",
+        "신호": "HOLD",
+        "주가추세": "하락",
+        "OBV추세": "하락",
+        "매집형": "NO"
+      },
+      "VCP": {
+        "detected": false,
+        "contractions": [],
+        "breakout": false
+      },
+      "컵앤핸들": {
+        "detected": false,
+        "cup_depth": 0.0,
+        "handle_depth": 0.0,
+        "breakout": false
+      },
+      "거래량": {
+        "전략": "거래량급증",
+        "종목코드": "014620",
+        "is_spike": "False",
+        "ratio": 0.92,
+        "avg_volume": 184691,
+        "today_volume": 170031,
         "signal": "HOLD"
       }
     }
@@ -38279,123 +38396,6 @@
     }
   },
   {
-    "code": "014620",
-    "name": "성광벤드",
-    "sector": "KOSDAQ150",
-    "signal": "BUY",
-    "current_price": 27400,
-    "change_pct": -0.72,
-    "signal_source": "다이버전스",
-    "star_grade": 1,
-    "red_star_grade": 0,
-    "vcp_signal": false,
-    "vcp_breakout": false,
-    "cup_signal": false,
-    "volume_spike": "False",
-    "volume_ratio": 0.92,
-    "today_volume": 170031,
-    "strategies": {
-      "골든크로스": {
-        "종목코드": "014620",
-        "최근일자": "20261013",
-        "현재가": "27400",
-        "5일선": 28570.0,
-        "20일선": 31290.0,
-        "신호": "HOLD",
-        "추세": "하락"
-      },
-      "그물망": {
-        "전략": "그물망 추세 돌파",
-        "종목코드": "014620",
-        "최근일자": "20261013",
-        "현재가": "27400",
-        "EMA20": 30103.75,
-        "EMA40": 29966.0,
-        "EMA60": 29827.23,
-        "정배열": "NO",
-        "그물망폭(오늘)": 276.52,
-        "그물망폭(어제)": 478.85,
-        "발산여부": "NO",
-        "신호": "HOLD"
-      },
-      "피보나치": {
-        "전략": "피보나치 황금비율",
-        "종목코드": "014620",
-        "현재가": 27400.0,
-        "1년최고가": 37400.0,
-        "1년최저가": 22550.0,
-        "38.2%라인": 31727.3,
-        "61.8%라인": 28222.7,
-        "60일선위": "NO",
-        "구간내": "NO",
-        "양봉": "YES",
-        "거래량증가": "NO",
-        "신호": "HOLD"
-      },
-      "다이버전스": {
-        "전략": "상승 다이버전스",
-        "종목코드": "014620",
-        "RSI현재": 34.86,
-        "이전저점가": 23450.0,
-        "최근저점가": 22550.0,
-        "주가신저점": "YES",
-        "이전저점RSI": 30.18,
-        "최근저점RSI": 34.53,
-        "RSI저점상승": "YES",
-        "다이버전스": "YES",
-        "양봉": "YES",
-        "RSI30탈출": "NO",
-        "신호": "BUY"
-      },
-      "월봉3음봉": {
-        "전략": "월봉 3음봉",
-        "종목코드": "014620",
-        "최근4개월": "07월(음) → 08월(양) → 09월(음) → 10월(음)",
-        "3개월연속음봉": "NO",
-        "이번달양봉": "NO",
-        "거래량비율": 0.72,
-        "거래량폭발": "NO",
-        "신호": "HOLD"
-      },
-      "볼린저스퀴즈": {
-        "전략": "볼린저스퀴즈",
-        "종목코드": "014620",
-        "신호": "HOLD",
-        "스퀴즈여부": "NO",
-        "상단돌파": "NO",
-        "밴드폭": 27.4
-      },
-      "OBV": {
-        "전략": "OBV",
-        "종목코드": "014620",
-        "신호": "HOLD",
-        "주가추세": "하락",
-        "OBV추세": "하락",
-        "매집형": "NO"
-      },
-      "VCP": {
-        "detected": false,
-        "contractions": [],
-        "breakout": false
-      },
-      "컵앤핸들": {
-        "detected": false,
-        "cup_depth": 0.0,
-        "handle_depth": 0.0,
-        "breakout": false
-      },
-      "거래량": {
-        "전략": "거래량급증",
-        "종목코드": "014620",
-        "is_spike": "False",
-        "ratio": 0.92,
-        "avg_volume": 184691,
-        "today_volume": 170031,
-        "signal": "HOLD"
-      }
-    }
-  },
-  {
     "code": "490470",
     "name": "세미파이브",
     "sector": "KOSDAQ150",
@@ -38410,7 +38410,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.67,
-    "today_volume": 1185609,
+    "today_volume": 1185714,
     "strategies": {
       "골든크로스": {
         "종목코드": "490470",
@@ -38507,7 +38507,7 @@
         "is_spike": "False",
         "ratio": 0.67,
         "avg_volume": 1773482,
-        "today_volume": 1185609,
+        "today_volume": 1185714,
         "signal": "HOLD"
       }
     }
@@ -38761,7 +38761,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.74,
-    "today_volume": 118834,
+    "today_volume": 118836,
     "strategies": {
       "골든크로스": {
         "종목코드": "213420",
@@ -38858,7 +38858,7 @@
         "is_spike": "False",
         "ratio": 0.74,
         "avg_volume": 159511,
-        "today_volume": 118834,
+        "today_volume": 118836,
         "signal": "HOLD"
       }
     }
@@ -39111,8 +39111,8 @@
     "vcp_breakout": false,
     "cup_signal": false,
     "volume_spike": "False",
-    "volume_ratio": 1.43,
-    "today_volume": 57784,
+    "volume_ratio": 1.44,
+    "today_volume": 57807,
     "strategies": {
       "골든크로스": {
         "종목코드": "053610",
@@ -39207,9 +39207,9 @@
         "전략": "거래량급증",
         "종목코드": "053610",
         "is_spike": "False",
-        "ratio": 1.43,
+        "ratio": 1.44,
         "avg_volume": 40267,
-        "today_volume": 57784,
+        "today_volume": 57807,
         "signal": "HOLD"
       }
     }
@@ -39229,7 +39229,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.77,
-    "today_volume": 67384,
+    "today_volume": 67391,
     "strategies": {
       "골든크로스": {
         "종목코드": "090360",
@@ -39326,7 +39326,7 @@
         "is_spike": "False",
         "ratio": 0.77,
         "avg_volume": 88007,
-        "today_volume": 67384,
+        "today_volume": 67391,
         "signal": "HOLD"
       }
     }
@@ -39346,7 +39346,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.86,
-    "today_volume": 1059536,
+    "today_volume": 1059712,
     "strategies": {
       "골든크로스": {
         "종목코드": "090710",
@@ -39443,7 +39443,7 @@
         "is_spike": "False",
         "ratio": 0.86,
         "avg_volume": 1230502,
-        "today_volume": 1059536,
+        "today_volume": 1059712,
         "signal": "HOLD"
       }
     }
@@ -39580,7 +39580,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.66,
-    "today_volume": 142417,
+    "today_volume": 142422,
     "strategies": {
       "골든크로스": {
         "종목코드": "044490",
@@ -39677,7 +39677,7 @@
         "is_spike": "False",
         "ratio": 0.66,
         "avg_volume": 216087,
-        "today_volume": 142417,
+        "today_volume": 142422,
         "signal": "HOLD"
       }
     }
@@ -39697,7 +39697,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.81,
-    "today_volume": 782897,
+    "today_volume": 782975,
     "strategies": {
       "골든크로스": {
         "종목코드": "253590",
@@ -39794,7 +39794,7 @@
         "is_spike": "False",
         "ratio": 0.81,
         "avg_volume": 965650,
-        "today_volume": 782897,
+        "today_volume": 782975,
         "signal": "HOLD"
       }
     }
@@ -40165,7 +40165,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.71,
-    "today_volume": 241797,
+    "today_volume": 242050,
     "strategies": {
       "골든크로스": {
         "종목코드": "122640",
@@ -40262,7 +40262,7 @@
         "is_spike": "False",
         "ratio": 0.71,
         "avg_volume": 341073,
-        "today_volume": 241797,
+        "today_volume": 242050,
         "signal": "HOLD"
       }
     }
@@ -40282,7 +40282,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.27,
-    "today_volume": 477144,
+    "today_volume": 477230,
     "strategies": {
       "골든크로스": {
         "종목코드": "092870",
@@ -40379,7 +40379,7 @@
         "is_spike": "False",
         "ratio": 1.27,
         "avg_volume": 374332,
-        "today_volume": 477144,
+        "today_volume": 477230,
         "signal": "HOLD"
       }
     }
@@ -40516,7 +40516,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.7,
-    "today_volume": 148167,
+    "today_volume": 148243,
     "strategies": {
       "골든크로스": {
         "종목코드": "023160",
@@ -40613,7 +40613,7 @@
         "is_spike": "False",
         "ratio": 0.7,
         "avg_volume": 212679,
-        "today_volume": 148167,
+        "today_volume": 148243,
         "signal": "HOLD"
       }
     }
@@ -40633,7 +40633,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.49,
-    "today_volume": 109297,
+    "today_volume": 109309,
     "strategies": {
       "골든크로스": {
         "종목코드": "189300",
@@ -40730,7 +40730,7 @@
         "is_spike": "False",
         "ratio": 1.49,
         "avg_volume": 73474,
-        "today_volume": 109297,
+        "today_volume": 109309,
         "signal": "HOLD"
       }
     }
@@ -40867,7 +40867,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.36,
-    "today_volume": 775132,
+    "today_volume": 775564,
     "strategies": {
       "골든크로스": {
         "종목코드": "222080",
@@ -40964,7 +40964,7 @@
         "is_spike": "False",
         "ratio": 1.36,
         "avg_volume": 568671,
-        "today_volume": 775132,
+        "today_volume": 775564,
         "signal": "HOLD"
       }
     }
@@ -40984,7 +40984,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.49,
-    "today_volume": 798224,
+    "today_volume": 798627,
     "strategies": {
       "골든크로스": {
         "종목코드": "048410",
@@ -41081,7 +41081,7 @@
         "is_spike": "False",
         "ratio": 0.49,
         "avg_volume": 1617489,
-        "today_volume": 798224,
+        "today_volume": 798627,
         "signal": "HOLD"
       }
     }
@@ -41218,7 +41218,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.48,
-    "today_volume": 198434,
+    "today_volume": 198780,
     "strategies": {
       "골든크로스": {
         "종목코드": "024850",
@@ -41315,7 +41315,7 @@
         "is_spike": "False",
         "ratio": 0.48,
         "avg_volume": 414446,
-        "today_volume": 198434,
+        "today_volume": 198780,
         "signal": "HOLD"
       }
     }
@@ -41335,7 +41335,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.95,
-    "today_volume": 899022,
+    "today_volume": 899045,
     "strategies": {
       "골든크로스": {
         "종목코드": "077360",
@@ -41432,7 +41432,7 @@
         "is_spike": "False",
         "ratio": 0.95,
         "avg_volume": 943721,
-        "today_volume": 899022,
+        "today_volume": 899045,
         "signal": "HOLD"
       }
     }
