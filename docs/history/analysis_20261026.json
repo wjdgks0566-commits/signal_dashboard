@@ -4,8 +4,13 @@
     "name": "대창솔루션",
     "sector": "관심종목",
     "signal": "HOLD",
+<<<<<<< Updated upstream
     "current_price": 1601,
     "change_pct": -3.15,
+=======
+    "current_price": 0,
+    "change_pct": 0.0,
+>>>>>>> Stashed changes
     "signal_source": null,
     "star_grade": 0,
     "red_star_grade": 0,
@@ -13,15 +18,26 @@
     "vcp_breakout": false,
     "cup_signal": false,
     "volume_spike": "False",
+<<<<<<< Updated upstream
     "volume_ratio": 0.46,
     "today_volume": 41684,
+=======
+    "volume_ratio": 0.11,
+    "today_volume": 10037,
+>>>>>>> Stashed changes
     "strategies": {
       "골든크로스": {
         "종목코드": "096350",
         "최근일자": "20261026",
+<<<<<<< Updated upstream
         "현재가": "1601",
         "5일선": 1679.6,
         "20일선": 1787.2,
+=======
+        "현재가": "1640",
+        "5일선": 1687.4,
+        "20일선": 1789.15,
+>>>>>>> Stashed changes
         "신호": "HOLD",
         "추세": "하락"
       },
@@ -29,12 +45,21 @@
         "전략": "그물망 추세 돌파",
         "종목코드": "096350",
         "최근일자": "20261026",
+<<<<<<< Updated upstream
         "현재가": "1601",
         "EMA20": 1765.15,
         "EMA40": 1810.01,
         "EMA60": 1827.04,
         "정배열": "NO",
         "그물망폭(오늘)": -61.89,
+=======
+        "현재가": "1640",
+        "EMA20": 1768.86,
+        "EMA40": 1811.91,
+        "EMA60": 1828.32,
+        "정배열": "NO",
+        "그물망폭(오늘)": -59.46,
+>>>>>>> Stashed changes
         "그물망폭(어제)": -52.27,
         "발산여부": "NO",
         "신호": "HOLD"
@@ -42,7 +67,11 @@
       "피보나치": {
         "전략": "피보나치 황금비율",
         "종목코드": "096350",
+<<<<<<< Updated upstream
         "현재가": 1601.0,
+=======
+        "현재가": 1640.0,
+>>>>>>> Stashed changes
         "1년최고가": 2345.0,
         "1년최저가": 1348.0,
         "38.2%라인": 1964.15,
@@ -56,9 +85,15 @@
       "다이버전스": {
         "전략": "상승 다이버전스",
         "종목코드": "096350",
+<<<<<<< Updated upstream
         "RSI현재": 32.15,
         "이전저점가": 1348.0,
         "최근저점가": 1570.0,
+=======
+        "RSI현재": 34.54,
+        "이전저점가": 1348.0,
+        "최근저점가": 1611.0,
+>>>>>>> Stashed changes
         "주가신저점": "NO",
         "이전저점RSI": 28.83,
         "최근저점RSI": 29.97,
@@ -74,7 +109,11 @@
         "신호": "HOLD",
         "스퀴즈여부": "NO",
         "상단돌파": "NO",
+<<<<<<< Updated upstream
         "밴드폭": 21.78
+=======
+        "밴드폭": 20.95
+>>>>>>> Stashed changes
       },
       "OBV": {
         "전략": "OBV",
@@ -99,6 +138,7 @@
         "전략": "거래량급증",
         "종목코드": "096350",
         "is_spike": "False",
+<<<<<<< Updated upstream
         "ratio": 0.46,
         "avg_volume": 91397,
         "today_volume": 41684,
@@ -209,6 +249,11 @@
         "ratio": 0.67,
         "avg_volume": 3479718,
         "today_volume": 2346313,
+=======
+        "ratio": 0.11,
+        "avg_volume": 91397,
+        "today_volume": 10037,
+>>>>>>> Stashed changes
         "signal": "HOLD"
       }
     }
@@ -218,8 +263,13 @@
     "name": "KX하이텍",
     "sector": "관심종목",
     "signal": "HOLD",
+<<<<<<< Updated upstream
     "current_price": 992,
     "change_pct": -6.94,
+=======
+    "current_price": 0,
+    "change_pct": 0.0,
+>>>>>>> Stashed changes
     "signal_source": null,
     "star_grade": 0,
     "red_star_grade": 0,
@@ -227,15 +277,26 @@
     "vcp_breakout": false,
     "cup_signal": false,
     "volume_spike": "False",
+<<<<<<< Updated upstream
     "volume_ratio": 0.67,
     "today_volume": 654989,
+=======
+    "volume_ratio": 0.21,
+    "today_volume": 207211,
+>>>>>>> Stashed changes
     "strategies": {
       "골든크로스": {
         "종목코드": "052900",
         "최근일자": "20261026",
+<<<<<<< Updated upstream
         "현재가": "992",
         "5일선": 1074.2,
         "20일선": 1161.2,
+=======
+        "현재가": "1027",
+        "5일선": 1081.2,
+        "20일선": 1162.95,
+>>>>>>> Stashed changes
         "신호": "HOLD",
         "추세": "하락"
       },
@@ -243,12 +304,21 @@
         "전략": "그물망 추세 돌파",
         "종목코드": "052900",
         "최근일자": "20261026",
+<<<<<<< Updated upstream
         "현재가": "992",
         "EMA20": 1119.78,
         "EMA40": 1118.15,
         "EMA60": 1139.59,
         "정배열": "NO",
         "그물망폭(오늘)": -19.81,
+=======
+        "현재가": "1027",
+        "EMA20": 1123.11,
+        "EMA40": 1119.86,
+        "EMA60": 1140.74,
+        "정배열": "NO",
+        "그물망폭(오늘)": -17.63,
+>>>>>>> Stashed changes
         "그물망폭(어제)": -11.37,
         "발산여부": "NO",
         "신호": "HOLD"
@@ -256,7 +326,11 @@
       "피보나치": {
         "전략": "피보나치 황금비율",
         "종목코드": "052900",
+<<<<<<< Updated upstream
         "현재가": 992.0,
+=======
+        "현재가": 1027.0,
+>>>>>>> Stashed changes
         "1년최고가": 1911.0,
         "1년최저가": 795.0,
         "38.2%라인": 1484.69,
@@ -270,12 +344,20 @@
       "다이버전스": {
         "전략": "상승 다이버전스",
         "종목코드": "052900",
+<<<<<<< Updated upstream
         "RSI현재": 35.92,
+=======
+        "RSI현재": 38.74,
+>>>>>>> Stashed changes
         "이전저점가": 795.0,
         "최근저점가": 925.0,
         "주가신저점": "NO",
         "이전저점RSI": 28.85,
+<<<<<<< Updated upstream
         "최근저점RSI": 35.92,
+=======
+        "최근저점RSI": 37.15,
+>>>>>>> Stashed changes
         "RSI저점상승": "YES",
         "다이버전스": "NO",
         "양봉": "NO",
@@ -288,7 +370,11 @@
         "신호": "HOLD",
         "스퀴즈여부": "YES",
         "상단돌파": "NO",
+<<<<<<< Updated upstream
         "밴드폭": 25.03
+=======
+        "밴드폭": 23.62
+>>>>>>> Stashed changes
       },
       "OBV": {
         "전략": "OBV",
@@ -313,14 +399,21 @@
         "전략": "거래량급증",
         "종목코드": "052900",
         "is_spike": "False",
+<<<<<<< Updated upstream
         "ratio": 0.67,
         "avg_volume": 974176,
         "today_volume": 654989,
+=======
+        "ratio": 0.21,
+        "avg_volume": 974176,
+        "today_volume": 207211,
+>>>>>>> Stashed changes
         "signal": "HOLD"
       }
     }
   },
   {
+<<<<<<< Updated upstream
     "code": "005935",
     "name": "삼성전자우",
     "sector": "KOSPI200",
@@ -535,12 +628,19 @@
     }
   },
   {
+=======
+>>>>>>> Stashed changes
     "code": "453450",
     "name": "그리드위즈",
     "sector": "관심종목",
     "signal": "HOLD",
+<<<<<<< Updated upstream
     "current_price": 10450,
     "change_pct": -2.79,
+=======
+    "current_price": 0,
+    "change_pct": 0.0,
+>>>>>>> Stashed changes
     "signal_source": null,
     "star_grade": 0,
     "red_star_grade": 0,
@@ -548,15 +648,26 @@
     "vcp_breakout": false,
     "cup_signal": false,
     "volume_spike": "False",
+<<<<<<< Updated upstream
     "volume_ratio": 0.34,
     "today_volume": 5340,
+=======
+    "volume_ratio": 0.2,
+    "today_volume": 3157,
+>>>>>>> Stashed changes
     "strategies": {
       "골든크로스": {
         "종목코드": "453450",
         "최근일자": "20261026",
+<<<<<<< Updated upstream
         "현재가": "10450",
         "5일선": 11030.0,
         "20일선": 12069.0,
+=======
+        "현재가": "10520",
+        "5일선": 11044.0,
+        "20일선": 12072.5,
+>>>>>>> Stashed changes
         "신호": "HOLD",
         "추세": "하락"
       },
@@ -564,12 +675,21 @@
         "전략": "그물망 추세 돌파",
         "종목코드": "453450",
         "최근일자": "20261026",
+<<<<<<< Updated upstream
         "현재가": "10450",
         "EMA20": 11846.77,
         "EMA40": 12478.52,
         "EMA60": 12977.25,
         "정배열": "NO",
         "그물망폭(오늘)": -1130.48,
+=======
+        "현재가": "10520",
+        "EMA20": 11853.44,
+        "EMA40": 12481.94,
+        "EMA60": 12979.54,
+        "정배열": "NO",
+        "그물망폭(오늘)": -1126.11,
+>>>>>>> Stashed changes
         "그물망폭(어제)": -1069.12,
         "발산여부": "NO",
         "신호": "HOLD"
@@ -577,21 +697,33 @@
       "피보나치": {
         "전략": "피보나치 황금비율",
         "종목코드": "453450",
+<<<<<<< Updated upstream
         "현재가": 10450.0,
+=======
+        "현재가": 10520.0,
+>>>>>>> Stashed changes
         "1년최고가": 19200.0,
         "1년최저가": 10440.0,
         "38.2%라인": 15853.68,
         "61.8%라인": 13786.32,
         "60일선위": "NO",
         "구간내": "NO",
+<<<<<<< Updated upstream
         "양봉": "NO",
+=======
+        "양봉": "YES",
+>>>>>>> Stashed changes
         "거래량증가": "NO",
         "신호": "HOLD"
       },
       "다이버전스": {
         "전략": "상승 다이버전스",
         "종목코드": "453450",
+<<<<<<< Updated upstream
         "RSI현재": 32.06,
+=======
+        "RSI현재": 32.52,
+>>>>>>> Stashed changes
         "이전저점가": 10700.0,
         "최근저점가": 10440.0,
         "주가신저점": "YES",
@@ -599,7 +731,11 @@
         "최근저점RSI": 27.82,
         "RSI저점상승": "NO",
         "다이버전스": "NO",
+<<<<<<< Updated upstream
         "양봉": "NO",
+=======
+        "양봉": "YES",
+>>>>>>> Stashed changes
         "RSI30탈출": "NO",
         "신호": "HOLD"
       },
@@ -609,7 +745,11 @@
         "신호": "HOLD",
         "스퀴즈여부": "NO",
         "상단돌파": "NO",
+<<<<<<< Updated upstream
         "밴드폭": 29.16
+=======
+        "밴드폭": 28.93
+>>>>>>> Stashed changes
       },
       "OBV": {
         "전략": "OBV",
@@ -634,9 +774,15 @@
         "전략": "거래량급증",
         "종목코드": "453450",
         "is_spike": "False",
+<<<<<<< Updated upstream
         "ratio": 0.34,
         "avg_volume": 15632,
         "today_volume": 5340,
+=======
+        "ratio": 0.2,
+        "avg_volume": 15632,
+        "today_volume": 3157,
+>>>>>>> Stashed changes
         "signal": "HOLD"
       }
     }
@@ -646,8 +792,13 @@
     "name": "한컴위드",
     "sector": "관심종목",
     "signal": "HOLD",
+<<<<<<< Updated upstream
     "current_price": 3795,
     "change_pct": -1.43,
+=======
+    "current_price": 0,
+    "change_pct": 0.0,
+>>>>>>> Stashed changes
     "signal_source": "OBV",
     "star_grade": 0,
     "red_star_grade": 0,
@@ -655,15 +806,26 @@
     "vcp_breakout": false,
     "cup_signal": false,
     "volume_spike": "False",
+<<<<<<< Updated upstream
     "volume_ratio": 0.18,
     "today_volume": 307071,
+=======
+    "volume_ratio": 0.11,
+    "today_volume": 178295,
+>>>>>>> Stashed changes
     "strategies": {
       "골든크로스": {
         "종목코드": "054920",
         "최근일자": "20261026",
+<<<<<<< Updated upstream
         "현재가": "3795",
         "5일선": 3983.0,
         "20일선": 4540.5,
+=======
+        "현재가": "3840",
+        "5일선": 3992.0,
+        "20일선": 4542.75,
+>>>>>>> Stashed changes
         "신호": "HOLD",
         "추세": "하락"
       },
@@ -671,12 +833,21 @@
         "전략": "그물망 추세 돌파",
         "종목코드": "054920",
         "최근일자": "20261026",
+<<<<<<< Updated upstream
         "현재가": "3795",
         "EMA20": 4332.33,
         "EMA40": 4307.57,
         "EMA60": 4254.58,
         "정배열": "NO",
         "그물망폭(오늘)": 77.75,
+=======
+        "현재가": "3840",
+        "EMA20": 4336.62,
+        "EMA40": 4309.76,
+        "EMA60": 4256.05,
+        "정배열": "NO",
+        "그물망폭(오늘)": 80.56,
+>>>>>>> Stashed changes
         "그물망폭(어제)": 118.74,
         "발산여부": "NO",
         "신호": "HOLD"
@@ -684,29 +855,48 @@
       "피보나치": {
         "전략": "피보나치 황금비율",
         "종목코드": "054920",
+<<<<<<< Updated upstream
         "현재가": 3795.0,
+=======
+        "현재가": 3840.0,
+>>>>>>> Stashed changes
         "1년최고가": 5880.0,
         "1년최저가": 2795.0,
         "38.2%라인": 4701.53,
         "61.8%라인": 3973.47,
         "60일선위": "NO",
         "구간내": "NO",
+<<<<<<< Updated upstream
         "양봉": "NO",
+=======
+        "양봉": "YES",
+>>>>>>> Stashed changes
         "거래량증가": "NO",
         "신호": "HOLD"
       },
       "다이버전스": {
         "전략": "상승 다이버전스",
         "종목코드": "054920",
+<<<<<<< Updated upstream
         "RSI현재": 36.07,
+=======
+        "RSI현재": 36.85,
+>>>>>>> Stashed changes
         "이전저점가": 2795.0,
         "최근저점가": 3595.0,
         "주가신저점": "NO",
         "이전저점RSI": 20.71,
+<<<<<<< Updated upstream
         "최근저점RSI": 36.07,
         "RSI저점상승": "YES",
         "다이버전스": "NO",
         "양봉": "NO",
+=======
+        "최근저점RSI": 36.85,
+        "RSI저점상승": "YES",
+        "다이버전스": "NO",
+        "양봉": "YES",
+>>>>>>> Stashed changes
         "RSI30탈출": "NO",
         "신호": "HOLD"
       },
@@ -716,7 +906,11 @@
         "신호": "HOLD",
         "스퀴즈여부": "NO",
         "상단돌파": "NO",
+<<<<<<< Updated upstream
         "밴드폭": 41.11
+=======
+        "밴드폭": 40.76
+>>>>>>> Stashed changes
       },
       "OBV": {
         "전략": "OBV",
@@ -741,9 +935,13 @@
         "전략": "거래량급증",
         "종목코드": "054920",
         "is_spike": "False",
+<<<<<<< Updated upstream
         "ratio": 0.18,
+=======
+        "ratio": 0.11,
+>>>>>>> Stashed changes
         "avg_volume": 1680512,
-        "today_volume": 307071,
+        "today_volume": 178295,
         "signal": "HOLD"
       }
     }
@@ -753,8 +951,8 @@
     "name": "제이엔케이글로벌",
     "sector": "관심종목",
     "signal": "HOLD",
-    "current_price": 2530,
-    "change_pct": -2.13,
+    "current_price": 0,
+    "change_pct": 0.0,
     "signal_source": null,
     "star_grade": 0,
     "red_star_grade": 0,
@@ -762,15 +960,15 @@
     "vcp_breakout": false,
     "cup_signal": false,
     "volume_spike": "False",
-    "volume_ratio": 0.88,
-    "today_volume": 46488,
+    "volume_ratio": 0.17,
+    "today_volume": 8812,
     "strategies": {
       "골든크로스": {
         "종목코드": "126880",
         "최근일자": "20261026",
-        "현재가": "2530",
-        "5일선": 2602.0,
-        "20일선": 2634.75,
+        "현재가": "2525",
+        "5일선": 2601.0,
+        "20일선": 2634.5,
         "신호": "HOLD",
         "추세": "하락"
       },
@@ -778,12 +976,12 @@
         "전략": "그물망 추세 돌파",
         "종목코드": "126880",
         "최근일자": "20261026",
-        "현재가": "2530",
-        "EMA20": 2609.48,
-        "EMA40": 2619.5,
-        "EMA60": 2650.68,
+        "현재가": "2525",
+        "EMA20": 2609.01,
+        "EMA40": 2619.26,
+        "EMA60": 2650.52,
         "정배열": "NO",
-        "그물망폭(오늘)": -41.2,
+        "그물망폭(오늘)": -41.51,
         "그물망폭(어제)": -36.93,
         "발산여부": "NO",
         "신호": "HOLD"
@@ -791,7 +989,7 @@
       "피보나치": {
         "전략": "피보나치 황금비율",
         "종목코드": "126880",
-        "현재가": 2530.0,
+        "현재가": 2525.0,
         "1년최고가": 3500.0,
         "1년최저가": 2255.0,
         "38.2%라인": 3024.41,
@@ -805,7 +1003,7 @@
       "다이버전스": {
         "전략": "상승 다이버전스",
         "종목코드": "126880",
-        "RSI현재": 43.79,
+        "RSI현재": 43.48,
         "이전저점가": 2255.0,
         "최근저점가": 2430.0,
         "주가신저점": "NO",
@@ -823,7 +1021,7 @@
         "신호": "HOLD",
         "스퀴즈여부": "NO",
         "상단돌파": "NO",
-        "밴드폭": 11.86
+        "밴드폭": 11.91
       },
       "OBV": {
         "전략": "OBV",
@@ -848,9 +1046,13 @@
         "전략": "거래량급증",
         "종목코드": "126880",
         "is_spike": "False",
-        "ratio": 0.88,
+        "ratio": 0.17,
         "avg_volume": 52566,
+<<<<<<< Updated upstream
         "today_volume": 46488,
+=======
+        "today_volume": 8812,
+>>>>>>> Stashed changes
         "signal": "HOLD"
       }
     }
@@ -860,8 +1062,13 @@
     "name": "삼성전자",
     "sector": "KOSPI200",
     "signal": "HOLD",
+<<<<<<< Updated upstream
     "current_price": 213000,
     "change_pct": -1.16,
+=======
+    "current_price": 0,
+    "change_pct": 0.0,
+>>>>>>> Stashed changes
     "signal_source": null,
     "star_grade": 0,
     "red_star_grade": 0,
@@ -869,15 +1076,26 @@
     "vcp_breakout": false,
     "cup_signal": false,
     "volume_spike": "False",
+<<<<<<< Updated upstream
     "volume_ratio": 0.59,
     "today_volume": 10887689,
+=======
+    "volume_ratio": 0.26,
+    "today_volume": 4743545,
+>>>>>>> Stashed changes
     "strategies": {
       "골든크로스": {
         "종목코드": "005930",
         "최근일자": "20261026",
+<<<<<<< Updated upstream
         "현재가": "213000",
         "5일선": 215600.0,
         "20일선": 244350.0,
+=======
+        "현재가": "215000",
+        "5일선": 216000.0,
+        "20일선": 244450.0,
+>>>>>>> Stashed changes
         "신호": "HOLD",
         "추세": "하락"
       },
@@ -885,12 +1103,21 @@
         "전략": "그물망 추세 돌파",
         "종목코드": "005930",
         "최근일자": "20261026",
+<<<<<<< Updated upstream
         "현재가": "213000",
         "EMA20": 235145.52,
         "EMA40": 246861.43,
         "EMA60": 254647.57,
         "정배열": "NO",
         "그물망폭(오늘)": -19502.06,
+=======
+        "현재가": "215000",
+        "EMA20": 235335.99,
+        "EMA40": 246958.99,
+        "EMA60": 254713.15,
+        "정배열": "NO",
+        "그물망폭(오늘)": -19377.15,
+>>>>>>> Stashed changes
         "그물망폭(어제)": -18582.73,
         "발산여부": "NO",
         "신호": "HOLD"
@@ -898,21 +1125,33 @@
       "피보나치": {
         "전략": "피보나치 황금비율",
         "종목코드": "005930",
+<<<<<<< Updated upstream
         "현재가": 213000.0,
+=======
+        "현재가": 215000.0,
+>>>>>>> Stashed changes
         "1년최고가": 374500.0,
         "1년최저가": 189200.0,
         "38.2%라인": 303715.4,
         "61.8%라인": 259984.6,
         "60일선위": "NO",
         "구간내": "NO",
+<<<<<<< Updated upstream
         "양봉": "NO",
+=======
+        "양봉": "YES",
+>>>>>>> Stashed changes
         "거래량증가": "NO",
         "신호": "HOLD"
       },
       "다이버전스": {
         "전략": "상승 다이버전스",
         "종목코드": "005930",
+<<<<<<< Updated upstream
         "RSI현재": 35.05,
+=======
+        "RSI현재": 35.77,
+>>>>>>> Stashed changes
         "이전저점가": 189200.0,
         "최근저점가": 203500.0,
         "주가신저점": "NO",
@@ -920,7 +1159,11 @@
         "최근저점RSI": 27.68,
         "RSI저점상승": "NO",
         "다이버전스": "NO",
+<<<<<<< Updated upstream
         "양봉": "NO",
+=======
+        "양봉": "YES",
+>>>>>>> Stashed changes
         "RSI30탈출": "NO",
         "신호": "HOLD"
       },
@@ -930,7 +1173,11 @@
         "신호": "HOLD",
         "스퀴즈여부": "NO",
         "상단돌파": "NO",
+<<<<<<< Updated upstream
         "밴드폭": 45.47
+=======
+        "밴드폭": 45.26
+>>>>>>> Stashed changes
       },
       "OBV": {
         "전략": "OBV",
@@ -955,9 +1202,336 @@
         "전략": "거래량급증",
         "종목코드": "005930",
         "is_spike": "False",
+<<<<<<< Updated upstream
         "ratio": 0.59,
         "avg_volume": 18324686,
         "today_volume": 10887689,
+=======
+        "ratio": 0.26,
+        "avg_volume": 18324686,
+        "today_volume": 4743545,
+        "signal": "HOLD"
+      }
+    }
+  },
+  {
+    "code": "000660",
+    "name": "SK하이닉스",
+    "sector": "KOSPI200",
+    "signal": "HOLD",
+    "current_price": 0,
+    "change_pct": 0.0,
+    "signal_source": null,
+    "star_grade": 0,
+    "red_star_grade": 0,
+    "vcp_signal": false,
+    "vcp_breakout": false,
+    "cup_signal": false,
+    "volume_spike": "False",
+    "volume_ratio": 0.3,
+    "today_volume": 1032842,
+    "strategies": {
+      "골든크로스": {
+        "종목코드": "000660",
+        "최근일자": "20261026",
+        "현재가": "1293000",
+        "5일선": 1262000.0,
+        "20일선": 1530500.0,
+        "신호": "HOLD",
+        "추세": "하락"
+      },
+      "그물망": {
+        "전략": "그물망 추세 돌파",
+        "종목코드": "000660",
+        "최근일자": "20261026",
+        "현재가": "1293000",
+        "EMA20": 1457469.28,
+        "EMA40": 1579310.05,
+        "EMA60": 1664661.64,
+        "정배열": "NO",
+        "그물망폭(오늘)": -207192.36,
+        "그물망폭(어제)": -202478.51,
+        "발산여부": "NO",
+        "신호": "HOLD"
+      },
+      "피보나치": {
+        "전략": "피보나치 황금비율",
+        "종목코드": "000660",
+        "현재가": 1293000.0,
+        "1년최고가": 2987000.0,
+        "1년최저가": 1171000.0,
+        "38.2%라인": 2293288.0,
+        "61.8%라인": 1864712.0,
+        "60일선위": "NO",
+        "구간내": "NO",
+        "양봉": "YES",
+        "거래량증가": "NO",
+        "신호": "HOLD"
+      },
+      "다이버전스": {
+        "전략": "상승 다이버전스",
+        "종목코드": "000660",
+        "RSI현재": 34.74,
+        "이전저점가": 1246000.0,
+        "최근저점가": 1171000.0,
+        "주가신저점": "YES",
+        "이전저점RSI": 30.55,
+        "최근저점RSI": 24.57,
+        "RSI저점상승": "NO",
+        "다이버전스": "NO",
+        "양봉": "YES",
+        "RSI30탈출": "NO",
+        "신호": "HOLD"
+      },
+      "볼린저스퀴즈": {
+        "전략": "볼린저스퀴즈",
+        "종목코드": "000660",
+        "신호": "HOLD",
+        "스퀴즈여부": "NO",
+        "상단돌파": "NO",
+        "밴드폭": 65.2
+      },
+      "OBV": {
+        "전략": "OBV",
+        "종목코드": "000660",
+        "신호": "HOLD",
+        "주가추세": "하락",
+        "OBV추세": "하락",
+        "매집형": "NO"
+      },
+      "VCP": {
+        "detected": false,
+        "contractions": [],
+        "breakout": false
+      },
+      "컵앤핸들": {
+        "detected": false,
+        "cup_depth": 0.0,
+        "handle_depth": 0.0,
+        "breakout": false
+      },
+      "거래량": {
+        "전략": "거래량급증",
+        "종목코드": "000660",
+        "is_spike": "False",
+        "ratio": 0.3,
+        "avg_volume": 3479718,
+        "today_volume": 1032842,
+        "signal": "HOLD"
+      }
+    }
+  },
+  {
+    "code": "005935",
+    "name": "삼성전자우",
+    "sector": "KOSPI200",
+    "signal": "HOLD",
+    "current_price": 0,
+    "change_pct": 0.0,
+    "signal_source": null,
+    "star_grade": 0,
+    "red_star_grade": 0,
+    "vcp_signal": false,
+    "vcp_breakout": false,
+    "cup_signal": false,
+    "volume_spike": "False",
+    "volume_ratio": 0.16,
+    "today_volume": 642713,
+    "strategies": {
+      "골든크로스": {
+        "종목코드": "005935",
+        "최근일자": "20261026",
+        "현재가": "166050",
+        "5일선": 167830.0,
+        "20일선": 184647.5,
+        "신호": "HOLD",
+        "추세": "하락"
+      },
+      "그물망": {
+        "전략": "그물망 추세 돌파",
+        "종목코드": "005935",
+        "최근일자": "20261026",
+        "현재가": "166050",
+        "EMA20": 178905.62,
+        "EMA40": 184710.69,
+        "EMA60": 187305.49,
+        "정배열": "NO",
+        "그물망폭(오늘)": -8399.87,
+        "그물망폭(어제)": -7767.17,
+        "발산여부": "NO",
+        "신호": "HOLD"
+      },
+      "피보나치": {
+        "전략": "피보나치 황금비율",
+        "종목코드": "005935",
+        "현재가": 166050.0,
+        "1년최고가": 243500.0,
+        "1년최저가": 139600.0,
+        "38.2%라인": 203810.2,
+        "61.8%라인": 179289.8,
+        "60일선위": "NO",
+        "구간내": "NO",
+        "양봉": "YES",
+        "거래량증가": "NO",
+        "신호": "HOLD"
+      },
+      "다이버전스": {
+        "전략": "상승 다이버전스",
+        "종목코드": "005935",
+        "RSI현재": 39.25,
+        "이전저점가": 139600.0,
+        "최근저점가": 154400.0,
+        "주가신저점": "NO",
+        "이전저점RSI": 35.38,
+        "최근저점RSI": 31.42,
+        "RSI저점상승": "NO",
+        "다이버전스": "NO",
+        "양봉": "YES",
+        "RSI30탈출": "NO",
+        "신호": "HOLD"
+      },
+      "볼린저스퀴즈": {
+        "전략": "볼린저스퀴즈",
+        "종목코드": "005935",
+        "신호": "HOLD",
+        "스퀴즈여부": "NO",
+        "상단돌파": "NO",
+        "밴드폭": 39.03
+      },
+      "OBV": {
+        "전략": "OBV",
+        "종목코드": "005935",
+        "신호": "HOLD",
+        "주가추세": "하락",
+        "OBV추세": "하락",
+        "매집형": "NO"
+      },
+      "VCP": {
+        "detected": false,
+        "contractions": [],
+        "breakout": false
+      },
+      "컵앤핸들": {
+        "detected": false,
+        "cup_depth": 0.0,
+        "handle_depth": 0.0,
+        "breakout": false
+      },
+      "거래량": {
+        "전략": "거래량급증",
+        "종목코드": "005935",
+        "is_spike": "False",
+        "ratio": 0.16,
+        "avg_volume": 3985538,
+        "today_volume": 642713,
+        "signal": "HOLD"
+      }
+    }
+  },
+  {
+    "code": "402340",
+    "name": "SK스퀘어",
+    "sector": "KOSPI200",
+    "signal": "HOLD",
+    "current_price": 0,
+    "change_pct": 0.0,
+    "signal_source": null,
+    "star_grade": 0,
+    "red_star_grade": 0,
+    "vcp_signal": false,
+    "vcp_breakout": false,
+    "cup_signal": false,
+    "volume_spike": "False",
+    "volume_ratio": 0.26,
+    "today_volume": 174275,
+    "strategies": {
+      "골든크로스": {
+        "종목코드": "402340",
+        "최근일자": "20261026",
+        "현재가": "779000",
+        "5일선": 765000.0,
+        "20일선": 953100.0,
+        "신호": "HOLD",
+        "추세": "하락"
+      },
+      "그물망": {
+        "전략": "그물망 추세 돌파",
+        "종목코드": "402340",
+        "최근일자": "20261026",
+        "현재가": "779000",
+        "EMA20": 896107.05,
+        "EMA40": 978310.89,
+        "EMA60": 1030522.16,
+        "정배열": "NO",
+        "그물망폭(오늘)": -134415.11,
+        "그물망폭(어제)": -130614.23,
+        "발산여부": "NO",
+        "신호": "HOLD"
+      },
+      "피보나치": {
+        "전략": "피보나치 황금비율",
+        "종목코드": "402340",
+        "현재가": 779000.0,
+        "1년최고가": 2189000.0,
+        "1년최저가": 719000.0,
+        "38.2%라인": 1627460.0,
+        "61.8%라인": 1280540.0,
+        "60일선위": "NO",
+        "구간내": "NO",
+        "양봉": "YES",
+        "거래량증가": "NO",
+        "신호": "HOLD"
+      },
+      "다이버전스": {
+        "전략": "상승 다이버전스",
+        "종목코드": "402340",
+        "RSI현재": 33.85,
+        "이전저점가": 768000.0,
+        "최근저점가": 719000.0,
+        "주가신저점": "YES",
+        "이전저점RSI": 30.25,
+        "최근저점RSI": 26.89,
+        "RSI저점상승": "NO",
+        "다이버전스": "NO",
+        "양봉": "YES",
+        "RSI30탈출": "NO",
+        "신호": "HOLD"
+      },
+      "볼린저스퀴즈": {
+        "전략": "볼린저스퀴즈",
+        "종목코드": "402340",
+        "신호": "HOLD",
+        "스퀴즈여부": "NO",
+        "상단돌파": "NO",
+        "밴드폭": 74.82
+      },
+      "OBV": {
+        "전략": "OBV",
+        "종목코드": "402340",
+        "신호": "HOLD",
+        "주가추세": "하락",
+        "OBV추세": "하락",
+        "매집형": "NO"
+      },
+      "VCP": {
+        "detected": false,
+        "contractions": [],
+        "breakout": false
+      },
+      "컵앤핸들": {
+        "detected": false,
+        "cup_depth": 0.0,
+        "handle_depth": 0.0,
+        "breakout": false
+      },
+      "거래량": {
+        "전략": "거래량급증",
+        "종목코드": "402340",
+        "is_spike": "False",
+        "ratio": 0.26,
+        "avg_volume": 660446,
+        "today_volume": 174275,
+>>>>>>> Stashed changes
         "signal": "HOLD"
       }
     }
@@ -967,8 +1541,13 @@
     "name": "삼성전기",
     "sector": "KOSPI200",
     "signal": "HOLD",
+<<<<<<< Updated upstream
     "current_price": 1118000,
     "change_pct": -0.36,
+=======
+    "current_price": 0,
+    "change_pct": 0.0,
+>>>>>>> Stashed changes
     "signal_source": null,
     "star_grade": 0,
     "red_star_grade": 0,
@@ -976,15 +1555,26 @@
     "vcp_breakout": false,
     "cup_signal": false,
     "volume_spike": "False",
+<<<<<<< Updated upstream
     "volume_ratio": 0.54,
     "today_volume": 380980,
+=======
+    "volume_ratio": 0.25,
+    "today_volume": 177059,
+>>>>>>> Stashed changes
     "strategies": {
       "골든크로스": {
         "종목코드": "009150",
         "최근일자": "20261026",
+<<<<<<< Updated upstream
         "현재가": "1118000",
         "5일선": 1141600.0,
         "20일선": 1373350.0,
+=======
+        "현재가": "1124000",
+        "5일선": 1142800.0,
+        "20일선": 1373650.0,
+>>>>>>> Stashed changes
         "신호": "HOLD",
         "추세": "하락"
       },
@@ -992,12 +1582,21 @@
         "전략": "그물망 추세 돌파",
         "종목코드": "009150",
         "최근일자": "20261026",
+<<<<<<< Updated upstream
         "현재가": "1118000",
         "EMA20": 1293668.97,
         "EMA40": 1358086.62,
         "EMA60": 1410484.46,
         "정배열": "NO",
         "그물망폭(오늘)": -116815.49,
+=======
+        "현재가": "1124000",
+        "EMA20": 1294240.4,
+        "EMA40": 1358379.3,
+        "EMA60": 1410681.18,
+        "정배열": "NO",
+        "그물망폭(오늘)": -116440.78,
+>>>>>>> Stashed changes
         "그물망폭(어제)": -108238.75,
         "발산여부": "NO",
         "신호": "HOLD"
@@ -1005,7 +1604,11 @@
       "피보나치": {
         "전략": "피보나치 황금비율",
         "종목코드": "009150",
+<<<<<<< Updated upstream
         "현재가": 1118000.0,
+=======
+        "현재가": 1124000.0,
+>>>>>>> Stashed changes
         "1년최고가": 2417000.0,
         "1년최저가": 865000.0,
         "38.2%라인": 1824136.0,
@@ -1019,12 +1622,20 @@
       "다이버전스": {
         "전략": "상승 다이버전스",
         "종목코드": "009150",
+<<<<<<< Updated upstream
         "RSI현재": 32.11,
+=======
+        "RSI현재": 32.54,
+>>>>>>> Stashed changes
         "이전저점가": 865000.0,
         "최근저점가": 1048000.0,
         "주가신저점": "NO",
         "이전저점RSI": 26.88,
+<<<<<<< Updated upstream
         "최근저점RSI": 32.11,
+=======
+        "최근저점RSI": 32.32,
+>>>>>>> Stashed changes
         "RSI저점상승": "YES",
         "다이버전스": "NO",
         "양봉": "YES",
@@ -1037,7 +1648,11 @@
         "신호": "HOLD",
         "스퀴즈여부": "NO",
         "상단돌파": "NO",
+<<<<<<< Updated upstream
         "밴드폭": 57.2
+=======
+        "밴드폭": 57.07
+>>>>>>> Stashed changes
       },
       "OBV": {
         "전략": "OBV",
@@ -1062,9 +1677,15 @@
         "전략": "거래량급증",
         "종목코드": "009150",
         "is_spike": "False",
+<<<<<<< Updated upstream
         "ratio": 0.54,
         "avg_volume": 706178,
         "today_volume": 380980,
+=======
+        "ratio": 0.25,
+        "avg_volume": 706178,
+        "today_volume": 177059,
+>>>>>>> Stashed changes
         "signal": "HOLD"
       }
     }
@@ -1074,8 +1695,13 @@
     "name": "LG에너지솔루션",
     "sector": "KOSPI200",
     "signal": "HOLD",
+<<<<<<< Updated upstream
     "current_price": 375000,
     "change_pct": -2.09,
+=======
+    "current_price": 0,
+    "change_pct": 0.0,
+>>>>>>> Stashed changes
     "signal_source": null,
     "star_grade": 0,
     "red_star_grade": 0,
@@ -1083,15 +1709,26 @@
     "vcp_breakout": false,
     "cup_signal": false,
     "volume_spike": "False",
+<<<<<<< Updated upstream
     "volume_ratio": 0.78,
     "today_volume": 328071,
+=======
+    "volume_ratio": 0.21,
+    "today_volume": 87013,
+>>>>>>> Stashed changes
     "strategies": {
       "골든크로스": {
         "종목코드": "373220",
         "최근일자": "20261026",
+<<<<<<< Updated upstream
         "현재가": "375000",
         "5일선": 394700.0,
         "20일선": 388975.0,
+=======
+        "현재가": "373500",
+        "5일선": 394400.0,
+        "20일선": 388900.0,
+>>>>>>> Stashed changes
         "신호": "HOLD",
         "추세": "상승"
       },
@@ -1099,12 +1736,21 @@
         "전략": "그물망 추세 돌파",
         "종목코드": "373220",
         "최근일자": "20261026",
+<<<<<<< Updated upstream
         "현재가": "375000",
         "EMA20": 389983.61,
         "EMA40": 380042.44,
         "EMA60": 377004.24,
         "정배열": "YES",
         "그물망폭(오늘)": 12979.37,
+=======
+        "현재가": "373500",
+        "EMA20": 389840.75,
+        "EMA40": 379969.27,
+        "EMA60": 376955.06,
+        "정배열": "YES",
+        "그물망폭(오늘)": 12885.69,
+>>>>>>> Stashed changes
         "그물망폭(어제)": 14488.65,
         "발산여부": "NO",
         "신호": "HOLD"
@@ -1112,7 +1758,11 @@
       "피보나치": {
         "전략": "피보나치 황금비율",
         "종목코드": "373220",
+<<<<<<< Updated upstream
         "현재가": 375000.0,
+=======
+        "현재가": 373500.0,
+>>>>>>> Stashed changes
         "1년최고가": 497500.0,
         "1년최저가": 290500.0,
         "38.2%라인": 418426.0,
@@ -1126,12 +1776,20 @@
       "다이버전스": {
         "전략": "상승 다이버전스",
         "종목코드": "373220",
+<<<<<<< Updated upstream
         "RSI현재": 46.07,
+=======
+        "RSI현재": 45.6,
+>>>>>>> Stashed changes
         "이전저점가": 290500.0,
         "최근저점가": 343000.0,
         "주가신저점": "NO",
         "이전저점RSI": 32.89,
+<<<<<<< Updated upstream
         "최근저점RSI": 46.07,
+=======
+        "최근저점RSI": 45.6,
+>>>>>>> Stashed changes
         "RSI저점상승": "YES",
         "다이버전스": "NO",
         "양봉": "NO",
@@ -1144,7 +1802,11 @@
         "신호": "HOLD",
         "스퀴즈여부": "NO",
         "상단돌파": "NO",
+<<<<<<< Updated upstream
         "밴드폭": 24.6
+=======
+        "밴드폭": 24.66
+>>>>>>> Stashed changes
       },
       "OBV": {
         "전략": "OBV",
@@ -1169,9 +1831,15 @@
         "전략": "거래량급증",
         "종목코드": "373220",
         "is_spike": "False",
+<<<<<<< Updated upstream
         "ratio": 0.78,
         "avg_volume": 418915,
         "today_volume": 328071,
+=======
+        "ratio": 0.21,
+        "avg_volume": 418915,
+        "today_volume": 87013,
+>>>>>>> Stashed changes
         "signal": "HOLD"
       }
     }
@@ -1181,8 +1849,13 @@
     "name": "현대차",
     "sector": "KOSPI200",
     "signal": "HOLD",
+<<<<<<< Updated upstream
     "current_price": 288000,
     "change_pct": -2.54,
+=======
+    "current_price": 0,
+    "change_pct": 0.0,
+>>>>>>> Stashed changes
     "signal_source": null,
     "star_grade": 0,
     "red_star_grade": 0,
@@ -1190,8 +1863,13 @@
     "vcp_breakout": false,
     "cup_signal": false,
     "volume_spike": "False",
+<<<<<<< Updated upstream
     "volume_ratio": 0.81,
     "today_volume": 437951,
+=======
+    "volume_ratio": 0.25,
+    "today_volume": 137314,
+>>>>>>> Stashed changes
     "strategies": {
       "골든크로스": {
         "종목코드": "005380",
@@ -1276,9 +1954,15 @@
         "전략": "거래량급증",
         "종목코드": "005380",
         "is_spike": "False",
+<<<<<<< Updated upstream
         "ratio": 0.81,
         "avg_volume": 541439,
         "today_volume": 437951,
+=======
+        "ratio": 0.25,
+        "avg_volume": 541439,
+        "today_volume": 137314,
+>>>>>>> Stashed changes
         "signal": "HOLD"
       }
     }
@@ -1288,8 +1972,13 @@
     "name": "KB금융",
     "sector": "KOSPI200",
     "signal": "HOLD",
+<<<<<<< Updated upstream
     "current_price": 147200,
     "change_pct": -3.79,
+=======
+    "current_price": 0,
+    "change_pct": 0.0,
+>>>>>>> Stashed changes
     "signal_source": null,
     "star_grade": 0,
     "red_star_grade": 0,
@@ -1297,15 +1986,26 @@
     "vcp_breakout": false,
     "cup_signal": false,
     "volume_spike": "False",
+<<<<<<< Updated upstream
     "volume_ratio": 0.97,
     "today_volume": 827948,
+=======
+    "volume_ratio": 0.28,
+    "today_volume": 242206,
+>>>>>>> Stashed changes
     "strategies": {
       "골든크로스": {
         "종목코드": "105560",
         "최근일자": "20261026",
+<<<<<<< Updated upstream
         "현재가": "147200",
         "5일선": 155980.0,
         "20일선": 163250.0,
+=======
+        "현재가": "150900",
+        "5일선": 156720.0,
+        "20일선": 163435.0,
+>>>>>>> Stashed changes
         "신호": "HOLD",
         "추세": "하락"
       },
@@ -1313,12 +2013,21 @@
         "전략": "그물망 추세 돌파",
         "종목코드": "105560",
         "최근일자": "20261026",
+<<<<<<< Updated upstream
         "현재가": "147200",
         "EMA20": 161868.51,
         "EMA40": 165363.68,
         "EMA60": 166055.51,
         "정배열": "NO",
         "그물망폭(오늘)": -4187.0,
+=======
+        "현재가": "150900",
+        "EMA20": 162220.89,
+        "EMA40": 165544.16,
+        "EMA60": 166176.82,
+        "정배열": "NO",
+        "그물망폭(오늘)": -3955.93,
+>>>>>>> Stashed changes
         "그물망폭(어제)": -3282.12,
         "발산여부": "NO",
         "신호": "HOLD"
@@ -1326,7 +2035,11 @@
       "피보나치": {
         "전략": "피보나치 황금비율",
         "종목코드": "105560",
+<<<<<<< Updated upstream
         "현재가": 147200.0,
+=======
+        "현재가": 150900.0,
+>>>>>>> Stashed changes
         "1년최고가": 194500.0,
         "1년최저가": 145000.0,
         "38.2%라인": 175591.0,
@@ -1340,12 +2053,20 @@
       "다이버전스": {
         "전략": "상승 다이버전스",
         "종목코드": "105560",
+<<<<<<< Updated upstream
         "RSI현재": 27.17,
+=======
+        "RSI현재": 30.04,
+>>>>>>> Stashed changes
         "이전저점가": 146200.0,
         "최근저점가": 146000.0,
         "주가신저점": "YES",
         "이전저점RSI": 39.43,
+<<<<<<< Updated upstream
         "최근저점RSI": 27.17,
+=======
+        "최근저점RSI": 30.04,
+>>>>>>> Stashed changes
         "RSI저점상승": "NO",
         "다이버전스": "NO",
         "양봉": "NO",
@@ -1358,7 +2079,11 @@
         "신호": "HOLD",
         "스퀴즈여부": "NO",
         "상단돌파": "NO",
+<<<<<<< Updated upstream
         "밴드폭": 16.79
+=======
+        "밴드폭": 15.75
+>>>>>>> Stashed changes
       },
       "OBV": {
         "전략": "OBV",
@@ -1383,9 +2108,15 @@
         "전략": "거래량급증",
         "종목코드": "105560",
         "is_spike": "False",
+<<<<<<< Updated upstream
         "ratio": 0.97,
         "avg_volume": 856098,
         "today_volume": 827948,
+=======
+        "ratio": 0.28,
+        "avg_volume": 856098,
+        "today_volume": 242206,
+>>>>>>> Stashed changes
         "signal": "HOLD"
       }
     }
@@ -1395,8 +2126,13 @@
     "name": "삼성바이오로직스",
     "sector": "KOSPI200",
     "signal": "HOLD",
+<<<<<<< Updated upstream
     "current_price": 1452000,
     "change_pct": -0.95,
+=======
+    "current_price": 0,
+    "change_pct": 0.0,
+>>>>>>> Stashed changes
     "signal_source": "OBV",
     "star_grade": 0,
     "red_star_grade": 0,
@@ -1404,15 +2140,26 @@
     "vcp_breakout": false,
     "cup_signal": false,
     "volume_spike": "False",
+<<<<<<< Updated upstream
     "volume_ratio": 0.42,
     "today_volume": 33241,
+=======
+    "volume_ratio": 0.17,
+    "today_volume": 13585,
+>>>>>>> Stashed changes
     "strategies": {
       "골든크로스": {
         "종목코드": "207940",
         "최근일자": "20261026",
+<<<<<<< Updated upstream
         "현재가": "1452000",
         "5일선": 1417400.0,
         "20일선": 1336266.75,
+=======
+        "현재가": "1467000",
+        "5일선": 1420400.0,
+        "20일선": 1337016.75,
+>>>>>>> Stashed changes
         "신호": "HOLD",
         "추세": "상승"
       },
@@ -1420,12 +2167,21 @@
         "전략": "그물망 추세 돌파",
         "종목코드": "207940",
         "최근일자": "20261026",
+<<<<<<< Updated upstream
         "현재가": "1452000",
         "EMA20": 1363933.02,
         "EMA40": 1381254.64,
         "EMA60": 1392088.92,
         "정배열": "NO",
         "그물망폭(오늘)": -28155.91,
+=======
+        "현재가": "1467000",
+        "EMA20": 1365361.59,
+        "EMA40": 1381986.35,
+        "EMA60": 1392580.73,
+        "정배열": "NO",
+        "그물망폭(오늘)": -27219.14,
+>>>>>>> Stashed changes
         "그물망폭(어제)": -35395.23,
         "발산여부": "YES",
         "신호": "HOLD"
@@ -1433,7 +2189,11 @@
       "피보나치": {
         "전략": "피보나치 황금비율",
         "종목코드": "207940",
+<<<<<<< Updated upstream
         "현재가": 1452000.0,
+=======
+        "현재가": 1467000.0,
+>>>>>>> Stashed changes
         "1년최고가": 1632336.0,
         "1년최저가": 1150000.0,
         "38.2%라인": 1448083.65,
@@ -1447,7 +2207,11 @@
       "다이버전스": {
         "전략": "상승 다이버전스",
         "종목코드": "207940",
+<<<<<<< Updated upstream
         "RSI현재": 57.95,
+=======
+        "RSI현재": 59.51,
+>>>>>>> Stashed changes
         "이전저점가": 1293961.0,
         "최근저점가": 1150000.0,
         "주가신저점": "YES",
@@ -1465,7 +2229,11 @@
         "신호": "HOLD",
         "스퀴즈여부": "NO",
         "상단돌파": "NO",
+<<<<<<< Updated upstream
         "밴드폭": 26.47
+=======
+        "밴드폭": 26.78
+>>>>>>> Stashed changes
       },
       "OBV": {
         "전략": "OBV",
@@ -1490,9 +2258,15 @@
         "전략": "거래량급증",
         "종목코드": "207940",
         "is_spike": "False",
+<<<<<<< Updated upstream
         "ratio": 0.42,
         "avg_volume": 78603,
         "today_volume": 33241,
+=======
+        "ratio": 0.17,
+        "avg_volume": 78603,
+        "today_volume": 13585,
+>>>>>>> Stashed changes
         "signal": "HOLD"
       }
     }
@@ -1511,8 +2285,13 @@
     "vcp_breakout": false,
     "cup_signal": false,
     "volume_spike": "False",
+<<<<<<< Updated upstream
     "volume_ratio": 0.84,
     "today_volume": 218748,
+=======
+    "volume_ratio": 0.26,
+    "today_volume": 68179,
+>>>>>>> Stashed changes
     "strategies": {
       "골든크로스": {
         "종목코드": "032830",
@@ -1597,9 +2376,15 @@
         "전략": "거래량급증",
         "종목코드": "032830",
         "is_spike": "False",
+<<<<<<< Updated upstream
         "ratio": 0.84,
         "avg_volume": 261443,
         "today_volume": 218748,
+=======
+        "ratio": 0.26,
+        "avg_volume": 261443,
+        "today_volume": 68179,
+>>>>>>> Stashed changes
         "signal": "HOLD"
       }
     }
@@ -1618,8 +2403,13 @@
     "vcp_breakout": false,
     "cup_signal": false,
     "volume_spike": "False",
+<<<<<<< Updated upstream
     "volume_ratio": 0.79,
     "today_volume": 283016,
+=======
+    "volume_ratio": 0.17,
+    "today_volume": 60058,
+>>>>>>> Stashed changes
     "strategies": {
       "골든크로스": {
         "종목코드": "028260",
@@ -1704,9 +2494,15 @@
         "전략": "거래량급증",
         "종목코드": "028260",
         "is_spike": "False",
+<<<<<<< Updated upstream
         "ratio": 0.79,
         "avg_volume": 358283,
         "today_volume": 283016,
+=======
+        "ratio": 0.17,
+        "avg_volume": 358283,
+        "today_volume": 60058,
+>>>>>>> Stashed changes
         "signal": "HOLD"
       }
     }
@@ -1716,8 +2512,13 @@
     "name": "두산에너빌리티",
     "sector": "KOSPI200",
     "signal": "HOLD",
+<<<<<<< Updated upstream
     "current_price": 57600,
     "change_pct": -3.03,
+=======
+    "current_price": 0,
+    "change_pct": 0.0,
+>>>>>>> Stashed changes
     "signal_source": null,
     "star_grade": 0,
     "red_star_grade": 0,
@@ -1725,15 +2526,26 @@
     "vcp_breakout": false,
     "cup_signal": false,
     "volume_spike": "False",
+<<<<<<< Updated upstream
     "volume_ratio": 0.6,
     "today_volume": 1490484,
+=======
+    "volume_ratio": 0.24,
+    "today_volume": 599182,
+>>>>>>> Stashed changes
     "strategies": {
       "골든크로스": {
         "종목코드": "034020",
         "최근일자": "20261026",
+<<<<<<< Updated upstream
         "현재가": "57600",
         "5일선": 60980.0,
         "20일선": 71935.0,
+=======
+        "현재가": "57800",
+        "5일선": 61020.0,
+        "20일선": 71945.0,
+>>>>>>> Stashed changes
         "신호": "HOLD",
         "추세": "하락"
       },
@@ -1741,12 +2553,21 @@
         "전략": "그물망 추세 돌파",
         "종목코드": "034020",
         "최근일자": "20261026",
+<<<<<<< Updated upstream
         "현재가": "57600",
         "EMA20": 69649.56,
         "EMA40": 74468.78,
         "EMA60": 77133.52,
         "정배열": "NO",
         "그물망폭(오늘)": -7483.97,
+=======
+        "현재가": "57800",
+        "EMA20": 69668.6,
+        "EMA40": 74478.54,
+        "EMA60": 77140.08,
+        "정배열": "NO",
+        "그물망폭(오늘)": -7471.48,
+>>>>>>> Stashed changes
         "그물망폭(어제)": -6877.75,
         "발산여부": "NO",
         "신호": "HOLD"
@@ -1754,7 +2575,11 @@
       "피보나치": {
         "전략": "피보나치 황금비율",
         "종목코드": "034020",
+<<<<<<< Updated upstream
         "현재가": 57600.0,
+=======
+        "현재가": 57800.0,
+>>>>>>> Stashed changes
         "1년최고가": 114200.0,
         "1년최저가": 57000.0,
         "38.2%라인": 92349.6,
@@ -1768,7 +2593,11 @@
       "다이버전스": {
         "전략": "상승 다이버전스",
         "종목코드": "034020",
+<<<<<<< Updated upstream
         "RSI현재": 24.82,
+=======
+        "RSI현재": 24.99,
+>>>>>>> Stashed changes
         "이전저점가": 57000.0,
         "최근저점가": 57200.0,
         "주가신저점": "NO",
@@ -1786,7 +2615,11 @@
         "신호": "HOLD",
         "스퀴즈여부": "NO",
         "상단돌파": "NO",
+<<<<<<< Updated upstream
         "밴드폭": 49.9
+=======
+        "밴드폭": 49.8
+>>>>>>> Stashed changes
       },
       "OBV": {
         "전략": "OBV",
@@ -1811,9 +2644,15 @@
         "전략": "거래량급증",
         "종목코드": "034020",
         "is_spike": "False",
+<<<<<<< Updated upstream
         "ratio": 0.6,
         "avg_volume": 2473305,
         "today_volume": 1490484,
+=======
+        "ratio": 0.24,
+        "avg_volume": 2473305,
+        "today_volume": 599182,
+>>>>>>> Stashed changes
         "signal": "HOLD"
       }
     }
@@ -1823,8 +2662,13 @@
     "name": "신한지주",
     "sector": "KOSPI200",
     "signal": "HOLD",
+<<<<<<< Updated upstream
     "current_price": 85500,
     "change_pct": -2.95,
+=======
+    "current_price": 0,
+    "change_pct": 0.0,
+>>>>>>> Stashed changes
     "signal_source": null,
     "star_grade": 0,
     "red_star_grade": 0,
@@ -1832,15 +2676,26 @@
     "vcp_breakout": false,
     "cup_signal": false,
     "volume_spike": "False",
+<<<<<<< Updated upstream
     "volume_ratio": 0.8,
     "today_volume": 835025,
+=======
+    "volume_ratio": 0.25,
+    "today_volume": 255359,
+>>>>>>> Stashed changes
     "strategies": {
       "골든크로스": {
         "종목코드": "055550",
         "최근일자": "20261026",
+<<<<<<< Updated upstream
         "현재가": "85500",
         "5일선": 89480.0,
         "20일선": 98785.0,
+=======
+        "현재가": "87200",
+        "5일선": 89820.0,
+        "20일선": 98870.0,
+>>>>>>> Stashed changes
         "신호": "HOLD",
         "추세": "하락"
       },
@@ -1848,12 +2703,21 @@
         "전략": "그물망 추세 돌파",
         "종목코드": "055550",
         "최근일자": "20261026",
+<<<<<<< Updated upstream
         "현재가": "85500",
         "EMA20": 96984.52,
         "EMA40": 101134.96,
         "EMA60": 102257.71,
         "정배열": "NO",
         "그물망폭(오늘)": -5273.19,
+=======
+        "현재가": "87200",
+        "EMA20": 97146.42,
+        "EMA40": 101217.89,
+        "EMA60": 102313.45,
+        "정배열": "NO",
+        "그물망폭(오늘)": -5167.02,
+>>>>>>> Stashed changes
         "그물망폭(어제)": -4632.35,
         "발산여부": "NO",
         "신호": "HOLD"
@@ -1861,7 +2725,11 @@
       "피보나치": {
         "전략": "피보나치 황금비율",
         "종목코드": "055550",
+<<<<<<< Updated upstream
         "현재가": 85500.0,
+=======
+        "현재가": 87200.0,
+>>>>>>> Stashed changes
         "1년최고가": 116500.0,
         "1년최저가": 85100.0,
         "38.2%라인": 104505.2,
@@ -1875,12 +2743,20 @@
       "다이버전스": {
         "전략": "상승 다이버전스",
         "종목코드": "055550",
+<<<<<<< Updated upstream
         "RSI현재": 19.63,
+=======
+        "RSI현재": 21.12,
+>>>>>>> Stashed changes
         "이전저점가": 90900.0,
         "최근저점가": 85100.0,
         "주가신저점": "YES",
         "이전저점RSI": 41.76,
+<<<<<<< Updated upstream
         "최근저점RSI": 19.63,
+=======
+        "최근저점RSI": 21.12,
+>>>>>>> Stashed changes
         "RSI저점상승": "NO",
         "다이버전스": "NO",
         "양봉": "NO",
@@ -1893,7 +2769,11 @@
         "신호": "HOLD",
         "스퀴즈여부": "NO",
         "상단돌파": "NO",
+<<<<<<< Updated upstream
         "밴드폭": 31.13
+=======
+        "밴드폭": 30.51
+>>>>>>> Stashed changes
       },
       "OBV": {
         "전략": "OBV",
@@ -1918,9 +2798,15 @@
         "전략": "거래량급증",
         "종목코드": "055550",
         "is_spike": "False",
+<<<<<<< Updated upstream
         "ratio": 0.8,
         "avg_volume": 1039617,
         "today_volume": 835025,
+=======
+        "ratio": 0.25,
+        "avg_volume": 1039617,
+        "today_volume": 255359,
+>>>>>>> Stashed changes
         "signal": "HOLD"
       }
     }
@@ -1930,8 +2816,13 @@
     "name": "한화에어로스페이스",
     "sector": "KOSPI200",
     "signal": "HOLD",
+<<<<<<< Updated upstream
     "current_price": 760000,
     "change_pct": -4.04,
+=======
+    "current_price": 0,
+    "change_pct": 0.0,
+>>>>>>> Stashed changes
     "signal_source": null,
     "star_grade": 0,
     "red_star_grade": 0,
@@ -1939,15 +2830,26 @@
     "vcp_breakout": false,
     "cup_signal": false,
     "volume_spike": "False",
+<<<<<<< Updated upstream
     "volume_ratio": 0.98,
     "today_volume": 156121,
+=======
+    "volume_ratio": 0.29,
+    "today_volume": 45903,
+>>>>>>> Stashed changes
     "strategies": {
       "골든크로스": {
         "종목코드": "012450",
         "최근일자": "20261026",
+<<<<<<< Updated upstream
         "현재가": "760000",
         "5일선": 795200.0,
         "20일선": 910100.0,
+=======
+        "현재가": "746000",
+        "5일선": 792400.0,
+        "20일선": 909400.0,
+>>>>>>> Stashed changes
         "신호": "HOLD",
         "추세": "하락"
       },
@@ -1955,12 +2857,21 @@
         "전략": "그물망 추세 돌파",
         "종목코드": "012450",
         "최근일자": "20261026",
+<<<<<<< Updated upstream
         "현재가": "760000",
         "EMA20": 890853.0,
         "EMA40": 952300.03,
         "EMA60": 983307.34,
         "정배열": "NO",
         "그물망폭(오늘)": -92454.33,
+=======
+        "현재가": "746000",
+        "EMA20": 889519.67,
+        "EMA40": 951617.11,
+        "EMA60": 982848.32,
+        "정배열": "NO",
+        "그물망폭(오늘)": -93328.65,
+>>>>>>> Stashed changes
         "그물망폭(어제)": -86250.07,
         "발산여부": "NO",
         "신호": "HOLD"
@@ -1968,7 +2879,11 @@
       "피보나치": {
         "전략": "피보나치 황금비율",
         "종목코드": "012450",
+<<<<<<< Updated upstream
         "현재가": 760000.0,
+=======
+        "현재가": 746000.0,
+>>>>>>> Stashed changes
         "1년최고가": 1264000.0,
         "1년최저가": 739500.0,
         "38.2%라인": 1063641.0,
@@ -1982,7 +2897,11 @@
       "다이버전스": {
         "전략": "상승 다이버전스",
         "종목코드": "012450",
+<<<<<<< Updated upstream
         "RSI현재": 30.69,
+=======
+        "RSI현재": 29.75,
+>>>>>>> Stashed changes
         "이전저점가": 783000.0,
         "최근저점가": 739500.0,
         "주가신저점": "YES",
@@ -2000,7 +2919,11 @@
         "신호": "HOLD",
         "스퀴즈여부": "NO",
         "상단돌파": "NO",
+<<<<<<< Updated upstream
         "밴드폭": 44.38
+=======
+        "밴드폭": 44.92
+>>>>>>> Stashed changes
       },
       "OBV": {
         "전략": "OBV",
@@ -2025,9 +2948,15 @@
         "전략": "거래량급증",
         "종목코드": "012450",
         "is_spike": "False",
+<<<<<<< Updated upstream
         "ratio": 0.98,
         "avg_volume": 159260,
         "today_volume": 156121,
+=======
+        "ratio": 0.29,
+        "avg_volume": 159260,
+        "today_volume": 45903,
+>>>>>>> Stashed changes
         "signal": "HOLD"
       }
     }
@@ -2037,8 +2966,13 @@
     "name": "삼성SDI",
     "sector": "KOSPI200",
     "signal": "HOLD",
+<<<<<<< Updated upstream
     "current_price": 483500,
     "change_pct": -1.43,
+=======
+    "current_price": 0,
+    "change_pct": 0.0,
+>>>>>>> Stashed changes
     "signal_source": null,
     "star_grade": 0,
     "red_star_grade": 0,
@@ -2046,15 +2980,26 @@
     "vcp_breakout": false,
     "cup_signal": false,
     "volume_spike": "False",
+<<<<<<< Updated upstream
     "volume_ratio": 0.9,
     "today_volume": 483154,
+=======
+    "volume_ratio": 0.36,
+    "today_volume": 192705,
+>>>>>>> Stashed changes
     "strategies": {
       "골든크로스": {
         "종목코드": "006400",
         "최근일자": "20261026",
+<<<<<<< Updated upstream
         "현재가": "483500",
         "5일선": 519200.0,
         "20일선": 540100.0,
+=======
+        "현재가": "481500",
+        "5일선": 518800.0,
+        "20일선": 540000.0,
+>>>>>>> Stashed changes
         "신호": "HOLD",
         "추세": "하락"
       },
@@ -2062,12 +3007,21 @@
         "전략": "그물망 추세 돌파",
         "종목코드": "006400",
         "최근일자": "20261026",
+<<<<<<< Updated upstream
         "현재가": "483500",
         "EMA20": 535856.19,
         "EMA40": 531845.13,
         "EMA60": 529620.6,
         "정배열": "NO",
         "그물망폭(오늘)": 6235.59,
+=======
+        "현재가": "481500",
+        "EMA20": 535665.71,
+        "EMA40": 531747.57,
+        "EMA60": 529555.03,
+        "정배열": "NO",
+        "그물망폭(오늘)": 6110.69,
+>>>>>>> Stashed changes
         "그물망폭(어제)": 10183.36,
         "발산여부": "NO",
         "신호": "HOLD"
@@ -2075,7 +3029,11 @@
       "피보나치": {
         "전략": "피보나치 황금비율",
         "종목코드": "006400",
+<<<<<<< Updated upstream
         "현재가": 483500.0,
+=======
+        "현재가": 481500.0,
+>>>>>>> Stashed changes
         "1년최고가": 707000.0,
         "1년최저가": 341500.0,
         "38.2%라인": 567379.0,
@@ -2089,12 +3047,20 @@
       "다이버전스": {
         "전략": "상승 다이버전스",
         "종목코드": "006400",
+<<<<<<< Updated upstream
         "RSI현재": 39.92,
+=======
+        "RSI현재": 39.64,
+>>>>>>> Stashed changes
         "이전저점가": 341500.0,
         "최근저점가": 471500.0,
         "주가신저점": "NO",
         "이전저점RSI": 27.78,
+<<<<<<< Updated upstream
         "최근저점RSI": 39.92,
+=======
+        "최근저점RSI": 39.64,
+>>>>>>> Stashed changes
         "RSI저점상승": "YES",
         "다이버전스": "NO",
         "양봉": "YES",
@@ -2107,7 +3073,11 @@
         "신호": "HOLD",
         "스퀴즈여부": "NO",
         "상단돌파": "NO",
+<<<<<<< Updated upstream
         "밴드폭": 22.92
+=======
+        "밴드폭": 23.07
+>>>>>>> Stashed changes
       },
       "OBV": {
         "전략": "OBV",
@@ -2132,9 +3102,15 @@
         "전략": "거래량급증",
         "종목코드": "006400",
         "is_spike": "False",
+<<<<<<< Updated upstream
         "ratio": 0.9,
         "avg_volume": 534868,
         "today_volume": 483154,
+=======
+        "ratio": 0.36,
+        "avg_volume": 534868,
+        "today_volume": 192705,
+>>>>>>> Stashed changes
         "signal": "HOLD"
       }
     }
@@ -2144,8 +3120,13 @@
     "name": "셀트리온",
     "sector": "KOSPI200",
     "signal": "HOLD",
+<<<<<<< Updated upstream
     "current_price": 190000,
     "change_pct": -2.26,
+=======
+    "current_price": 0,
+    "change_pct": 0.0,
+>>>>>>> Stashed changes
     "signal_source": null,
     "star_grade": 0,
     "red_star_grade": 0,
@@ -2153,15 +3134,26 @@
     "vcp_breakout": false,
     "cup_signal": false,
     "volume_spike": "False",
+<<<<<<< Updated upstream
     "volume_ratio": 0.87,
     "today_volume": 417431,
+=======
+    "volume_ratio": 0.31,
+    "today_volume": 150837,
+>>>>>>> Stashed changes
     "strategies": {
       "골든크로스": {
         "종목코드": "068270",
         "최근일자": "20261026",
+<<<<<<< Updated upstream
         "현재가": "190000",
         "5일선": 194740.0,
         "20일선": 185595.0,
+=======
+        "현재가": "189500",
+        "5일선": 194640.0,
+        "20일선": 185570.0,
+>>>>>>> Stashed changes
         "신호": "HOLD",
         "추세": "상승"
       },
@@ -2169,12 +3161,21 @@
         "전략": "그물망 추세 돌파",
         "종목코드": "068270",
         "최근일자": "20261026",
+<<<<<<< Updated upstream
         "현재가": "190000",
         "EMA20": 188102.13,
         "EMA40": 186217.53,
         "EMA60": 185354.34,
         "정배열": "YES",
         "그물망폭(오늘)": 2747.79,
+=======
+        "현재가": "189500",
+        "EMA20": 188054.51,
+        "EMA40": 186193.14,
+        "EMA60": 185337.95,
+        "정배열": "YES",
+        "그물망폭(오늘)": 2716.56,
+>>>>>>> Stashed changes
         "그물망폭(어제)": 2705.49,
         "발산여부": "YES",
         "신호": "HOLD"
@@ -2182,7 +3183,11 @@
       "피보나치": {
         "전략": "피보나치 황금비율",
         "종목코드": "068270",
+<<<<<<< Updated upstream
         "현재가": 190000.0,
+=======
+        "현재가": 189500.0,
+>>>>>>> Stashed changes
         "1년최고가": 212000.0,
         "1년최저가": 158500.0,
         "38.2%라인": 191563.0,
@@ -2196,7 +3201,11 @@
       "다이버전스": {
         "전략": "상승 다이버전스",
         "종목코드": "068270",
+<<<<<<< Updated upstream
         "RSI현재": 54.66,
+=======
+        "RSI현재": 53.85,
+>>>>>>> Stashed changes
         "이전저점가": 167900.0,
         "최근저점가": 173700.0,
         "주가신저점": "NO",
@@ -2214,7 +3223,11 @@
         "신호": "HOLD",
         "스퀴즈여부": "NO",
         "상단돌파": "NO",
+<<<<<<< Updated upstream
         "밴드폭": 16.28
+=======
+        "밴드폭": 16.25
+>>>>>>> Stashed changes
       },
       "OBV": {
         "전략": "OBV",
@@ -2239,9 +3252,15 @@
         "전략": "거래량급증",
         "종목코드": "068270",
         "is_spike": "False",
+<<<<<<< Updated upstream
         "ratio": 0.87,
         "avg_volume": 481115,
         "today_volume": 417431,
+=======
+        "ratio": 0.31,
+        "avg_volume": 481115,
+        "today_volume": 150837,
+>>>>>>> Stashed changes
         "signal": "HOLD"
       }
     }
@@ -2251,8 +3270,13 @@
     "name": "기아",
     "sector": "KOSPI200",
     "signal": "HOLD",
+<<<<<<< Updated upstream
     "current_price": 105100,
     "change_pct": -1.68,
+=======
+    "current_price": 0,
+    "change_pct": 0.0,
+>>>>>>> Stashed changes
     "signal_source": null,
     "star_grade": 0,
     "red_star_grade": 0,
@@ -2260,15 +3284,26 @@
     "vcp_breakout": false,
     "cup_signal": false,
     "volume_spike": "False",
+<<<<<<< Updated upstream
     "volume_ratio": 0.5,
     "today_volume": 424594,
+=======
+    "volume_ratio": 0.14,
+    "today_volume": 119898,
+>>>>>>> Stashed changes
     "strategies": {
       "골든크로스": {
         "종목코드": "000270",
         "최근일자": "20261026",
+<<<<<<< Updated upstream
         "현재가": "105100",
         "5일선": 108740.0,
         "20일선": 110890.0,
+=======
+        "현재가": "104700",
+        "5일선": 108660.0,
+        "20일선": 110870.0,
+>>>>>>> Stashed changes
         "신호": "HOLD",
         "추세": "하락"
       },
@@ -2276,12 +3311,21 @@
         "전략": "그물망 추세 돌파",
         "종목코드": "000270",
         "최근일자": "20261026",
+<<<<<<< Updated upstream
         "현재가": "105100",
         "EMA20": 111818.71,
         "EMA40": 117478.31,
         "EMA60": 122743.51,
         "정배열": "NO",
         "그물망폭(오늘)": -10924.81,
+=======
+        "현재가": "104700",
+        "EMA20": 111780.61,
+        "EMA40": 117458.8,
+        "EMA60": 122730.4,
+        "정배열": "NO",
+        "그물망폭(오늘)": -10949.79,
+>>>>>>> Stashed changes
         "그물망폭(어제)": -10815.66,
         "발산여부": "NO",
         "신호": "HOLD"
@@ -2289,7 +3333,11 @@
       "피보나치": {
         "전략": "피보나치 황금비율",
         "종목코드": "000270",
+<<<<<<< Updated upstream
         "현재가": 105100.0,
+=======
+        "현재가": 104700.0,
+>>>>>>> Stashed changes
         "1년최고가": 174600.0,
         "1년최저가": 102600.0,
         "38.2%라인": 147096.0,
@@ -2303,7 +3351,11 @@
       "다이버전스": {
         "전략": "상승 다이버전스",
         "종목코드": "000270",
+<<<<<<< Updated upstream
         "RSI현재": 34.74,
+=======
+        "RSI현재": 34.29,
+>>>>>>> Stashed changes
         "이전저점가": 114700.0,
         "최근저점가": 102600.0,
         "주가신저점": "YES",
@@ -2321,7 +3373,11 @@
         "신호": "HOLD",
         "스퀴즈여부": "YES",
         "상단돌파": "NO",
+<<<<<<< Updated upstream
         "밴드폭": 13.18
+=======
+        "밴드폭": 13.31
+>>>>>>> Stashed changes
       },
       "OBV": {
         "전략": "OBV",
@@ -2346,9 +3402,15 @@
         "전략": "거래량급증",
         "종목코드": "000270",
         "is_spike": "False",
+<<<<<<< Updated upstream
         "ratio": 0.5,
         "avg_volume": 841182,
         "today_volume": 424594,
+=======
+        "ratio": 0.14,
+        "avg_volume": 841182,
+        "today_volume": 119898,
+>>>>>>> Stashed changes
         "signal": "HOLD"
       }
     }
@@ -2358,8 +3420,13 @@
     "name": "HD현대중공업",
     "sector": "KOSPI200",
     "signal": "HOLD",
+<<<<<<< Updated upstream
     "current_price": 289500,
     "change_pct": -5.08,
+=======
+    "current_price": 0,
+    "change_pct": 0.0,
+>>>>>>> Stashed changes
     "signal_source": null,
     "star_grade": 0,
     "red_star_grade": 0,
@@ -2367,15 +3434,26 @@
     "vcp_breakout": false,
     "cup_signal": false,
     "volume_spike": "False",
+<<<<<<< Updated upstream
     "volume_ratio": 1.21,
     "today_volume": 331258,
+=======
+    "volume_ratio": 0.33,
+    "today_volume": 89911,
+>>>>>>> Stashed changes
     "strategies": {
       "골든크로스": {
         "종목코드": "329180",
         "최근일자": "20261026",
+<<<<<<< Updated upstream
         "현재가": "289500",
         "5일선": 308300.0,
         "20일선": 374975.0,
+=======
+        "현재가": "295500",
+        "5일선": 309500.0,
+        "20일선": 375275.0,
+>>>>>>> Stashed changes
         "신호": "HOLD",
         "추세": "하락"
       },
@@ -2383,12 +3461,21 @@
         "전략": "그물망 추세 돌파",
         "종목코드": "329180",
         "최근일자": "20261026",
+<<<<<<< Updated upstream
         "현재가": "289500",
         "EMA20": 363321.66,
         "EMA40": 403303.54,
         "EMA60": 433526.18,
         "정배열": "NO",
         "그물망폭(오늘)": -70204.52,
+=======
+        "현재가": "295500",
+        "EMA20": 363893.09,
+        "EMA40": 403596.22,
+        "EMA60": 433722.91,
+        "정배열": "NO",
+        "그물망폭(오늘)": -69829.82,
+>>>>>>> Stashed changes
         "그물망폭(어제)": -67316.06,
         "발산여부": "NO",
         "신호": "HOLD"
@@ -2396,6 +3483,7 @@
       "피보나치": {
         "전략": "피보나치 황금비율",
         "종목코드": "329180",
+<<<<<<< Updated upstream
         "현재가": 289500.0,
         "1년최고가": 738000.0,
         "1년최저가": 288500.0,
@@ -2405,17 +3493,37 @@
         "구간내": "NO",
         "양봉": "NO",
         "거래량증가": "YES",
+=======
+        "현재가": 295500.0,
+        "1년최고가": 738000.0,
+        "1년최저가": 292000.0,
+        "38.2%라인": 567628.0,
+        "61.8%라인": 462372.0,
+        "60일선위": "NO",
+        "구간내": "NO",
+        "양봉": "NO",
+        "거래량증가": "NO",
+>>>>>>> Stashed changes
         "신호": "HOLD"
       },
       "다이버전스": {
         "전략": "상승 다이버전스",
         "종목코드": "329180",
+<<<<<<< Updated upstream
         "RSI현재": 16.79,
         "이전저점가": 411500.0,
         "최근저점가": 288500.0,
         "주가신저점": "YES",
         "이전저점RSI": 22.56,
         "최근저점RSI": 16.79,
+=======
+        "RSI현재": 17.51,
+        "이전저점가": 411500.0,
+        "최근저점가": 292000.0,
+        "주가신저점": "YES",
+        "이전저점RSI": 22.56,
+        "최근저점RSI": 17.51,
+>>>>>>> Stashed changes
         "RSI저점상승": "NO",
         "다이버전스": "NO",
         "양봉": "NO",
@@ -2428,7 +3536,11 @@
         "신호": "HOLD",
         "스퀴즈여부": "NO",
         "상단돌파": "NO",
+<<<<<<< Updated upstream
         "밴드폭": 54.02
+=======
+        "밴드폭": 53.42
+>>>>>>> Stashed changes
       },
       "OBV": {
         "전략": "OBV",
@@ -2453,9 +3565,15 @@
         "전략": "거래량급증",
         "종목코드": "329180",
         "is_spike": "False",
+<<<<<<< Updated upstream
         "ratio": 1.21,
         "avg_volume": 274311,
         "today_volume": 331258,
+=======
+        "ratio": 0.33,
+        "avg_volume": 274311,
+        "today_volume": 89911,
+>>>>>>> Stashed changes
         "signal": "HOLD"
       }
     }
@@ -2465,7 +3583,11 @@
     "name": "SK",
     "sector": "KOSPI200",
     "signal": "HOLD",
+<<<<<<< Updated upstream
     "current_price": 465500,
+=======
+    "current_price": 0,
+>>>>>>> Stashed changes
     "change_pct": 0.0,
     "signal_source": null,
     "star_grade": 0,
@@ -2474,15 +3596,26 @@
     "vcp_breakout": false,
     "cup_signal": false,
     "volume_spike": "False",
+<<<<<<< Updated upstream
     "volume_ratio": 0.78,
     "today_volume": 126420,
+=======
+    "volume_ratio": 0.25,
+    "today_volume": 39929,
+>>>>>>> Stashed changes
     "strategies": {
       "골든크로스": {
         "종목코드": "034730",
         "최근일자": "20261026",
+<<<<<<< Updated upstream
         "현재가": "465500",
         "5일선": 460500.0,
         "20일선": 521975.0,
+=======
+        "현재가": "466000",
+        "5일선": 460600.0,
+        "20일선": 522000.0,
+>>>>>>> Stashed changes
         "신호": "HOLD",
         "추세": "하락"
       },
@@ -2490,12 +3623,21 @@
         "전략": "그물망 추세 돌파",
         "종목코드": "034730",
         "최근일자": "20261026",
+<<<<<<< Updated upstream
         "현재가": "465500",
         "EMA20": 503523.78,
         "EMA40": 531893.98,
         "EMA60": 550212.08,
         "정배열": "NO",
         "그물망폭(오늘)": -46688.3,
+=======
+        "현재가": "466000",
+        "EMA20": 503571.39,
+        "EMA40": 531918.37,
+        "EMA60": 550228.47,
+        "정배열": "NO",
+        "그물망폭(오늘)": -46657.08,
+>>>>>>> Stashed changes
         "그물망폭(어제)": -45557.4,
         "발산여부": "NO",
         "신호": "HOLD"
@@ -2503,7 +3645,11 @@
       "피보나치": {
         "전략": "피보나치 황금비율",
         "종목코드": "034730",
+<<<<<<< Updated upstream
         "현재가": 465500.0,
+=======
+        "현재가": 466000.0,
+>>>>>>> Stashed changes
         "1년최고가": 883000.0,
         "1년최저가": 419500.0,
         "38.2%라인": 705943.0,
@@ -2517,7 +3663,11 @@
       "다이버전스": {
         "전략": "상승 다이버전스",
         "종목코드": "034730",
+<<<<<<< Updated upstream
         "RSI현재": 39.34,
+=======
+        "RSI현재": 39.46,
+>>>>>>> Stashed changes
         "이전저점가": 450000.0,
         "최근저점가": 419500.0,
         "주가신저점": "YES",
@@ -2535,7 +3685,11 @@
         "신호": "HOLD",
         "스퀴즈여부": "NO",
         "상단돌파": "NO",
+<<<<<<< Updated upstream
         "밴드폭": 47.84
+=======
+        "밴드폭": 47.82
+>>>>>>> Stashed changes
       },
       "OBV": {
         "전략": "OBV",
@@ -2560,9 +3714,15 @@
         "전략": "거래량급증",
         "종목코드": "034730",
         "is_spike": "False",
+<<<<<<< Updated upstream
         "ratio": 0.78,
         "avg_volume": 162054,
         "today_volume": 126420,
+=======
+        "ratio": 0.25,
+        "avg_volume": 162054,
+        "today_volume": 39929,
+>>>>>>> Stashed changes
         "signal": "HOLD"
       }
     }
@@ -2572,8 +3732,13 @@
     "name": "하나금융지주",
     "sector": "KOSPI200",
     "signal": "HOLD",
+<<<<<<< Updated upstream
     "current_price": 112400,
     "change_pct": -3.35,
+=======
+    "current_price": 0,
+    "change_pct": 0.0,
+>>>>>>> Stashed changes
     "signal_source": null,
     "star_grade": 0,
     "red_star_grade": 0,
@@ -2581,15 +3746,26 @@
     "vcp_breakout": false,
     "cup_signal": false,
     "volume_spike": "False",
+<<<<<<< Updated upstream
     "volume_ratio": 0.94,
     "today_volume": 673113,
+=======
+    "volume_ratio": 0.27,
+    "today_volume": 197232,
+>>>>>>> Stashed changes
     "strategies": {
       "골든크로스": {
         "종목코드": "086790",
         "최근일자": "20261026",
+<<<<<<< Updated upstream
         "현재가": "112400",
         "5일선": 118440.0,
         "20일선": 125210.0,
+=======
+        "현재가": "116200",
+        "5일선": 119200.0,
+        "20일선": 125400.0,
+>>>>>>> Stashed changes
         "신호": "HOLD",
         "추세": "하락"
       },
@@ -2597,12 +3773,21 @@
         "전략": "그물망 추세 돌파",
         "종목코드": "086790",
         "최근일자": "20261026",
+<<<<<<< Updated upstream
         "현재가": "112400",
         "EMA20": 124005.0,
         "EMA40": 127088.21,
         "EMA60": 127552.38,
         "정배열": "NO",
         "그물망폭(오늘)": -3547.37,
+=======
+        "현재가": "116200",
+        "EMA20": 124366.91,
+        "EMA40": 127273.57,
+        "EMA60": 127676.97,
+        "정배열": "NO",
+        "그물망폭(오늘)": -3310.06,
+>>>>>>> Stashed changes
         "그물망폭(어제)": -2839.44,
         "발산여부": "NO",
         "신호": "HOLD"
@@ -2610,7 +3795,11 @@
       "피보나치": {
         "전략": "피보나치 황금비율",
         "종목코드": "086790",
+<<<<<<< Updated upstream
         "현재가": 112400.0,
+=======
+        "현재가": 116200.0,
+>>>>>>> Stashed changes
         "1년최고가": 142500.0,
         "1년최저가": 107600.0,
         "38.2%라인": 129168.2,
@@ -2624,12 +3813,20 @@
       "다이버전스": {
         "전략": "상승 다이버전스",
         "종목코드": "086790",
+<<<<<<< Updated upstream
         "RSI현재": 23.56,
+=======
+        "RSI현재": 27.45,
+>>>>>>> Stashed changes
         "이전저점가": 109100.0,
         "최근저점가": 111700.0,
         "주가신저점": "NO",
         "이전저점RSI": 41.62,
+<<<<<<< Updated upstream
         "최근저점RSI": 23.56,
+=======
+        "최근저점RSI": 27.45,
+>>>>>>> Stashed changes
         "RSI저점상승": "NO",
         "다이버전스": "NO",
         "양봉": "NO",
@@ -2642,7 +3839,11 @@
         "신호": "HOLD",
         "스퀴즈여부": "NO",
         "상단돌파": "NO",
+<<<<<<< Updated upstream
         "밴드폭": 18.93
+=======
+        "밴드폭": 17.67
+>>>>>>> Stashed changes
       },
       "OBV": {
         "전략": "OBV",
@@ -2667,9 +3868,15 @@
         "전략": "거래량급증",
         "종목코드": "086790",
         "is_spike": "False",
+<<<<<<< Updated upstream
         "ratio": 0.94,
         "avg_volume": 717246,
         "today_volume": 673113,
+=======
+        "ratio": 0.27,
+        "avg_volume": 717246,
+        "today_volume": 197232,
+>>>>>>> Stashed changes
         "signal": "HOLD"
       }
     }
@@ -2679,8 +3886,13 @@
     "name": "LG전자",
     "sector": "KOSPI200",
     "signal": "HOLD",
+<<<<<<< Updated upstream
     "current_price": 156000,
     "change_pct": -0.7,
+=======
+    "current_price": 0,
+    "change_pct": 0.0,
+>>>>>>> Stashed changes
     "signal_source": null,
     "star_grade": 0,
     "red_star_grade": 0,
@@ -2688,15 +3900,26 @@
     "vcp_breakout": false,
     "cup_signal": false,
     "volume_spike": "False",
+<<<<<<< Updated upstream
     "volume_ratio": 0.47,
     "today_volume": 401501,
+=======
+    "volume_ratio": 0.2,
+    "today_volume": 169584,
+>>>>>>> Stashed changes
     "strategies": {
       "골든크로스": {
         "종목코드": "066570",
         "최근일자": "20261026",
+<<<<<<< Updated upstream
         "현재가": "156000",
         "5일선": 160320.0,
         "20일선": 188425.0,
+=======
+        "현재가": "155400",
+        "5일선": 160200.0,
+        "20일선": 188395.0,
+>>>>>>> Stashed changes
         "신호": "HOLD",
         "추세": "하락"
       },
@@ -2704,12 +3927,21 @@
         "전략": "그물망 추세 돌파",
         "종목코드": "066570",
         "최근일자": "20261026",
+<<<<<<< Updated upstream
         "현재가": "156000",
         "EMA20": 179895.1,
         "EMA40": 189187.58,
         "EMA60": 195391.36,
         "정배열": "NO",
         "그물망폭(오늘)": -15496.26,
+=======
+        "현재가": "155400",
+        "EMA20": 179837.96,
+        "EMA40": 189158.31,
+        "EMA60": 195371.68,
+        "정배열": "NO",
+        "그물망폭(오늘)": -15533.73,
+>>>>>>> Stashed changes
         "그물망폭(어제)": -14316.28,
         "발산여부": "NO",
         "신호": "HOLD"
@@ -2717,7 +3949,11 @@
       "피보나치": {
         "전략": "피보나치 황금비율",
         "종목코드": "066570",
+<<<<<<< Updated upstream
         "현재가": 156000.0,
+=======
+        "현재가": 155400.0,
+>>>>>>> Stashed changes
         "1년최고가": 438000.0,
         "1년최저가": 141900.0,
         "38.2%라인": 324889.8,
@@ -2731,12 +3967,20 @@
       "다이버전스": {
         "전략": "상승 다이버전스",
         "종목코드": "066570",
+<<<<<<< Updated upstream
         "RSI현재": 29.81,
+=======
+        "RSI현재": 29.57,
+>>>>>>> Stashed changes
         "이전저점가": 141900.0,
         "최근저점가": 152200.0,
         "주가신저점": "NO",
         "이전저점RSI": 31.02,
+<<<<<<< Updated upstream
         "최근저점RSI": 29.81,
+=======
+        "최근저점RSI": 29.57,
+>>>>>>> Stashed changes
         "RSI저점상승": "NO",
         "다이버전스": "NO",
         "양봉": "YES",
@@ -2749,7 +3993,11 @@
         "신호": "HOLD",
         "스퀴즈여부": "NO",
         "상단돌파": "NO",
+<<<<<<< Updated upstream
         "밴드폭": 51.99
+=======
+        "밴드폭": 52.09
+>>>>>>> Stashed changes
       },
       "OBV": {
         "전략": "OBV",
@@ -2774,9 +4022,15 @@
         "전략": "거래량급증",
         "종목코드": "066570",
         "is_spike": "False",
+<<<<<<< Updated upstream
         "ratio": 0.47,
         "avg_volume": 851093,
         "today_volume": 401501,
+=======
+        "ratio": 0.2,
+        "avg_volume": 851093,
+        "today_volume": 169584,
+>>>>>>> Stashed changes
         "signal": "HOLD"
       }
     }
@@ -2786,8 +4040,13 @@
     "name": "현대모비스",
     "sector": "KOSPI200",
     "signal": "HOLD",
+<<<<<<< Updated upstream
     "current_price": 326000,
     "change_pct": -0.76,
+=======
+    "current_price": 0,
+    "change_pct": 0.0,
+>>>>>>> Stashed changes
     "signal_source": null,
     "star_grade": 0,
     "red_star_grade": 0,
@@ -2795,15 +4054,26 @@
     "vcp_breakout": false,
     "cup_signal": false,
     "volume_spike": "False",
+<<<<<<< Updated upstream
     "volume_ratio": 0.56,
     "today_volume": 160057,
+=======
+    "volume_ratio": 0.25,
+    "today_volume": 72292,
+>>>>>>> Stashed changes
     "strategies": {
       "골든크로스": {
         "종목코드": "012330",
         "최근일자": "20261026",
+<<<<<<< Updated upstream
         "현재가": "326000",
         "5일선": 337100.0,
         "20일선": 357750.0,
+=======
+        "현재가": "325000",
+        "5일선": 336900.0,
+        "20일선": 357700.0,
+>>>>>>> Stashed changes
         "신호": "HOLD",
         "추세": "하락"
       },
@@ -2811,12 +4081,21 @@
         "전략": "그물망 추세 돌파",
         "종목코드": "012330",
         "최근일자": "20261026",
+<<<<<<< Updated upstream
         "현재가": "326000",
         "EMA20": 358435.33,
         "EMA40": 388428.76,
         "EMA60": 419007.27,
         "정배열": "NO",
         "그물망폭(오늘)": -60571.93,
+=======
+        "현재가": "325000",
+        "EMA20": 358340.1,
+        "EMA40": 388379.98,
+        "EMA60": 418974.48,
+        "정배열": "NO",
+        "그물망폭(오늘)": -60634.38,
+>>>>>>> Stashed changes
         "그물망폭(어제)": -60310.48,
         "발산여부": "NO",
         "신호": "HOLD"
@@ -2824,7 +4103,11 @@
       "피보나치": {
         "전략": "피보나치 황금비율",
         "종목코드": "012330",
+<<<<<<< Updated upstream
         "현재가": 326000.0,
+=======
+        "현재가": 325000.0,
+>>>>>>> Stashed changes
         "1년최고가": 822000.0,
         "1년최저가": 317500.0,
         "38.2%라인": 629281.0,
@@ -2838,7 +4121,11 @@
       "다이버전스": {
         "전략": "상승 다이버전스",
         "종목코드": "012330",
+<<<<<<< Updated upstream
         "RSI현재": 31.02,
+=======
+        "RSI현재": 30.77,
+>>>>>>> Stashed changes
         "이전저점가": 420500.0,
         "최근저점가": 317500.0,
         "주가신저점": "YES",
@@ -2856,7 +4143,11 @@
         "신호": "HOLD",
         "스퀴즈여부": "NO",
         "상단돌파": "NO",
+<<<<<<< Updated upstream
         "밴드폭": 19.22
+=======
+        "밴드폭": 19.34
+>>>>>>> Stashed changes
       },
       "OBV": {
         "전략": "OBV",
@@ -2881,9 +4172,15 @@
         "전략": "거래량급증",
         "종목코드": "012330",
         "is_spike": "False",
+<<<<<<< Updated upstream
         "ratio": 0.56,
         "avg_volume": 285222,
         "today_volume": 160057,
+=======
+        "ratio": 0.25,
+        "avg_volume": 285222,
+        "today_volume": 72292,
+>>>>>>> Stashed changes
         "signal": "HOLD"
       }
     }
@@ -2893,8 +4190,13 @@
     "name": "LS ELECTRIC",
     "sector": "KOSPI200",
     "signal": "HOLD",
+<<<<<<< Updated upstream
     "current_price": 152900,
     "change_pct": -2.55,
+=======
+    "current_price": 0,
+    "change_pct": 0.0,
+>>>>>>> Stashed changes
     "signal_source": null,
     "star_grade": 0,
     "red_star_grade": 0,
@@ -2902,15 +4204,26 @@
     "vcp_breakout": false,
     "cup_signal": false,
     "volume_spike": "False",
+<<<<<<< Updated upstream
     "volume_ratio": 0.58,
     "today_volume": 325397,
+=======
+    "volume_ratio": 0.25,
+    "today_volume": 142201,
+>>>>>>> Stashed changes
     "strategies": {
       "골든크로스": {
         "종목코드": "010120",
         "최근일자": "20261026",
+<<<<<<< Updated upstream
         "현재가": "152900",
         "5일선": 158500.0,
         "20일선": 183270.0,
+=======
+        "현재가": "155300",
+        "5일선": 158980.0,
+        "20일선": 183390.0,
+>>>>>>> Stashed changes
         "신호": "HOLD",
         "추세": "하락"
       },
@@ -2918,12 +4231,21 @@
         "전략": "그물망 추세 돌파",
         "종목코드": "010120",
         "최근일자": "20261026",
+<<<<<<< Updated upstream
         "현재가": "152900",
         "EMA20": 176574.9,
         "EMA40": 187362.26,
         "EMA60": 193606.1,
         "정배열": "NO",
         "그물망폭(오늘)": -17031.2,
+=======
+        "현재가": "155300",
+        "EMA20": 176803.47,
+        "EMA40": 187479.34,
+        "EMA60": 193684.79,
+        "정배열": "NO",
+        "그물망폭(오늘)": -16881.32,
+>>>>>>> Stashed changes
         "그물망폭(어제)": -15918.98,
         "발산여부": "NO",
         "신호": "HOLD"
@@ -2931,7 +4253,11 @@
       "피보나치": {
         "전략": "피보나치 황금비율",
         "종목코드": "010120",
+<<<<<<< Updated upstream
         "현재가": 152900.0,
+=======
+        "현재가": 155300.0,
+>>>>>>> Stashed changes
         "1년최고가": 281500.0,
         "1년최저가": 147000.0,
         "38.2%라인": 230121.0,
@@ -2945,7 +4271,11 @@
       "다이버전스": {
         "전략": "상승 다이버전스",
         "종목코드": "010120",
+<<<<<<< Updated upstream
         "RSI현재": 33.26,
+=======
+        "RSI현재": 34.15,
+>>>>>>> Stashed changes
         "이전저점가": 148000.0,
         "최근저점가": 147000.0,
         "주가신저점": "YES",
@@ -2963,7 +4293,11 @@
         "신호": "HOLD",
         "스퀴즈여부": "NO",
         "상단돌파": "NO",
+<<<<<<< Updated upstream
         "밴드폭": 49.72
+=======
+        "밴드폭": 49.33
+>>>>>>> Stashed changes
       },
       "OBV": {
         "전략": "OBV",
@@ -2988,9 +4322,15 @@
         "전략": "거래량급증",
         "종목코드": "010120",
         "is_spike": "False",
+<<<<<<< Updated upstream
         "ratio": 0.58,
         "avg_volume": 561658,
         "today_volume": 325397,
+=======
+        "ratio": 0.25,
+        "avg_volume": 561658,
+        "today_volume": 142201,
+>>>>>>> Stashed changes
         "signal": "HOLD"
       }
     }
@@ -3000,8 +4340,13 @@
     "name": "NAVER",
     "sector": "KOSPI200",
     "signal": "HOLD",
+<<<<<<< Updated upstream
     "current_price": 174200,
     "change_pct": 0.35,
+=======
+    "current_price": 0,
+    "change_pct": 0.0,
+>>>>>>> Stashed changes
     "signal_source": null,
     "star_grade": 0,
     "red_star_grade": 0,
@@ -3009,15 +4354,26 @@
     "vcp_breakout": false,
     "cup_signal": false,
     "volume_spike": "False",
+<<<<<<< Updated upstream
     "volume_ratio": 0.77,
     "today_volume": 469207,
+=======
+    "volume_ratio": 0.25,
+    "today_volume": 151048,
+>>>>>>> Stashed changes
     "strategies": {
       "골든크로스": {
         "종목코드": "035420",
         "최근일자": "20261026",
+<<<<<<< Updated upstream
         "현재가": "174200",
         "5일선": 176340.0,
         "20일선": 184215.0,
+=======
+        "현재가": "173700",
+        "5일선": 176240.0,
+        "20일선": 184190.0,
+>>>>>>> Stashed changes
         "신호": "HOLD",
         "추세": "하락"
       },
@@ -3025,12 +4381,21 @@
         "전략": "그물망 추세 돌파",
         "종목코드": "035420",
         "최근일자": "20261026",
+<<<<<<< Updated upstream
         "현재가": "174200",
         "EMA20": 184070.48,
         "EMA40": 192453.32,
         "EMA60": 197984.94,
         "정배열": "NO",
         "그물망폭(오늘)": -13914.46,
+=======
+        "현재가": "173700",
+        "EMA20": 184022.86,
+        "EMA40": 192428.93,
+        "EMA60": 197968.55,
+        "정배열": "NO",
+        "그물망폭(오늘)": -13945.68,
+>>>>>>> Stashed changes
         "그물망폭(어제)": -13681.73,
         "발산여부": "NO",
         "신호": "HOLD"
@@ -3038,7 +4403,11 @@
       "피보나치": {
         "전략": "피보나치 황금비율",
         "종목코드": "035420",
+<<<<<<< Updated upstream
         "현재가": 174200.0,
+=======
+        "현재가": 173700.0,
+>>>>>>> Stashed changes
         "1년최고가": 304000.0,
         "1년최저가": 170900.0,
         "38.2%라인": 253155.8,
@@ -3052,7 +4421,11 @@
       "다이버전스": {
         "전략": "상승 다이버전스",
         "종목코드": "035420",
+<<<<<<< Updated upstream
         "RSI현재": 33.64,
+=======
+        "RSI현재": 32.87,
+>>>>>>> Stashed changes
         "이전저점가": 181100.0,
         "최근저점가": 170900.0,
         "주가신저점": "YES",
@@ -3070,7 +4443,11 @@
         "신호": "HOLD",
         "스퀴즈여부": "NO",
         "상단돌파": "NO",
+<<<<<<< Updated upstream
         "밴드폭": 17.4
+=======
+        "밴드폭": 17.47
+>>>>>>> Stashed changes
       },
       "OBV": {
         "전략": "OBV",
@@ -3095,9 +4472,15 @@
         "전략": "거래량급증",
         "종목코드": "035420",
         "is_spike": "False",
+<<<<<<< Updated upstream
         "ratio": 0.77,
         "avg_volume": 606087,
         "today_volume": 469207,
+=======
+        "ratio": 0.25,
+        "avg_volume": 606087,
+        "today_volume": 151048,
+>>>>>>> Stashed changes
         "signal": "HOLD"
       }
     }
@@ -3107,8 +4490,13 @@
     "name": "삼성화재",
     "sector": "KOSPI200",
     "signal": "HOLD",
+<<<<<<< Updated upstream
     "current_price": 595000,
     "change_pct": -1.16,
+=======
+    "current_price": 0,
+    "change_pct": 0.0,
+>>>>>>> Stashed changes
     "signal_source": null,
     "star_grade": 0,
     "red_star_grade": 0,
@@ -3116,15 +4504,26 @@
     "vcp_breakout": false,
     "cup_signal": false,
     "volume_spike": "False",
+<<<<<<< Updated upstream
     "volume_ratio": 0.73,
     "today_volume": 61001,
+=======
+    "volume_ratio": 0.21,
+    "today_volume": 17285,
+>>>>>>> Stashed changes
     "strategies": {
       "골든크로스": {
         "종목코드": "000810",
         "최근일자": "20261026",
+<<<<<<< Updated upstream
         "현재가": "595000",
         "5일선": 601600.0,
         "20일선": 616000.0,
+=======
+        "현재가": "603000",
+        "5일선": 603200.0,
+        "20일선": 616400.0,
+>>>>>>> Stashed changes
         "신호": "HOLD",
         "추세": "하락"
       },
@@ -3132,12 +4531,21 @@
         "전략": "그물망 추세 돌파",
         "종목코드": "000810",
         "최근일자": "20261026",
+<<<<<<< Updated upstream
         "현재가": "595000",
         "EMA20": 613948.73,
         "EMA40": 625990.4,
         "EMA60": 629409.26,
         "정배열": "NO",
         "그물망폭(오늘)": -15460.53,
+=======
+        "현재가": "603000",
+        "EMA20": 614710.63,
+        "EMA40": 626380.64,
+        "EMA60": 629671.56,
+        "정배열": "NO",
+        "그물망폭(오늘)": -14960.92,
+>>>>>>> Stashed changes
         "그물망폭(어제)": -14632.34,
         "발산여부": "NO",
         "신호": "HOLD"
@@ -3145,7 +4553,11 @@
       "피보나치": {
         "전략": "피보나치 황금비율",
         "종목코드": "000810",
+<<<<<<< Updated upstream
         "현재가": 595000.0,
+=======
+        "현재가": 603000.0,
+>>>>>>> Stashed changes
         "1년최고가": 757000.0,
         "1년최저가": 545000.0,
         "38.2%라인": 676016.0,
@@ -3159,7 +4571,11 @@
       "다이버전스": {
         "전략": "상승 다이버전스",
         "종목코드": "000810",
+<<<<<<< Updated upstream
         "RSI현재": 40.71,
+=======
+        "RSI현재": 43.23,
+>>>>>>> Stashed changes
         "이전저점가": 571000.0,
         "최근저점가": 568000.0,
         "주가신저점": "YES",
@@ -3177,7 +4593,11 @@
         "신호": "HOLD",
         "스퀴즈여부": "NO",
         "상단돌파": "NO",
+<<<<<<< Updated upstream
         "밴드폭": 14.94
+=======
+        "밴드폭": 14.73
+>>>>>>> Stashed changes
       },
       "OBV": {
         "전략": "OBV",
@@ -3202,9 +4622,15 @@
         "전략": "거래량급증",
         "종목코드": "000810",
         "is_spike": "False",
+<<<<<<< Updated upstream
         "ratio": 0.73,
         "avg_volume": 83729,
         "today_volume": 61001,
+=======
+        "ratio": 0.21,
+        "avg_volume": 83729,
+        "today_volume": 17285,
+>>>>>>> Stashed changes
         "signal": "HOLD"
       }
     }
@@ -3214,8 +4640,13 @@
     "name": "SK이노베이션",
     "sector": "KOSPI200",
     "signal": "HOLD",
+<<<<<<< Updated upstream
     "current_price": 137000,
     "change_pct": -0.8,
+=======
+    "current_price": 0,
+    "change_pct": 0.0,
+>>>>>>> Stashed changes
     "signal_source": "OBV",
     "star_grade": 0,
     "red_star_grade": 0,
@@ -3223,15 +4654,26 @@
     "vcp_breakout": false,
     "cup_signal": false,
     "volume_spike": "False",
+<<<<<<< Updated upstream
     "volume_ratio": 0.59,
     "today_volume": 529921,
+=======
+    "volume_ratio": 0.24,
+    "today_volume": 216356,
+>>>>>>> Stashed changes
     "strategies": {
       "골든크로스": {
         "종목코드": "096770",
         "최근일자": "20261026",
+<<<<<<< Updated upstream
         "현재가": "137000",
         "5일선": 143840.0,
         "20일선": 151810.0,
+=======
+        "현재가": "137600",
+        "5일선": 143960.0,
+        "20일선": 151840.0,
+>>>>>>> Stashed changes
         "신호": "HOLD",
         "추세": "하락"
       },
@@ -3239,12 +4681,21 @@
         "전략": "그물망 추세 돌파",
         "종목코드": "096770",
         "최근일자": "20261026",
+<<<<<<< Updated upstream
         "현재가": "137000",
         "EMA20": 148139.3,
         "EMA40": 143269.45,
         "EMA60": 138306.39,
         "정배열": "YES",
         "그물망폭(오늘)": 9832.92,
+=======
+        "현재가": "137600",
+        "EMA20": 148196.45,
+        "EMA40": 143298.71,
+        "EMA60": 138326.06,
+        "정배열": "YES",
+        "그물망폭(오늘)": 9870.39,
+>>>>>>> Stashed changes
         "그물망폭(어제)": 10961.19,
         "발산여부": "NO",
         "신호": "HOLD"
@@ -3252,7 +4703,11 @@
       "피보나치": {
         "전략": "피보나치 황금비율",
         "종목코드": "096770",
+<<<<<<< Updated upstream
         "현재가": 137000.0,
+=======
+        "현재가": 137600.0,
+>>>>>>> Stashed changes
         "1년최고가": 165400.0,
         "1년최저가": 87700.0,
         "38.2%라인": 135718.6,
@@ -3266,7 +4721,11 @@
       "다이버전스": {
         "전략": "상승 다이버전스",
         "종목코드": "096770",
+<<<<<<< Updated upstream
         "RSI현재": 44.11,
+=======
+        "RSI현재": 44.41,
+>>>>>>> Stashed changes
         "이전저점가": 89400.0,
         "최근저점가": 103700.0,
         "주가신저점": "NO",
@@ -3284,7 +4743,11 @@
         "신호": "HOLD",
         "스퀴즈여부": "YES",
         "상단돌파": "NO",
+<<<<<<< Updated upstream
         "밴드폭": 21.35
+=======
+        "밴드폭": 21.2
+>>>>>>> Stashed changes
       },
       "OBV": {
         "전략": "OBV",
@@ -3309,9 +4772,15 @@
         "전략": "거래량급증",
         "종목코드": "096770",
         "is_spike": "False",
+<<<<<<< Updated upstream
         "ratio": 0.59,
         "avg_volume": 895206,
         "today_volume": 529921,
+=======
+        "ratio": 0.24,
+        "avg_volume": 895206,
+        "today_volume": 216356,
+>>>>>>> Stashed changes
         "signal": "HOLD"
       }
     }
@@ -3321,8 +4790,13 @@
     "name": "한미반도체",
     "sector": "KOSPI200",
     "signal": "HOLD",
+<<<<<<< Updated upstream
     "current_price": 184000,
     "change_pct": -3.66,
+=======
+    "current_price": 0,
+    "change_pct": 0.0,
+>>>>>>> Stashed changes
     "signal_source": null,
     "star_grade": 0,
     "red_star_grade": 0,
@@ -3330,15 +4804,26 @@
     "vcp_breakout": false,
     "cup_signal": false,
     "volume_spike": "False",
+<<<<<<< Updated upstream
     "volume_ratio": 0.68,
     "today_volume": 444790,
+=======
+    "volume_ratio": 0.25,
+    "today_volume": 163918,
+>>>>>>> Stashed changes
     "strategies": {
       "골든크로스": {
         "종목코드": "042700",
         "최근일자": "20261026",
+<<<<<<< Updated upstream
         "현재가": "184000",
         "5일선": 193820.0,
         "20일선": 230740.0,
+=======
+        "현재가": "186500",
+        "5일선": 194320.0,
+        "20일선": 230865.0,
+>>>>>>> Stashed changes
         "신호": "HOLD",
         "추세": "하락"
       },
@@ -3346,12 +4831,21 @@
         "전략": "그물망 추세 돌파",
         "종목코드": "042700",
         "최근일자": "20261026",
+<<<<<<< Updated upstream
         "현재가": "184000",
         "EMA20": 217914.39,
         "EMA40": 225071.36,
         "EMA60": 228862.54,
         "정배열": "NO",
         "그물망폭(오늘)": -10948.15,
+=======
+        "현재가": "186500",
+        "EMA20": 218152.49,
+        "EMA40": 225193.31,
+        "EMA60": 228944.51,
+        "정배열": "NO",
+        "그물망폭(오늘)": -10792.02,
+>>>>>>> Stashed changes
         "그물망폭(어제)": -8898.97,
         "발산여부": "NO",
         "신호": "HOLD"
@@ -3359,7 +4853,11 @@
       "피보나치": {
         "전략": "피보나치 황금비율",
         "종목코드": "042700",
+<<<<<<< Updated upstream
         "현재가": 184000.0,
+=======
+        "현재가": 186500.0,
+>>>>>>> Stashed changes
         "1년최고가": 372500.0,
         "1년최저가": 148900.0,
         "38.2%라인": 287084.8,
@@ -3373,7 +4871,11 @@
       "다이버전스": {
         "전략": "상승 다이버전스",
         "종목코드": "042700",
+<<<<<<< Updated upstream
         "RSI현재": 33.89,
+=======
+        "RSI현재": 34.58,
+>>>>>>> Stashed changes
         "이전저점가": 148900.0,
         "최근저점가": 182100.0,
         "주가신저점": "NO",
@@ -3391,7 +4893,11 @@
         "신호": "HOLD",
         "스퀴즈여부": "NO",
         "상단돌파": "NO",
+<<<<<<< Updated upstream
         "밴드폭": 54.7
+=======
+        "밴드폭": 54.34
+>>>>>>> Stashed changes
       },
       "OBV": {
         "전략": "OBV",
@@ -3416,9 +4922,15 @@
         "전략": "거래량급증",
         "종목코드": "042700",
         "is_spike": "False",
+<<<<<<< Updated upstream
         "ratio": 0.68,
         "avg_volume": 650689,
         "today_volume": 444790,
+=======
+        "ratio": 0.25,
+        "avg_volume": 650689,
+        "today_volume": 163918,
+>>>>>>> Stashed changes
         "signal": "HOLD"
       }
     }
@@ -3427,25 +4939,30 @@
     "code": "005490",
     "name": "POSCO홀딩스",
     "sector": "KOSPI200",
-    "signal": "HOLD",
-    "current_price": 269500,
-    "change_pct": -2.18,
-    "signal_source": null,
-    "star_grade": 0,
+    "signal": "BUY",
+    "current_price": 0,
+    "change_pct": 0.0,
+    "signal_source": "다이버전스",
+    "star_grade": 1,
     "red_star_grade": 0,
     "vcp_signal": false,
     "vcp_breakout": false,
     "cup_signal": false,
     "volume_spike": "False",
+<<<<<<< Updated upstream
     "volume_ratio": 0.67,
     "today_volume": 162098,
+=======
+    "volume_ratio": 0.24,
+    "today_volume": 56469,
+>>>>>>> Stashed changes
     "strategies": {
       "골든크로스": {
         "종목코드": "005490",
         "최근일자": "20261026",
-        "현재가": "269500",
-        "5일선": 286800.0,
-        "20일선": 301575.0,
+        "현재가": "271500",
+        "5일선": 287200.0,
+        "20일선": 301675.0,
         "신호": "HOLD",
         "추세": "하락"
       },
@@ -3453,12 +4970,12 @@
         "전략": "그물망 추세 돌파",
         "종목코드": "005490",
         "최근일자": "20261026",
-        "현재가": "269500",
-        "EMA20": 300295.06,
-        "EMA40": 309962.43,
-        "EMA60": 317465.08,
+        "현재가": "271500",
+        "EMA20": 300485.54,
+        "EMA40": 310060.0,
+        "EMA60": 317530.66,
         "정배열": "NO",
-        "그물망폭(오늘)": -17170.02,
+        "그물망폭(오늘)": -17045.12,
         "그물망폭(어제)": -15554.37,
         "발산여부": "NO",
         "신호": "HOLD"
@@ -3466,31 +4983,31 @@
       "피보나치": {
         "전략": "피보나치 황금비율",
         "종목코드": "005490",
-        "현재가": 269500.0,
+        "현재가": 271500.0,
         "1년최고가": 426000.0,
         "1년최저가": 268500.0,
         "38.2%라인": 365835.0,
         "61.8%라인": 328665.0,
         "60일선위": "NO",
         "구간내": "NO",
-        "양봉": "NO",
+        "양봉": "YES",
         "거래량증가": "NO",
         "신호": "HOLD"
       },
       "다이버전스": {
         "전략": "상승 다이버전스",
         "종목코드": "005490",
-        "RSI현재": 32.4,
+        "RSI현재": 33.02,
         "이전저점가": 275000.0,
         "최근저점가": 268500.0,
         "주가신저점": "YES",
         "이전저점RSI": 29.17,
-        "최근저점RSI": 32.4,
+        "최근저점RSI": 33.02,
         "RSI저점상승": "YES",
         "다이버전스": "YES",
-        "양봉": "NO",
+        "양봉": "YES",
         "RSI30탈출": "NO",
-        "신호": "HOLD"
+        "신호": "BUY"
       },
       "볼린저스퀴즈": {
         "전략": "볼린저스퀴즈",
@@ -3498,7 +5015,7 @@
         "신호": "HOLD",
         "스퀴즈여부": "NO",
         "상단돌파": "NO",
-        "밴드폭": 16.92
+        "밴드폭": 16.58
       },
       "OBV": {
         "전략": "OBV",
@@ -3523,9 +5040,13 @@
         "전략": "거래량급증",
         "종목코드": "005490",
         "is_spike": "False",
-        "ratio": 0.67,
+        "ratio": 0.24,
         "avg_volume": 240211,
+<<<<<<< Updated upstream
         "today_volume": 162098,
+=======
+        "today_volume": 56469,
+>>>>>>> Stashed changes
         "signal": "HOLD"
       }
     }
@@ -3535,8 +5056,8 @@
     "name": "우리금융지주",
     "sector": "KOSPI200",
     "signal": "HOLD",
-    "current_price": 29250,
-    "change_pct": -2.82,
+    "current_price": 0,
+    "change_pct": 0.0,
     "signal_source": null,
     "star_grade": 0,
     "red_star_grade": 0,
@@ -3544,15 +5065,20 @@
     "vcp_breakout": false,
     "cup_signal": false,
     "volume_spike": "False",
+<<<<<<< Updated upstream
     "volume_ratio": 0.49,
     "today_volume": 1555978,
+=======
+    "volume_ratio": 0.17,
+    "today_volume": 531737,
+>>>>>>> Stashed changes
     "strategies": {
       "골든크로스": {
         "종목코드": "316140",
         "최근일자": "20261026",
-        "현재가": "29250",
-        "5일선": 30780.0,
-        "20일선": 32607.5,
+        "현재가": "29700",
+        "5일선": 30870.0,
+        "20일선": 32630.0,
         "신호": "HOLD",
         "추세": "하락"
       },
@@ -3560,12 +5086,12 @@
         "전략": "그물망 추세 돌파",
         "종목코드": "316140",
         "최근일자": "20261026",
-        "현재가": "29250",
-        "EMA20": 32135.88,
-        "EMA40": 32802.02,
-        "EMA60": 32789.32,
+        "현재가": "29700",
+        "EMA20": 32178.74,
+        "EMA40": 32823.97,
+        "EMA60": 32804.07,
         "정배열": "NO",
-        "그물망폭(오늘)": -653.43,
+        "그물망폭(오늘)": -625.33,
         "그물망폭(어제)": -469.63,
         "발산여부": "NO",
         "신호": "HOLD"
@@ -3573,7 +5099,7 @@
       "피보나치": {
         "전략": "피보나치 황금비율",
         "종목코드": "316140",
-        "현재가": 29250.0,
+        "현재가": 29700.0,
         "1년최고가": 37050.0,
         "1년최저가": 27500.0,
         "38.2%라인": 33401.9,
@@ -3587,12 +5113,12 @@
       "다이버전스": {
         "전략": "상승 다이버전스",
         "종목코드": "316140",
-        "RSI현재": 26.04,
+        "RSI현재": 27.75,
         "이전저점가": 27900.0,
-        "최근저점가": 29050.0,
+        "최근저점가": 29450.0,
         "주가신저점": "NO",
         "이전저점RSI": 42.48,
-        "최근저점RSI": 26.04,
+        "최근저점RSI": 27.75,
         "RSI저점상승": "NO",
         "다이버전스": "NO",
         "양봉": "NO",
@@ -3605,7 +5131,7 @@
         "신호": "HOLD",
         "스퀴즈여부": "NO",
         "상단돌파": "NO",
-        "밴드폭": 24.05
+        "밴드폭": 23.56
       },
       "OBV": {
         "전략": "OBV",
@@ -3630,9 +5156,13 @@
         "전략": "거래량급증",
         "종목코드": "316140",
         "is_spike": "False",
-        "ratio": 0.49,
+        "ratio": 0.17,
         "avg_volume": 3186915,
+<<<<<<< Updated upstream
         "today_volume": 1555978,
+=======
+        "today_volume": 531737,
+>>>>>>> Stashed changes
         "signal": "HOLD"
       }
     }
@@ -3642,8 +5172,8 @@
     "name": "효성중공업",
     "sector": "KOSPI200",
     "signal": "HOLD",
-    "current_price": 1853000,
-    "change_pct": -1.28,
+    "current_price": 0,
+    "change_pct": 0.0,
     "signal_source": null,
     "star_grade": 0,
     "red_star_grade": 0,
@@ -3651,15 +5181,20 @@
     "vcp_breakout": false,
     "cup_signal": false,
     "volume_spike": "False",
+<<<<<<< Updated upstream
     "volume_ratio": 0.46,
     "today_volume": 26730,
+=======
+    "volume_ratio": 0.16,
+    "today_volume": 9277,
+>>>>>>> Stashed changes
     "strategies": {
       "골든크로스": {
         "종목코드": "298040",
         "최근일자": "20261026",
-        "현재가": "1853000",
-        "5일선": 1899000.0,
-        "20일선": 2322800.0,
+        "현재가": "1865000",
+        "5일선": 1901400.0,
+        "20일선": 2323400.0,
         "신호": "HOLD",
         "추세": "하락"
       },
@@ -3667,12 +5202,12 @@
         "전략": "그물망 추세 돌파",
         "종목코드": "298040",
         "최근일자": "20261026",
-        "현재가": "1853000",
-        "EMA20": 2221945.35,
-        "EMA40": 2458750.96,
-        "EMA60": 2603562.35,
+        "현재가": "1865000",
+        "EMA20": 2223088.21,
+        "EMA40": 2459336.32,
+        "EMA60": 2603955.8,
         "정배열": "NO",
-        "그물망폭(오늘)": -381617.0,
+        "그물망폭(오늘)": -380867.59,
         "그물망폭(어제)": -368223.44,
         "발산여부": "NO",
         "신호": "HOLD"
@@ -3680,21 +5215,21 @@
       "피보나치": {
         "전략": "피보나치 황금비율",
         "종목코드": "298040",
-        "현재가": 1853000.0,
+        "현재가": 1865000.0,
         "1년최고가": 4169000.0,
         "1년최저가": 1773000.0,
         "38.2%라인": 3253728.0,
         "61.8%라인": 2688272.0,
         "60일선위": "NO",
         "구간내": "NO",
-        "양봉": "NO",
+        "양봉": "YES",
         "거래량증가": "NO",
         "신호": "HOLD"
       },
       "다이버전스": {
         "전략": "상승 다이버전스",
         "종목코드": "298040",
-        "RSI현재": 26.86,
+        "RSI현재": 27.16,
         "이전저점가": 1834000.0,
         "최근저점가": 1773000.0,
         "주가신저점": "YES",
@@ -3702,7 +5237,7 @@
         "최근저점RSI": 20.45,
         "RSI저점상승": "NO",
         "다이버전스": "NO",
-        "양봉": "NO",
+        "양봉": "YES",
         "RSI30탈출": "NO",
         "신호": "HOLD"
       },
@@ -3712,7 +5247,7 @@
         "신호": "HOLD",
         "스퀴즈여부": "NO",
         "상단돌파": "NO",
-        "밴드폭": 71.79
+        "밴드폭": 71.65
       },
       "OBV": {
         "전략": "OBV",
@@ -3737,9 +5272,13 @@
         "전략": "거래량급증",
         "종목코드": "298040",
         "is_spike": "False",
-        "ratio": 0.46,
+        "ratio": 0.16,
         "avg_volume": 57734,
+<<<<<<< Updated upstream
         "today_volume": 26730,
+=======
+        "today_volume": 9277,
+>>>>>>> Stashed changes
         "signal": "HOLD"
       }
     }
@@ -3847,6 +5386,7 @@
         "ratio": 0.35,
         "avg_volume": 1963530,
         "today_volume": 696485,
+<<<<<<< Updated upstream
         "signal": "HOLD"
       }
     }
@@ -4061,6 +5601,8 @@
         "ratio": 0.83,
         "avg_volume": 99786,
         "today_volume": 82727,
+=======
+>>>>>>> Stashed changes
         "signal": "HOLD"
       }
     }
@@ -4280,6 +5822,7 @@
     }
   },
   {
+<<<<<<< Updated upstream
     "code": "009540",
     "name": "HD한국조선해양",
     "sector": "KOSPI200",
@@ -4494,6 +6037,8 @@
     }
   },
   {
+=======
+>>>>>>> Stashed changes
     "code": "011200",
     "name": "HMM",
     "sector": "KOSPI200",
@@ -4596,6 +6141,116 @@
         "ratio": 0.35,
         "avg_volume": 1687841,
         "today_volume": 591636,
+<<<<<<< Updated upstream
+=======
+        "signal": "HOLD"
+      }
+    }
+  },
+  {
+    "code": "009540",
+    "name": "HD한국조선해양",
+    "sector": "KOSPI200",
+    "signal": "HOLD",
+    "current_price": 243000,
+    "change_pct": -2.02,
+    "signal_source": null,
+    "star_grade": 0,
+    "red_star_grade": 0,
+    "vcp_signal": false,
+    "vcp_breakout": false,
+    "cup_signal": false,
+    "volume_spike": "False",
+    "volume_ratio": 0.75,
+    "today_volume": 143519,
+    "strategies": {
+      "골든크로스": {
+        "종목코드": "009540",
+        "최근일자": "20261026",
+        "현재가": "243000",
+        "5일선": 251500.0,
+        "20일선": 288375.0,
+        "신호": "HOLD",
+        "추세": "하락"
+      },
+      "그물망": {
+        "전략": "그물망 추세 돌파",
+        "종목코드": "009540",
+        "최근일자": "20261026",
+        "현재가": "243000",
+        "EMA20": 282785.1,
+        "EMA40": 308116.92,
+        "EMA60": 323862.87,
+        "정배열": "NO",
+        "그물망폭(오늘)": -41077.77,
+        "그물망폭(어제)": -39630.98,
+        "발산여부": "NO",
+        "신호": "HOLD"
+      },
+      "피보나치": {
+        "전략": "피보나치 황금비율",
+        "종목코드": "009540",
+        "현재가": 243000.0,
+        "1년최고가": 451500.0,
+        "1년최저가": 236500.0,
+        "38.2%라인": 369370.0,
+        "61.8%라인": 318630.0,
+        "60일선위": "NO",
+        "구간내": "NO",
+        "양봉": "NO",
+        "거래량증가": "NO",
+        "신호": "HOLD"
+      },
+      "다이버전스": {
+        "전략": "상승 다이버전스",
+        "종목코드": "009540",
+        "RSI현재": 23.15,
+        "이전저점가": 314000.0,
+        "최근저점가": 236500.0,
+        "주가신저점": "YES",
+        "이전저점RSI": 32.16,
+        "최근저점RSI": 21.11,
+        "RSI저점상승": "NO",
+        "다이버전스": "NO",
+        "양봉": "NO",
+        "RSI30탈출": "NO",
+        "신호": "HOLD"
+      },
+      "볼린저스퀴즈": {
+        "전략": "볼린저스퀴즈",
+        "종목코드": "009540",
+        "신호": "HOLD",
+        "스퀴즈여부": "NO",
+        "상단돌파": "NO",
+        "밴드폭": 43.8
+      },
+      "OBV": {
+        "전략": "OBV",
+        "종목코드": "009540",
+        "신호": "HOLD",
+        "주가추세": "하락",
+        "OBV추세": "하락",
+        "매집형": "NO"
+      },
+      "VCP": {
+        "detected": false,
+        "contractions": [],
+        "breakout": false
+      },
+      "컵앤핸들": {
+        "detected": false,
+        "cup_depth": 0.0,
+        "handle_depth": 0.0,
+        "breakout": false
+      },
+      "거래량": {
+        "전략": "거래량급증",
+        "종목코드": "009540",
+        "is_spike": "False",
+        "ratio": 0.75,
+        "avg_volume": 191618,
+        "today_volume": 143519,
+>>>>>>> Stashed changes
         "signal": "HOLD"
       }
     }
@@ -4703,6 +6358,113 @@
         "ratio": 0.73,
         "avg_volume": 379234,
         "today_volume": 278478,
+        "signal": "HOLD"
+      }
+    }
+  },
+  {
+    "code": "051910",
+    "name": "LG화학",
+    "sector": "KOSPI200",
+    "signal": "BUY",
+    "current_price": 225000,
+    "change_pct": -1.75,
+    "signal_source": "다이버전스 / OBV",
+    "star_grade": 2,
+    "red_star_grade": 0,
+    "vcp_signal": false,
+    "vcp_breakout": false,
+    "cup_signal": false,
+    "volume_spike": "False",
+    "volume_ratio": 0.68,
+    "today_volume": 170750,
+    "strategies": {
+      "골든크로스": {
+        "종목코드": "051910",
+        "최근일자": "20261026",
+        "현재가": "225000",
+        "5일선": 240000.0,
+        "20일선": 257475.0,
+        "신호": "HOLD",
+        "추세": "하락"
+      },
+      "그물망": {
+        "전략": "그물망 추세 돌파",
+        "종목코드": "051910",
+        "최근일자": "20261026",
+        "현재가": "225000",
+        "EMA20": 254777.54,
+        "EMA40": 261673.78,
+        "EMA60": 268041.87,
+        "정배열": "NO",
+        "그물망폭(오늘)": -13264.33,
+        "그물망폭(어제)": -11588.9,
+        "발산여부": "NO",
+        "신호": "HOLD"
+      },
+      "피보나치": {
+        "전략": "피보나치 황금비율",
+        "종목코드": "051910",
+        "현재가": 225000.0,
+        "1년최고가": 381000.0,
+        "1년최저가": 221000.0,
+        "38.2%라인": 319880.0,
+        "61.8%라인": 282120.0,
+        "60일선위": "NO",
+        "구간내": "NO",
+        "양봉": "YES",
+        "거래량증가": "NO",
+        "신호": "HOLD"
+      },
+      "다이버전스": {
+        "전략": "상승 다이버전스",
+        "종목코드": "051910",
+        "RSI현재": 36.51,
+        "이전저점가": 224000.0,
+        "최근저점가": 221000.0,
+        "주가신저점": "YES",
+        "이전저점RSI": 28.88,
+        "최근저점RSI": 36.51,
+        "RSI저점상승": "YES",
+        "다이버전스": "YES",
+        "양봉": "YES",
+        "RSI30탈출": "NO",
+        "신호": "BUY"
+      },
+      "볼린저스퀴즈": {
+        "전략": "볼린저스퀴즈",
+        "종목코드": "051910",
+        "신호": "HOLD",
+        "스퀴즈여부": "NO",
+        "상단돌파": "NO",
+        "밴드폭": 24.25
+      },
+      "OBV": {
+        "전략": "OBV",
+        "종목코드": "051910",
+        "신호": "BUY",
+        "주가추세": "하락",
+        "OBV추세": "상승",
+        "매집형": "YES"
+      },
+      "VCP": {
+        "detected": false,
+        "contractions": [],
+        "breakout": false
+      },
+      "컵앤핸들": {
+        "detected": false,
+        "cup_depth": 0.0,
+        "handle_depth": 0.0,
+        "breakout": false
+      },
+      "거래량": {
+        "전략": "거래량급증",
+        "종목코드": "051910",
+        "is_spike": "False",
+        "ratio": 0.68,
+        "avg_volume": 249347,
+        "today_volume": 170750,
         "signal": "HOLD"
       }
     }
@@ -5481,7 +7243,11 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.01,
+<<<<<<< Updated upstream
     "today_volume": 830113,
+=======
+    "today_volume": 830114,
+>>>>>>> Stashed changes
     "strategies": {
       "골든크로스": {
         "종목코드": "024110",
@@ -5568,7 +7334,11 @@
         "is_spike": "False",
         "ratio": 1.01,
         "avg_volume": 818341,
+<<<<<<< Updated upstream
         "today_volume": 830113,
+=======
+        "today_volume": 830114,
+>>>>>>> Stashed changes
         "signal": "HOLD"
       }
     }
@@ -5802,7 +7572,11 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.81,
+<<<<<<< Updated upstream
     "today_volume": 1108220,
+=======
+    "today_volume": 1108252,
+>>>>>>> Stashed changes
     "strategies": {
       "골든크로스": {
         "종목코드": "035720",
@@ -5889,7 +7663,11 @@
         "is_spike": "False",
         "ratio": 0.81,
         "avg_volume": 1366561,
+<<<<<<< Updated upstream
         "today_volume": 1108220,
+=======
+        "today_volume": 1108252,
+>>>>>>> Stashed changes
         "signal": "HOLD"
       }
     }
@@ -6979,7 +8757,11 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.5,
+<<<<<<< Updated upstream
     "today_volume": 1447620,
+=======
+    "today_volume": 1448218,
+>>>>>>> Stashed changes
     "strategies": {
       "골든크로스": {
         "종목코드": "003490",
@@ -7066,7 +8848,11 @@
         "is_spike": "False",
         "ratio": 0.5,
         "avg_volume": 2904366,
+<<<<<<< Updated upstream
         "today_volume": 1447620,
+=======
+        "today_volume": 1448218,
+>>>>>>> Stashed changes
         "signal": "HOLD"
       }
     }
@@ -7086,7 +8872,11 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.56,
+<<<<<<< Updated upstream
     "today_volume": 234337,
+=======
+    "today_volume": 234338,
+>>>>>>> Stashed changes
     "strategies": {
       "골든크로스": {
         "종목코드": "047050",
@@ -7173,7 +8963,11 @@
         "is_spike": "False",
         "ratio": 0.56,
         "avg_volume": 415504,
+<<<<<<< Updated upstream
         "today_volume": 234337,
+=======
+        "today_volume": 234338,
+>>>>>>> Stashed changes
         "signal": "HOLD"
       }
     }
@@ -7281,6 +9075,116 @@
         "ratio": 0.64,
         "avg_volume": 52655,
         "today_volume": 33927,
+<<<<<<< Updated upstream
+=======
+        "signal": "HOLD"
+      }
+    }
+  },
+  {
+    "code": "267260",
+    "name": "HD현대일렉트릭",
+    "sector": "KOSPI200",
+    "signal": "HOLD",
+    "current_price": 447000,
+    "change_pct": -4.89,
+    "signal_source": null,
+    "star_grade": 0,
+    "red_star_grade": 0,
+    "vcp_signal": false,
+    "vcp_breakout": false,
+    "cup_signal": false,
+    "volume_spike": "False",
+    "volume_ratio": 0.8,
+    "today_volume": 132512,
+    "strategies": {
+      "골든크로스": {
+        "종목코드": "267260",
+        "최근일자": "20261026",
+        "현재가": "447000",
+        "5일선": 478700.0,
+        "20일선": 580925.0,
+        "신호": "HOLD",
+        "추세": "하락"
+      },
+      "그물망": {
+        "전략": "그물망 추세 돌파",
+        "종목코드": "267260",
+        "최근일자": "20261026",
+        "현재가": "447000",
+        "EMA20": 562705.68,
+        "EMA40": 631214.65,
+        "EMA60": 680481.74,
+        "정배열": "NO",
+        "그물망폭(오늘)": -117776.06,
+        "그물망폭(어제)": -113511.15,
+        "발산여부": "NO",
+        "신호": "HOLD"
+      },
+      "피보나치": {
+        "전략": "피보나치 황금비율",
+        "종목코드": "267260",
+        "현재가": 447000.0,
+        "1년최고가": 1213000.0,
+        "1년최저가": 443000.0,
+        "38.2%라인": 918860.0,
+        "61.8%라인": 737140.0,
+        "60일선위": "NO",
+        "구간내": "NO",
+        "양봉": "NO",
+        "거래량증가": "NO",
+        "신호": "HOLD"
+      },
+      "다이버전스": {
+        "전략": "상승 다이버전스",
+        "종목코드": "267260",
+        "RSI현재": 23.47,
+        "이전저점가": 538000.0,
+        "최근저점가": 443000.0,
+        "주가신저점": "YES",
+        "이전저점RSI": 27.79,
+        "최근저점RSI": 19.09,
+        "RSI저점상승": "NO",
+        "다이버전스": "NO",
+        "양봉": "NO",
+        "RSI30탈출": "NO",
+        "신호": "HOLD"
+      },
+      "볼린저스퀴즈": {
+        "전략": "볼린저스퀴즈",
+        "종목코드": "267260",
+        "신호": "HOLD",
+        "스퀴즈여부": "NO",
+        "상단돌파": "NO",
+        "밴드폭": 60.86
+      },
+      "OBV": {
+        "전략": "OBV",
+        "종목코드": "267260",
+        "신호": "HOLD",
+        "주가추세": "하락",
+        "OBV추세": "하락",
+        "매집형": "NO"
+      },
+      "VCP": {
+        "detected": false,
+        "contractions": [],
+        "breakout": false
+      },
+      "컵앤핸들": {
+        "detected": false,
+        "cup_depth": 0.0,
+        "handle_depth": 0.0,
+        "breakout": false
+      },
+      "거래량": {
+        "전략": "거래량급증",
+        "종목코드": "267260",
+        "is_spike": "False",
+        "ratio": 0.8,
+        "avg_volume": 165822,
+        "today_volume": 132512,
+>>>>>>> Stashed changes
         "signal": "HOLD"
       }
     }
@@ -7514,7 +9418,11 @@
     "cup_signal": false,
     "volume_spike": "True",
     "volume_ratio": 2.06,
+<<<<<<< Updated upstream
     "today_volume": 5404023,
+=======
+    "today_volume": 5404049,
+>>>>>>> Stashed changes
     "strategies": {
       "골든크로스": {
         "종목코드": "028050",
@@ -7601,8 +9509,119 @@
         "is_spike": "True",
         "ratio": 2.06,
         "avg_volume": 2625482,
+<<<<<<< Updated upstream
         "today_volume": 5404023,
+=======
+        "today_volume": 5404049,
+>>>>>>> Stashed changes
         "signal": "SPIKE"
+      }
+    }
+  },
+  {
+    "code": "000150",
+    "name": "두산",
+    "sector": "KOSPI200",
+    "signal": "HOLD",
+    "current_price": 901000,
+    "change_pct": -6.54,
+    "signal_source": null,
+    "star_grade": 0,
+    "red_star_grade": 0,
+    "vcp_signal": false,
+    "vcp_breakout": false,
+    "cup_signal": false,
+    "volume_spike": "False",
+    "volume_ratio": 0.83,
+    "today_volume": 82727,
+    "strategies": {
+      "골든크로스": {
+        "종목코드": "000150",
+        "최근일자": "20261026",
+        "현재가": "901000",
+        "5일선": 988000.0,
+        "20일선": 1208450.0,
+        "신호": "HOLD",
+        "추세": "하락"
+      },
+      "그물망": {
+        "전략": "그물망 추세 돌파",
+        "종목코드": "000150",
+        "최근일자": "20261026",
+        "현재가": "901000",
+        "EMA20": 1138463.93,
+        "EMA40": 1208828.65,
+        "EMA60": 1257636.23,
+        "정배열": "NO",
+        "그물망폭(오늘)": -119172.3,
+        "그물망폭(어제)": -106265.46,
+        "발산여부": "NO",
+        "신호": "HOLD"
+      },
+      "피보나치": {
+        "전략": "피보나치 황금비율",
+        "종목코드": "000150",
+        "현재가": 901000.0,
+        "1년최고가": 2489000.0,
+        "1년최저가": 889000.0,
+        "38.2%라인": 1877800.0,
+        "61.8%라인": 1500200.0,
+        "60일선위": "NO",
+        "구간내": "NO",
+        "양봉": "NO",
+        "거래량증가": "NO",
+        "신호": "HOLD"
+      },
+      "다이버전스": {
+        "전략": "상승 다이버전스",
+        "종목코드": "000150",
+        "RSI현재": 31.66,
+        "이전저점가": 889000.0,
+        "최근저점가": 899000.0,
+        "주가신저점": "NO",
+        "이전저점RSI": 26.42,
+        "최근저점RSI": 31.21,
+        "RSI저점상승": "YES",
+        "다이버전스": "NO",
+        "양봉": "NO",
+        "RSI30탈출": "NO",
+        "신호": "HOLD"
+      },
+      "볼린저스퀴즈": {
+        "전략": "볼린저스퀴즈",
+        "종목코드": "000150",
+        "신호": "HOLD",
+        "스퀴즈여부": "NO",
+        "상단돌파": "NO",
+        "밴드폭": 64.77
+      },
+      "OBV": {
+        "전략": "OBV",
+        "종목코드": "000150",
+        "신호": "HOLD",
+        "주가추세": "하락",
+        "OBV추세": "하락",
+        "매집형": "NO"
+      },
+      "VCP": {
+        "detected": false,
+        "contractions": [],
+        "breakout": false
+      },
+      "컵앤핸들": {
+        "detected": false,
+        "cup_depth": 0.0,
+        "handle_depth": 0.0,
+        "breakout": false
+      },
+      "거래량": {
+        "전략": "거래량급증",
+        "종목코드": "000150",
+        "is_spike": "False",
+        "ratio": 0.83,
+        "avg_volume": 99786,
+        "today_volume": 82727,
+        "signal": "HOLD"
       }
     }
   },
@@ -8049,7 +10068,11 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.16,
+<<<<<<< Updated upstream
     "today_volume": 44039,
+=======
+    "today_volume": 44040,
+>>>>>>> Stashed changes
     "strategies": {
       "골든크로스": {
         "종목코드": "003230",
@@ -8136,7 +10159,11 @@
         "is_spike": "False",
         "ratio": 1.16,
         "avg_volume": 38069,
+<<<<<<< Updated upstream
         "today_volume": 44039,
+=======
+        "today_volume": 44040,
+>>>>>>> Stashed changes
         "signal": "HOLD"
       }
     }
@@ -8691,7 +10718,11 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.63,
+<<<<<<< Updated upstream
     "today_volume": 2250223,
+=======
+    "today_volume": 2250234,
+>>>>>>> Stashed changes
     "strategies": {
       "골든크로스": {
         "종목코드": "009830",
@@ -8778,7 +10809,11 @@
         "is_spike": "False",
         "ratio": 0.63,
         "avg_volume": 3570595,
+<<<<<<< Updated upstream
         "today_volume": 2250223,
+=======
+        "today_volume": 2250234,
+>>>>>>> Stashed changes
         "signal": "HOLD"
       }
     }
@@ -8905,7 +10940,11 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.48,
+<<<<<<< Updated upstream
     "today_volume": 617638,
+=======
+    "today_volume": 617840,
+>>>>>>> Stashed changes
     "strategies": {
       "골든크로스": {
         "종목코드": "353200",
@@ -8992,7 +11031,11 @@
         "is_spike": "False",
         "ratio": 0.48,
         "avg_volume": 1298448,
+<<<<<<< Updated upstream
         "today_volume": 617638,
+=======
+        "today_volume": 617840,
+>>>>>>> Stashed changes
         "signal": "HOLD"
       }
     }
@@ -9333,7 +11376,11 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.48,
+<<<<<<< Updated upstream
     "today_volume": 131017,
+=======
+    "today_volume": 131022,
+>>>>>>> Stashed changes
     "strategies": {
       "골든크로스": {
         "종목코드": "352820",
@@ -9420,7 +11467,11 @@
         "is_spike": "False",
         "ratio": 0.48,
         "avg_volume": 274956,
+<<<<<<< Updated upstream
         "today_volume": 131017,
+=======
+        "today_volume": 131022,
+>>>>>>> Stashed changes
         "signal": "HOLD"
       }
     }
@@ -9440,7 +11491,11 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.36,
+<<<<<<< Updated upstream
     "today_volume": 1749326,
+=======
+    "today_volume": 1749328,
+>>>>>>> Stashed changes
     "strategies": {
       "골든크로스": {
         "종목코드": "047040",
@@ -9527,7 +11582,11 @@
         "is_spike": "False",
         "ratio": 0.36,
         "avg_volume": 4925575,
+<<<<<<< Updated upstream
         "today_volume": 1749326,
+=======
+        "today_volume": 1749328,
+>>>>>>> Stashed changes
         "signal": "HOLD"
       }
     }
@@ -9654,7 +11713,11 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.82,
+<<<<<<< Updated upstream
     "today_volume": 1103752,
+=======
+    "today_volume": 1103811,
+>>>>>>> Stashed changes
     "strategies": {
       "골든크로스": {
         "종목코드": "064400",
@@ -9741,7 +11804,11 @@
         "is_spike": "False",
         "ratio": 1.82,
         "avg_volume": 605359,
+<<<<<<< Updated upstream
         "today_volume": 1103752,
+=======
+        "today_volume": 1103811,
+>>>>>>> Stashed changes
         "signal": "HOLD"
       }
     }
@@ -10510,7 +12577,11 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.34,
+<<<<<<< Updated upstream
     "today_volume": 846701,
+=======
+    "today_volume": 846753,
+>>>>>>> Stashed changes
     "strategies": {
       "골든크로스": {
         "종목코드": "001440",
@@ -10597,7 +12668,11 @@
         "is_spike": "False",
         "ratio": 0.34,
         "avg_volume": 2506031,
+<<<<<<< Updated upstream
         "today_volume": 846701,
+=======
+        "today_volume": 846753,
+>>>>>>> Stashed changes
         "signal": "HOLD"
       }
     }
@@ -12008,7 +14083,11 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.74,
+<<<<<<< Updated upstream
     "today_volume": 218484,
+=======
+    "today_volume": 218486,
+>>>>>>> Stashed changes
     "strategies": {
       "골든크로스": {
         "종목코드": "454910",
@@ -12095,7 +14174,11 @@
         "is_spike": "False",
         "ratio": 0.74,
         "avg_volume": 296152,
+<<<<<<< Updated upstream
         "today_volume": 218484,
+=======
+        "today_volume": 218486,
+>>>>>>> Stashed changes
         "signal": "HOLD"
       }
     }
@@ -12222,7 +14305,11 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.33,
+<<<<<<< Updated upstream
     "today_volume": 2887473,
+=======
+    "today_volume": 2887502,
+>>>>>>> Stashed changes
     "strategies": {
       "골든크로스": {
         "종목코드": "018880",
@@ -12309,7 +14396,11 @@
         "is_spike": "False",
         "ratio": 0.33,
         "avg_volume": 8688784,
+<<<<<<< Updated upstream
         "today_volume": 2887473,
+=======
+        "today_volume": 2887502,
+>>>>>>> Stashed changes
         "signal": "HOLD"
       }
     }
@@ -17465,7 +19556,11 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.67,
+<<<<<<< Updated upstream
     "today_volume": 276609,
+=======
+    "today_volume": 276610,
+>>>>>>> Stashed changes
     "strategies": {
       "골든크로스": {
         "종목코드": "112610",
@@ -17552,7 +19647,11 @@
         "is_spike": "False",
         "ratio": 0.67,
         "avg_volume": 410993,
+<<<<<<< Updated upstream
         "today_volume": 276609,
+=======
+        "today_volume": 276610,
+>>>>>>> Stashed changes
         "signal": "HOLD"
       }
     }
@@ -17679,7 +19778,11 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.59,
+<<<<<<< Updated upstream
     "today_volume": 128106,
+=======
+    "today_volume": 128108,
+>>>>>>> Stashed changes
     "strategies": {
       "골든크로스": {
         "종목코드": "009420",
@@ -17766,7 +19869,11 @@
         "is_spike": "False",
         "ratio": 0.59,
         "avg_volume": 217043,
+<<<<<<< Updated upstream
         "today_volume": 128106,
+=======
+        "today_volume": 128108,
+>>>>>>> Stashed changes
         "signal": "HOLD"
       }
     }
@@ -18214,7 +20321,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.76,
-    "today_volume": 83642,
+    "today_volume": 83644,
     "strategies": {
       "골든크로스": {
         "종목코드": "483650",
@@ -18301,7 +20408,7 @@
         "is_spike": "False",
         "ratio": 0.76,
         "avg_volume": 109788,
-        "today_volume": 83642,
+        "today_volume": 83644,
         "signal": "HOLD"
       }
     }
@@ -18642,7 +20749,11 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.49,
+<<<<<<< Updated upstream
     "today_volume": 446753,
+=======
+    "today_volume": 446756,
+>>>>>>> Stashed changes
     "strategies": {
       "골든크로스": {
         "종목코드": "007810",
@@ -18729,7 +20840,11 @@
         "is_spike": "False",
         "ratio": 0.49,
         "avg_volume": 906900,
+<<<<<<< Updated upstream
         "today_volume": 446753,
+=======
+        "today_volume": 446756,
+>>>>>>> Stashed changes
         "signal": "HOLD"
       }
     }
@@ -20675,7 +22790,11 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.7,
+<<<<<<< Updated upstream
     "today_volume": 176604,
+=======
+    "today_volume": 176605,
+>>>>>>> Stashed changes
     "strategies": {
       "골든크로스": {
         "종목코드": "322000",
@@ -20762,7 +22881,11 @@
         "is_spike": "False",
         "ratio": 0.7,
         "avg_volume": 253561,
+<<<<<<< Updated upstream
         "today_volume": 176604,
+=======
+        "today_volume": 176605,
+>>>>>>> Stashed changes
         "signal": "HOLD"
       }
     }
@@ -20889,7 +23012,11 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.26,
+<<<<<<< Updated upstream
     "today_volume": 885760,
+=======
+    "today_volume": 885934,
+>>>>>>> Stashed changes
     "strategies": {
       "골든크로스": {
         "종목코드": "093370",
@@ -20976,7 +23103,11 @@
         "is_spike": "False",
         "ratio": 0.26,
         "avg_volume": 3387619,
+<<<<<<< Updated upstream
         "today_volume": 885760,
+=======
+        "today_volume": 885934,
+>>>>>>> Stashed changes
         "signal": "HOLD"
       }
     }
@@ -22280,7 +24411,11 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.66,
+<<<<<<< Updated upstream
     "today_volume": 1146815,
+=======
+    "today_volume": 1146853,
+>>>>>>> Stashed changes
     "strategies": {
       "골든크로스": {
         "종목코드": "036930",
@@ -22367,7 +24502,11 @@
         "is_spike": "False",
         "ratio": 0.66,
         "avg_volume": 1726466,
+<<<<<<< Updated upstream
         "today_volume": 1146815,
+=======
+        "today_volume": 1146853,
+>>>>>>> Stashed changes
         "signal": "HOLD"
       }
     }
@@ -22708,7 +24847,11 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.4,
+<<<<<<< Updated upstream
     "today_volume": 463233,
+=======
+    "today_volume": 463242,
+>>>>>>> Stashed changes
     "strategies": {
       "골든크로스": {
         "종목코드": "240810",
@@ -22795,7 +24938,11 @@
         "is_spike": "False",
         "ratio": 0.4,
         "avg_volume": 1167844,
+<<<<<<< Updated upstream
         "today_volume": 463233,
+=======
+        "today_volume": 463242,
+>>>>>>> Stashed changes
         "signal": "HOLD"
       }
     }
@@ -22815,7 +24962,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.63,
-    "today_volume": 65631,
+    "today_volume": 65632,
     "strategies": {
       "골든크로스": {
         "종목코드": "039030",
@@ -22902,7 +25049,7 @@
         "is_spike": "False",
         "ratio": 0.63,
         "avg_volume": 104574,
-        "today_volume": 65631,
+        "today_volume": 65632,
         "signal": "HOLD"
       }
     }
@@ -23136,7 +25283,11 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.42,
+<<<<<<< Updated upstream
     "today_volume": 977204,
+=======
+    "today_volume": 977250,
+>>>>>>> Stashed changes
     "strategies": {
       "골든크로스": {
         "종목코드": "403870",
@@ -23223,7 +25374,11 @@
         "is_spike": "False",
         "ratio": 0.42,
         "avg_volume": 2346918,
+<<<<<<< Updated upstream
         "today_volume": 977204,
+=======
+        "today_volume": 977250,
+>>>>>>> Stashed changes
         "signal": "HOLD"
       }
     }
@@ -24527,7 +26682,11 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.33,
+<<<<<<< Updated upstream
     "today_volume": 461694,
+=======
+    "today_volume": 461701,
+>>>>>>> Stashed changes
     "strategies": {
       "골든크로스": {
         "종목코드": "080220",
@@ -24614,7 +26773,11 @@
         "is_spike": "False",
         "ratio": 0.33,
         "avg_volume": 1387708,
+<<<<<<< Updated upstream
         "today_volume": 461694,
+=======
+        "today_volume": 461701,
+>>>>>>> Stashed changes
         "signal": "HOLD"
       }
     }
@@ -24955,7 +27118,11 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.27,
+<<<<<<< Updated upstream
     "today_volume": 2235093,
+=======
+    "today_volume": 2235231,
+>>>>>>> Stashed changes
     "strategies": {
       "골든크로스": {
         "종목코드": "010170",
@@ -25042,7 +27209,11 @@
         "is_spike": "False",
         "ratio": 0.27,
         "avg_volume": 8151800,
+<<<<<<< Updated upstream
         "today_volume": 2235093,
+=======
+        "today_volume": 2235231,
+>>>>>>> Stashed changes
         "signal": "HOLD"
       }
     }
@@ -25383,7 +27554,11 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.45,
+<<<<<<< Updated upstream
     "today_volume": 712109,
+=======
+    "today_volume": 712287,
+>>>>>>> Stashed changes
     "strategies": {
       "골든크로스": {
         "종목코드": "098460",
@@ -25470,7 +27645,11 @@
         "is_spike": "False",
         "ratio": 0.45,
         "avg_volume": 1584326,
+<<<<<<< Updated upstream
         "today_volume": 712109,
+=======
+        "today_volume": 712287,
+>>>>>>> Stashed changes
         "signal": "HOLD"
       }
     }
@@ -26774,7 +28953,11 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.3,
+<<<<<<< Updated upstream
     "today_volume": 235352,
+=======
+    "today_volume": 235372,
+>>>>>>> Stashed changes
     "strategies": {
       "골든크로스": {
         "종목코드": "089030",
@@ -26861,7 +29044,11 @@
         "is_spike": "False",
         "ratio": 0.3,
         "avg_volume": 785711,
+<<<<<<< Updated upstream
         "today_volume": 235352,
+=======
+        "today_volume": 235372,
+>>>>>>> Stashed changes
         "signal": "HOLD"
       }
     }
@@ -27095,7 +29282,11 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.49,
+<<<<<<< Updated upstream
     "today_volume": 279046,
+=======
+    "today_volume": 279159,
+>>>>>>> Stashed changes
     "strategies": {
       "골든크로스": {
         "종목코드": "347850",
@@ -27182,7 +29373,11 @@
         "is_spike": "False",
         "ratio": 0.49,
         "avg_volume": 568790,
+<<<<<<< Updated upstream
         "today_volume": 279046,
+=======
+        "today_volume": 279159,
+>>>>>>> Stashed changes
         "signal": "HOLD"
       }
     }
@@ -27416,7 +29611,11 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.37,
+<<<<<<< Updated upstream
     "today_volume": 2152915,
+=======
+    "today_volume": 2153051,
+>>>>>>> Stashed changes
     "strategies": {
       "골든크로스": {
         "종목코드": "036540",
@@ -27503,7 +29702,11 @@
         "is_spike": "False",
         "ratio": 0.37,
         "avg_volume": 5784196,
+<<<<<<< Updated upstream
         "today_volume": 2152915,
+=======
+        "today_volume": 2153051,
+>>>>>>> Stashed changes
         "signal": "HOLD"
       }
     }
@@ -27737,7 +29940,11 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.3,
+<<<<<<< Updated upstream
     "today_volume": 222120,
+=======
+    "today_volume": 222121,
+>>>>>>> Stashed changes
     "strategies": {
       "골든크로스": {
         "종목코드": "089970",
@@ -27824,7 +30031,11 @@
         "is_spike": "False",
         "ratio": 0.3,
         "avg_volume": 730842,
+<<<<<<< Updated upstream
         "today_volume": 222120,
+=======
+        "today_volume": 222121,
+>>>>>>> Stashed changes
         "signal": "HOLD"
       }
     }
@@ -28914,7 +31125,7 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.72,
-    "today_volume": 572441,
+    "today_volume": 572442,
     "strategies": {
       "골든크로스": {
         "종목코드": "290650",
@@ -29001,7 +31212,7 @@
         "is_spike": "False",
         "ratio": 0.72,
         "avg_volume": 792860,
-        "today_volume": 572441,
+        "today_volume": 572442,
         "signal": "HOLD"
       }
     }
@@ -29021,7 +31232,11 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.25,
+<<<<<<< Updated upstream
     "today_volume": 329958,
+=======
+    "today_volume": 329976,
+>>>>>>> Stashed changes
     "strategies": {
       "골든크로스": {
         "종목코드": "204270",
@@ -29108,7 +31323,11 @@
         "is_spike": "False",
         "ratio": 0.25,
         "avg_volume": 1342421,
+<<<<<<< Updated upstream
         "today_volume": 329958,
+=======
+        "today_volume": 329976,
+>>>>>>> Stashed changes
         "signal": "HOLD"
       }
     }
@@ -29770,7 +31989,11 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.41,
+<<<<<<< Updated upstream
     "today_volume": 302243,
+=======
+    "today_volume": 302244,
+>>>>>>> Stashed changes
     "strategies": {
       "골든크로스": {
         "종목코드": "356860",
@@ -29857,7 +32080,11 @@
         "is_spike": "False",
         "ratio": 0.41,
         "avg_volume": 744379,
+<<<<<<< Updated upstream
         "today_volume": 302243,
+=======
+        "today_volume": 302244,
+>>>>>>> Stashed changes
         "signal": "HOLD"
       }
     }
@@ -30601,7 +32828,11 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.46,
+<<<<<<< Updated upstream
     "today_volume": 1195724,
+=======
+    "today_volume": 1195785,
+>>>>>>> Stashed changes
     "strategies": {
       "골든크로스": {
         "종목코드": "417200",
@@ -30688,7 +32919,11 @@
         "is_spike": "False",
         "ratio": 0.46,
         "avg_volume": 2599676,
+<<<<<<< Updated upstream
         "today_volume": 1195724,
+=======
+        "today_volume": 1195785,
+>>>>>>> Stashed changes
         "signal": "HOLD"
       }
     }
@@ -31671,7 +33906,11 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.88,
+<<<<<<< Updated upstream
     "today_volume": 795406,
+=======
+    "today_volume": 795407,
+>>>>>>> Stashed changes
     "strategies": {
       "골든크로스": {
         "종목코드": "327260",
@@ -31758,7 +33997,11 @@
         "is_spike": "False",
         "ratio": 0.88,
         "avg_volume": 899053,
+<<<<<<< Updated upstream
         "today_volume": 795406,
+=======
+        "today_volume": 795407,
+>>>>>>> Stashed changes
         "signal": "HOLD"
       }
     }
@@ -31778,7 +34021,11 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.79,
+<<<<<<< Updated upstream
     "today_volume": 182846,
+=======
+    "today_volume": 182851,
+>>>>>>> Stashed changes
     "strategies": {
       "골든크로스": {
         "종목코드": "160190",
@@ -31865,7 +34112,11 @@
         "is_spike": "False",
         "ratio": 0.79,
         "avg_volume": 232799,
+<<<<<<< Updated upstream
         "today_volume": 182846,
+=======
+        "today_volume": 182851,
+>>>>>>> Stashed changes
         "signal": "HOLD"
       }
     }
@@ -32313,7 +34564,11 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.5,
+<<<<<<< Updated upstream
     "today_volume": 196611,
+=======
+    "today_volume": 196616,
+>>>>>>> Stashed changes
     "strategies": {
       "골든크로스": {
         "종목코드": "100790",
@@ -32400,7 +34655,11 @@
         "is_spike": "False",
         "ratio": 0.5,
         "avg_volume": 393738,
+<<<<<<< Updated upstream
         "today_volume": 196611,
+=======
+        "today_volume": 196616,
+>>>>>>> Stashed changes
         "signal": "HOLD"
       }
     }
@@ -33811,7 +36070,11 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.91,
+<<<<<<< Updated upstream
     "today_volume": 434008,
+=======
+    "today_volume": 434062,
+>>>>>>> Stashed changes
     "strategies": {
       "골든크로스": {
         "종목코드": "119850",
@@ -33898,7 +36161,11 @@
         "is_spike": "False",
         "ratio": 0.91,
         "avg_volume": 477092,
+<<<<<<< Updated upstream
         "today_volume": 434008,
+=======
+        "today_volume": 434062,
+>>>>>>> Stashed changes
         "signal": "HOLD"
       }
     }
@@ -34774,7 +37041,11 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.58,
+<<<<<<< Updated upstream
     "today_volume": 319740,
+=======
+    "today_volume": 319750,
+>>>>>>> Stashed changes
     "strategies": {
       "골든크로스": {
         "종목코드": "006730",
@@ -34861,7 +37132,11 @@
         "is_spike": "False",
         "ratio": 0.58,
         "avg_volume": 549149,
+<<<<<<< Updated upstream
         "today_volume": 319740,
+=======
+        "today_volume": 319750,
+>>>>>>> Stashed changes
         "signal": "HOLD"
       }
     }
@@ -35951,7 +38226,11 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 0.63,
+<<<<<<< Updated upstream
     "today_volume": 690585,
+=======
+    "today_volume": 690605,
+>>>>>>> Stashed changes
     "strategies": {
       "골든크로스": {
         "종목코드": "090710",
@@ -36038,7 +38317,11 @@
         "is_spike": "False",
         "ratio": 0.63,
         "avg_volume": 1092371,
+<<<<<<< Updated upstream
         "today_volume": 690585,
+=======
+        "today_volume": 690605,
+>>>>>>> Stashed changes
         "signal": "HOLD"
       }
     }
@@ -36272,7 +38555,11 @@
     "cup_signal": false,
     "volume_spike": "False",
     "volume_ratio": 1.08,
+<<<<<<< Updated upstream
     "today_volume": 1398276,
+=======
+    "today_volume": 1398385,
+>>>>>>> Stashed changes
     "strategies": {
       "골든크로스": {
         "종목코드": "253590",
@@ -36359,7 +38646,11 @@
         "is_spike": "False",
         "ratio": 1.08,
         "avg_volume": 1294837,
+<<<<<<< Updated upstream
         "today_volume": 1398276,
+=======
+        "today_volume": 1398385,
+>>>>>>> Stashed changes
         "signal": "HOLD"
       }
     }
